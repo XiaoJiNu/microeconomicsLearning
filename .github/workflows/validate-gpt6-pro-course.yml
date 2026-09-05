@@ -1,0 +1,25 @@
+name: Validate gpt6-pro course
+on:
+  push:
+    branches: [gpt6-pro]
+  pull_request:
+    paths:
+      - 'docs/course_gpt6_pro/**'
+      - 'scripts/validate_gpt6_pro_course.py'
+      - '.github/workflows/validate-gpt6-pro-course.yml'
+      - 'README.md'
+      - 'START_HERE_20_HOURS.md'
+      - 'ROADMAP.md'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Check course, local links, and numerical examples
+        run: python3 scripts/validate_gpt6_pro_course.py
