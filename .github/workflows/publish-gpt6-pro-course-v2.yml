@@ -1,0 +1,77 @@
+name: Finalize and verify gpt6-pro course
+on:
+  push:
+    branches: [gpt6-pro]
+    paths:
+      - '.github/workflows/publish-gpt6-pro-course-v2.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: publish-gpt6-pro-course
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.repository == 'XiaoJiNu/microeconomicsLearning' && github.ref == 'refs/heads/gpt6-pro'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Validate all authored lessons and publish to the requested branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SOURCE_COMMIT: ${{ github.sha }}
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import base64, json, os, pathlib, subprocess, sys, tempfile, urllib.error, urllib.request
+          repository = 'XiaoJiNu/microeconomicsLearning'
+          headers = {
+              'Authorization': 'Bearer ' + os.environ['GITHUB_TOKEN'],
+              'Accept': 'application/vnd.github+json',
+              'User-Agent': 'gpt6-pro-course-publisher',
+              'X-GitHub-Api-Version': '2022-11-28'
+          }
+          def get(path):
+              request = urllib.request.Request('https://api.github.com/repos/' + repository + '/' + path, headers=headers)
+              with urllib.request.urlopen(request, timeout=60) as response:
+                  return json.load(response)
+          try:
+              existing = get('contents/docs/course_gpt6_pro/VALIDATION_REPORT.json?ref=gpt6-pro')
+          except urllib.error.HTTPError as exc:
+              if exc.code != 404:
+                  raise
+          else:
+              report = json.loads(base64.b64decode(existing['content']))
+              if report.get('status') == 'passed' and report.get('lesson_count') == 100:
+                  print('A validated course is already present; refusing to replace subsequent work.')
+                  print(json.dumps(report, ensure_ascii=False, indent=2))
+                  raise SystemExit(0)
+          source = os.environ['SOURCE_COMMIT']
+          item = get('contents/scripts/finalize_gpt6_pro_course.py?ref=' + source)
+          if item.get('encoding') != 'base64':
+              raise RuntimeError('Unexpected source encoding')
+          code = base64.b64decode(item['content']).decode('utf-8')
+          code = code.replace(
+              "for p,text in contents.items()\n           if p not in entries or p not in course_paths or text != blob_text(entries[p]['sha'])]",
+              "for p,text in contents.items()]"
+          )
+          insertion = '''
+          # Existing workflow files are preserved byte-for-byte. This publication
+          # changes course material, not workflow permissions or executable workflows.
+          current_commit = api('git/commits/' + head)
+          current_tree = api('git/trees/' + current_commit['tree']['sha'] + '?recursive=1')
+          if current_tree.get('truncated'):
+              raise SystemExit('Current tree is truncated; refusing partial preservation.')
+          current_files = {item['path']: item for item in current_tree['tree'] if item['type'] == 'blob'}
+          changes = [item for item in changes if not item['path'].startswith('.github/workflows/')]
+          changed_paths = {item['path'] for item in changes}
+          for path, item in current_files.items():
+              if path.startswith('.github/workflows/') or (path not in entries and path not in changed_paths):
+                  changes.append({'path': path, 'mode': item['mode'], 'type': 'blob', 'sha': item['sha']})
+          '''
+          code = code.replace("new_tree = api('git/trees','POST',", insertion + "\nnew_tree = api('git/trees','POST',", 1)
+          with tempfile.TemporaryDirectory(prefix='finalize-course-') as directory:
+              path = pathlib.Path(directory) / 'publish.py'
+              path.write_text(code, encoding='utf-8')
+              subprocess.run([sys.executable, str(path)], check=True)
+          PY
