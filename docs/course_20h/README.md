@@ -1,245 +1,205 @@
-# 微观经济学 20 小时第一轮课程
+# 80个问题，建立微观经济学分析能力
 
-本课程以曼昆《经济学原理（第 8 版）：微观经济学分册》为主线，用 20 小时建立一张能够解释、计算、画图和迁移的微观经济学基础地图。
+这是一条按知识依赖组织的完整课程。每课正文、算例、即时题和推理答案均可直接阅读；不需要先找另一份大课或等待AI临时补正文。
 
-## 课程规模
+**首次学习从[01-01](unit_01_economic_thinking/01_scarcity_opportunity_cost.md)开始。** 已有诊断，不必重做长诊断。每课核心学习预计10–15分钟；每单元8课按约2小时预留，10单元合计约20小时。时间只是预算，达到“会解释、会计算、能换条件判断”才继续；额外迁移题、分享准备和延迟复习按需增加。
 
-- 单元数量：10 个；
-- 每个单元：8 节；
-- 每节学习时长：约 15 分钟，不超过 15 分钟；
-- 总课程数量：80 节；
-- 总学习时长：
+使用[工作簿](workbook.md)记录自己的原始答案。遇到字母查[术语表](../../references/microeconomics_glossary_en_zh.md)，读图看[图形指南](visual_guide.md)。各单元第8课都有综合应用、评分依据及完整费曼分享稿。每天可把当前课的一分钟复述扩成约5分钟分享，不必等到单元结束。
 
-$$
-10\times 8\times 15=1200\text{ 分钟}=20\text{ 小时}
-$$
+目录由实际课文标题生成；同一概念先建立直觉，再用数字检验，最后处理变化条件。章节为曼昆第8版主题索引，详见[教材说明](../../references/textbook_guide.md)。
 
-每节都可以跨天独立学习，并统一包含：
+## 01｜选择与经济学模型
 
-1. 本节问题；
-2. 专业术语的中文、英文原词和通用缩写；
-3. 核心机制；
-4. 最小数字例或图形；
-5. 2～3 分钟练习；
-6. 1 分钟无稿复述；
-7. 常见误区与适用边界。
+教材主题：第1–2章。**学会：**列清可行选择、机会成本与边际变化；辨析模型、证据和价值判断。
 
-术语格式必须符合[中英术语书写规范](../00_learning_system/terminology_standard_en_zh.md)。遇到不懂的缩写，查看[中英术语表](../../references/microeconomics_glossary_en_zh.md)。
+**先修：**无专业先修；用直觉和简单四则运算开始。
 
-## 怎样开始
+[进入单元说明](unit_01_economic_thinking/README.md)
 
-1. 进入 [`docs/units/`](../units/)；
-2. 打开当前单元目录中的 `README.md`；
-3. 每次只学习一节，不提前看该节练习答案；
-4. 完成正文后合上资料，进行 1 分钟复述；
-5. 把一句话结论、练习和卡点写入工作簿；
-6. 每个单元第 8 节完成复盘、变式题和费曼分享。
+| 课 | 本课要回答的问题 |
+|---|---|
+| 01-01 | [为什么“没花钱”也可能很贵？](unit_01_economic_thinking/01_scarcity_opportunity_cost.md) |
+| 01-02 | [已经投入很多，应该继续吗？](unit_01_economic_thinking/02_sunk_cost_marginal_analysis.md) |
+| 01-03 | [改变一个价格或考核指标，会改变什么？](unit_01_economic_thinking/03_incentives_trade_markets.md) |
+| 01-04 | [模型删掉了现实细节，为什么还可能有用？](unit_01_economic_thinking/04_models_ceteris_paribus.md) |
+| 01-05 | [钱流向哪里，资源又允许生产多少？](unit_01_economic_thinking/05_circular_flow_ppf.md) |
+| 01-06 | [一个说法是在描述事实，还是在表达价值？](unit_01_economic_thinking/06_micro_macro_positive_normative.md) |
+| 01-07 | [两件事一起变化，为什么还不能说谁导致了谁？](unit_01_economic_thinking/07_correlation_causality.md) |
+| 01-08 | [完成一份能被别人检查的决策说明](unit_01_economic_thinking/08_unit_review.md) |
 
-建议每天学习一节。每天 15 分钟时，80 天完成第一轮；每天两节，40 天完成第一轮。速度可以调整，但不能用“打开过文件”代替学习证据。
+## 02｜分工、贸易与供求
 
----
+教材主题：第3–4章。**学会：**计算比较优势与互惠区间，解均衡并区分整条曲线和线上一点。
 
-# Unit 01：经济学思维
+**先修：**01的机会成本、其他条件不变与读图。
 
-**教材范围：第 1～2 章。**
+[进入单元说明](unit_02_trade_and_market/README.md)
 
-**目标：**建立分析选择、模型和证据的基本语言。
+| 课 | 本课要回答的问题 |
+|---|---|
+| 02-01 | [两项工作都更快的人，为什么仍然值得分工？](unit_02_trade_and_market/01_absolute_comparative_advantage.md) |
+| 02-02 | [知道谁适合做什么以后，怎样交换才对双方有利？](unit_02_trade_and_market/02_specialization_gains_from_trade.md) |
+| 02-03 | [外部采购看起来更便宜，为什么有时仍应自己做？](unit_02_trade_and_market/03_imports_exports_trade_limits.md) |
+| 02-04 | [销量增加，为什么不一定叫“需求增加”？](unit_02_trade_and_market/04_demand_quantity_demanded.md) |
+| 02-05 | [价格没变，人们为什么也会买得更多？](unit_02_trade_and_market/05_demand_shifters.md) |
+| 02-06 | [供给曲线是什么，为什么价格越高商家往往越愿意卖？](unit_02_trade_and_market/06_supply_quantity_supplied.md) |
+| 02-07 | [买方和卖方各有计划，市场价格怎样把它们接起来？](unit_02_trade_and_market/07_equilibrium_surplus_shortage.md) |
+| 02-08 | [综合案例：既能解释分工，也能判断市场变化](unit_02_trade_and_market/08_unit_review.md) |
 
-| 节次 | 15 分钟主题 | 本节核心术语 |
-|---:|---|---|
-| 01 | 稀缺性、权衡与机会成本 | 稀缺性（Scarcity）、权衡（Trade-off）、机会成本（Opportunity Cost） |
-| 02 | 沉没成本、边际决策与激励 | 沉没成本（Sunk Cost）、边际收益（Marginal Benefit, MB）、边际成本（Marginal Cost, MC） |
-| 03 | 用 PPF 表达约束和机会成本 | 生产可能性边界（Production Possibilities Frontier, PPF） |
-| 04 | 模型和循环流向图 | 经济模型（Economic Model）、循环流向图（Circular-Flow Diagram） |
-| 05 | 其他条件不变、实证与规范 | 其他条件不变（Ceteris Paribus）、实证表述（Positive Statement）、规范表述（Normative Statement） |
-| 06 | 相关不等于因果 | 相关关系（Correlation）、因果关系（Causality）、遗漏变量（Omitted Variable） |
-| 07 | 用统一模板分析个人和项目决策 | 决策主体（Decision Maker）、约束（Constraint）、激励（Incentive） |
-| 08 | 单元复盘、闭卷变式与费曼分享 | 主动提取（Active Recall）、费曼技巧（Feynman Technique） |
+## 03｜弹性、管制与税负
 
-**第一轮证据：**一个真实机会成本案例、一张 PPF、一个因果辨析、一次 5 分钟分享。
+教材主题：第5–6章。**学会：**从变化幅度判断反应程度，求价格管制与征税后的买卖双方结果。
 
-# Unit 02：分工、贸易与市场
+**先修：**02的需求、供给和均衡。
 
-**教材范围：第 3～4 章。**
+[进入单元说明](unit_03_elasticity_and_policy/README.md)
 
-**目标：**理解比较优势以及供给、需求和均衡。
+| 课 | 本课要回答的问题 |
+|---|---|
+| 03-01 | [涨价以后，顾客究竟会走掉多少？](unit_03_elasticity_and_policy/01_ped_concept.md) |
+| 03-02 | [从两个价格点算出一致的弹性](unit_03_elasticity_and_policy/02_midpoint_method.md) |
+| 03-03 | [涨价能不能增加收入？](unit_03_elasticity_and_policy/03_ped_total_revenue.md) |
+| 03-04 | [把收入变化和替代关系分开](unit_03_elasticity_and_policy/04_income_cross_elasticity.md) |
+| 03-05 | [企业为什么不能立刻多生产？](unit_03_elasticity_and_policy/05_pes_time_horizon.md) |
+| 03-06 | [把价格压低，为什么未必人人受益？](unit_03_elasticity_and_policy/06_price_controls.md) |
+| 03-07 | [税写在卖家账上，为什么买家也会承担？](unit_03_elasticity_and_policy/07_tax_incidence.md) |
+| 03-08 | [用弹性讲清定价和政策](unit_03_elasticity_and_policy/08_unit_review.md) |
 
-| 节次 | 15 分钟主题 | 本节核心术语 |
-|---:|---|---|
-| 01 | 绝对优势和比较优势 | 绝对优势（Absolute Advantage）、比较优势（Comparative Advantage） |
-| 02 | 用机会成本表判断专业化 | 专业化（Specialization）、机会成本（Opportunity Cost） |
-| 03 | 贸易条件与贸易利得 | 贸易条件（Terms of Trade, ToT）、贸易利得（Gains from Trade） |
-| 04 | 需求与需求量不是一回事 | 需求（Demand, D）、需求量（Quantity Demanded, $Q_d$） |
-| 05 | 需求曲线为什么移动 | 替代品（Substitutes）、互补品（Complements）、正常品（Normal Good） |
-| 06 | 供给、供给量与供给曲线移动 | 供给（Supply, S）、供给量（Quantity Supplied, $Q_s$） |
-| 07 | 均衡、短缺与过剩 | 均衡（Equilibrium, E）、短缺（Shortage）、过剩（Surplus） |
-| 08 | 同时移动的供求与单元复盘 | 均衡价格（Equilibrium Price, $P_e$）、均衡数量（Equilibrium Quantity, $Q_e$） |
+## 04｜交易福利、税收与贸易
 
-**第一轮证据：**一道比较优势计算、一张供求均衡图、四个曲线移动判断。
+教材主题：第7–9章。**学会：**计算剩余、税收收入和无谓损失，比较政策赢家和输家。
 
-# Unit 03：弹性与政府干预
+**先修：**02的交易与均衡；03的税收楔子和弹性。
 
-**教材范围：第 5～6 章。**
+[进入单元说明](unit_04_welfare_tax_trade/README.md)
 
-**目标：**衡量反应程度，并分析价格管制和税收。
+| 课 | 本课要回答的问题 |
+|---|---|
+| 04-01 | [买得值得，究竟值在哪里？](unit_04_welfare_tax_trade/01_wtp_consumer_surplus.md) |
+| 04-02 | [卖家收的钱，哪些才是交易好处？](unit_04_welfare_tax_trade/02_seller_cost_producer_surplus.md) |
+| 04-03 | [总好处最大，是否就对每个人都公平？](unit_04_welfare_tax_trade/03_total_surplus_efficiency_equity.md) |
+| 04-04 | [税收拿走的钱，为什么不全是社会损失？](unit_04_welfare_tax_trade/04_tax_dwl.md) |
+| 04-05 | [税率提高，收入为什么未必同比增加？](unit_04_welfare_tax_trade/05_elasticity_tax_revenue.md) |
+| 04-06 | [开放贸易以后，谁受益、谁受损？](unit_04_welfare_tax_trade/06_world_price_trade.md) |
+| 04-07 | [关税和配额，为什么不只是保护企业？](unit_04_welfare_tax_trade/07_tariff_quota.md) |
+| 04-08 | [给一项政策写出完整福利账](unit_04_welfare_tax_trade/08_unit_review.md) |
 
-| 节次 | 15 分钟主题 | 本节核心术语 |
-|---:|---|---|
-| 01 | 弹性在测量什么 | 弹性（Elasticity）、需求价格弹性（Price Elasticity of Demand, PED） |
-| 02 | 用中点法计算 PED | 中点法（Midpoint Method）、百分比变化（Percentage Change） |
-| 03 | 弹性与总收益 | 总收益（Total Revenue, TR）、富有弹性（Elastic）、缺乏弹性（Inelastic） |
-| 04 | 收入弹性与交叉价格弹性 | 收入弹性（Income Elasticity of Demand, YED）、交叉价格弹性（Cross-Price Elasticity of Demand, XED） |
-| 05 | 供给价格弹性 | 供给价格弹性（Price Elasticity of Supply, PES） |
-| 06 | 价格上限和价格下限 | 价格上限（Price Ceiling）、价格下限（Price Floor） |
-| 07 | 税收楔子与税收归宿 | 税收楔子（Tax Wedge）、税收归宿（Tax Incidence） |
-| 08 | 政策综合案例与单元复盘 | 法定纳税人（Statutory Taxpayer）、经济税负（Economic Burden） |
+## 05｜外部性、公共物品与税制
 
-**第一轮证据：**一题中点法弹性、一题总收益判断、一张价格管制图、一题税负判断。
+教材主题：第10–12章。**学会：**识别遗漏的社会成本，比较协商、税费和公共治理。
 
-# Unit 04：市场福利、税收与国际贸易
+**先修：**03–04的税负、剩余、效率和分配。
 
-**教材范围：第 7～9 章。**
+[进入单元说明](unit_05_public_sector/README.md)
 
-**目标：**用剩余衡量福利，并解释税收和贸易的赢家与输家。
+| 课 | 本课要回答的问题 |
+|---|---|
+| 05-01 | [成交双方都满意，为什么社会仍可能吃亏？](unit_05_public_sector/01_externality_social_private.md) |
+| 05-02 | [为什么有的税减少效率，有的税反而提高效率？](unit_05_public_sector/02_pigouvian_tax.md) |
+| 05-03 | [鼓励好影响、限制坏影响，为什么要比较不同工具？](unit_05_public_sector/03_subsidy_tradable_permits.md) |
+| 05-04 | [有外部性时，双方能不能自己谈妥？](unit_05_public_sector/04_coase_transaction_cost.md) |
+| 05-05 | [“政府提供”与“公共物品”是一回事吗？](unit_05_public_sector/05_goods_classification.md) |
+| 05-06 | [为什么大家需要的东西没人出钱，大家能用的东西却被用坏？](unit_05_public_sector/06_free_rider_commons.md) |
+| 05-07 | [公共项目值不值得建，钱又怎样筹？](unit_05_public_sector/07_cba_tax_design.md) |
+| 05-08 | [给测试园区写一份讲得通的公共政策建议](unit_05_public_sector/08_unit_review.md) |
 
-| 节次 | 15 分钟主题 | 本节核心术语 |
-|---:|---|---|
-| 01 | 支付意愿与消费者剩余 | 支付意愿（Willingness to Pay, WTP）、消费者剩余（Consumer Surplus, CS） |
-| 02 | 成本与生产者剩余 | 生产成本（Cost）、生产者剩余（Producer Surplus, PS） |
-| 03 | 总剩余、效率与平等 | 总剩余（Total Surplus, TS）、效率（Efficiency）、平等（Equality） |
-| 04 | 税收怎样产生无谓损失 | 无谓损失（Deadweight Loss, DWL）、税收收入（Tax Revenue） |
-| 05 | 弹性为什么决定 DWL 大小 | 交易反应（Behavioral Response）、税收扭曲（Tax Distortion） |
-| 06 | 世界价格与进口、出口 | 世界价格（World Price, $P_w$）、进口（Import）、出口（Export） |
-| 07 | 关税与进口配额 | 关税（Tariff）、进口配额（Import Quota） |
-| 08 | 贸易政策的赢家、输家与复盘 | 小国假设（Small-Country Assumption）、贸易政策（Trade Policy） |
+## 06｜企业成本与竞争生产
 
-**第一轮证据：**一张剩余图、一张税收 DWL 图、一个国际贸易利益分配案例。
+教材主题：第13–14章。**学会：**计算成本和利润，判断产量、短期停产和长期退出。
 
-# Unit 05：外部性、公共物品与税制
+**先修：**01的边际与机会成本；02的供给；04的剩余。
 
-**教材范围：第 10～12 章。**
+[进入单元说明](unit_06_costs_competitive_firms/README.md)
 
-**目标：**识别市场失灵，比较私人协商与公共政策。
+| 课 | 本课要回答的问题 |
+|---|---|
+| 06-01 | [账面赚钱，为什么仍可能不值得继续经营？](unit_06_costs_competitive_firms/01_revenue_cost_profit.md) |
+| 06-02 | [多加一个人，为什么产出不一定增加同样多？](unit_06_costs_competitive_firms/02_production_function_marginal_product.md) |
+| 06-03 | [少做一批产品，究竟能省下哪些钱？](unit_06_costs_competitive_firms/03_fixed_variable_costs.md) |
+| 06-04 | [平均成本已经很低，为什么最后一批仍可能不划算？](unit_06_costs_competitive_firms/04_average_marginal_cost.md) |
+| 06-05 | [企业做大为什么可能更便宜，也可能更贵？](unit_06_costs_competitive_firms/05_economies_scale.md) |
+| 06-06 | [企业不能决定价格，还能决定什么？](unit_06_costs_competitive_firms/06_perfect_competition_mr.md) |
+| 06-07 | [企业为什么亏损仍生产，却不能永远这样做？](unit_06_costs_competitive_firms/07_profit_shutdown_exit.md) |
+| 06-08 | [从生产表到关停决策，给工作室做一次经营复盘](unit_06_costs_competitive_firms/08_unit_review.md) |
 
-| 节次 | 15 分钟主题 | 本节核心术语 |
-|---:|---|---|
-| 01 | 外部性与社会边际成本 | 外部性（Externality）、私人边际成本（Marginal Private Cost, MPC）、社会边际成本（Marginal Social Cost, MSC） |
-| 02 | 矫正税、补贴与管制 | 矫正税（Corrective Tax）、庇古税（Pigouvian Tax）、矫正补贴（Corrective Subsidy） |
-| 03 | 科斯定理及其边界 | 科斯定理（Coase Theorem）、交易成本（Transaction Cost） |
-| 04 | 排他性与消费竞争性 | 排他性（Excludability）、消费竞争性（Rivalry in Consumption） |
-| 05 | 公共物品、公共资源与搭便车 | 公共物品（Public Good）、公共资源（Common Resource）、搭便车者（Free Rider） |
-| 06 | 公地悲剧和治理方案 | 公地悲剧（Tragedy of the Commons）、产权（Property Rights） |
-| 07 | 成本收益分析和税制原则 | 成本收益分析（Cost-Benefit Analysis, CBA）、横向公平（Horizontal Equity）、纵向公平（Vertical Equity） |
-| 08 | 市场失灵政策比较与复盘 | 政府失灵（Government Failure）、政策评估（Policy Evaluation） |
+## 07｜市场势力与策略
 
-**第一轮证据：**一张外部性图、一个公共物品分类、一次政策方案比较。
+教材主题：第15–17章。**学会：**理解垄断定价、价格歧视、进入与博弈，而非只记市场类型。
 
-# Unit 06：企业成本与完全竞争
+**先修：**06的成本与边际营收；04的福利分析。
 
-**教材范围：第 13～14 章。**
+[进入单元说明](unit_07_market_power_strategy/README.md)
 
-**目标：**连接生产、成本、利润最大化、停产和退出。
+| 课 | 本课要回答的问题 |
+|---|---|
+| 07-01 | [份额很高，就能一直卖得贵吗？](unit_07_market_power_strategy/01_monopoly_market_power.md) |
+| 07-02 | [垄断企业为什么先决定数量，再决定价格？](unit_07_market_power_strategy/02_monopoly_mr_mc.md) |
+| 07-03 | [学生票、优惠券和会员价，为什么会存在？](unit_07_market_power_strategy/03_price_discrimination.md) |
+| 07-04 | [咖啡店能卖得比成本贵，为什么仍可能赚不到超额利润？](unit_07_market_power_strategy/04_monopolistic_competition.md) |
+| 07-05 | [只有两家厂商，为什么仍可能打价格战？](unit_07_market_power_strategy/05_oligopoly_interdependence.md) |
+| 07-06 | [纳什均衡为什么不等于“大家都满意”？](unit_07_market_power_strategy/06_game_theory_nash.md) |
+| 07-07 | [今天有占便宜的机会，为什么有人仍愿意合作？](unit_07_market_power_strategy/07_prisoners_dilemma_repeated.md) |
+| 07-08 | [把“有护城河”改写成一条可以检验的解释](unit_07_market_power_strategy/08_unit_review.md) |
 
-| 节次 | 15 分钟主题 | 本节核心术语 |
-|---:|---|---|
-| 01 | 显性成本、隐性成本与两种利润 | 显性成本（Explicit Cost）、隐性成本（Implicit Cost）、经济利润（Economic Profit） |
-| 02 | 生产函数与边际产量递减 | 生产函数（Production Function）、劳动边际产量（Marginal Product of Labor, MPL） |
-| 03 | FC、VC、AFC、AVC、ATC 与 MC | 固定成本（Fixed Cost, FC）、可变成本（Variable Cost, VC）、平均总成本（Average Total Cost, ATC） |
-| 04 | 成本曲线之间为什么相交 | 边际成本（Marginal Cost, MC）、有效规模（Efficient Scale） |
-| 05 | 短期、长期与规模经济 | 短期（Short Run, SR）、长期（Long Run, LR）、规模经济（Economies of Scale） |
-| 06 | 完全竞争与价格接受者 | 完全竞争（Perfect Competition）、价格接受者（Price Taker） |
-| 07 | 利润最大化、停产与退出 | 边际收益（Marginal Revenue, MR）、停产（Shutdown）、退出（Exit） |
-| 08 | 行业供给和单元复盘 | 短期市场供给（Short-Run Market Supply）、长期均衡（Long-Run Equilibrium） |
+## 08｜要素市场与收入分配
 
-**第一轮证据：**一张成本曲线图、一题利润最大化、一题停产与退出判断。
+教材主题：第18–20章。**学会：**把产品需求连接到雇佣，解释工资差异与分配测量的限制。
 
-# Unit 07：市场势力与策略互动
+**先修：**06的生产边际量；07的市场条件；01的证据分析。
 
-**教材范围：第 15～17 章。**
+[进入单元说明](unit_08_factor_markets_distribution/README.md)
 
-**目标：**区分垄断、垄断竞争和寡头，并理解策略互动。
+| 课 | 本课要回答的问题 |
+|---|---|
+| 08-01 | [我们为什么需要算法工程师，而不是直接需要“工时”？](unit_08_factor_markets_distribution/01_factor_markets_derived_demand.md) |
+| 08-02 | [多雇一个人，到底应该和什么比较？](unit_08_factor_markets_distribution/02_vmp_mrp_labor_demand.md) |
+| 08-03 | [时薪翻倍，为什么有人反而少工作？](unit_08_factor_markets_distribution/03_labor_supply_equilibrium.md) |
+| 08-04 | [同样工作八小时，工资为什么可能差很多？](unit_08_factor_markets_distribution/04_wage_differences.md) |
+| 08-05 | [平均工资不同，能直接证明歧视吗？](unit_08_factor_markets_distribution/05_discrimination_measurement.md) |
+| 08-06 | [基尼系数一样，生活水平就一样吗？](unit_08_factor_markets_distribution/06_lorenz_gini.md) |
+| 08-07 | [帮助低收入者，怎样同时考虑困难程度、激励与公平？](unit_08_factor_markets_distribution/07_poverty_redistribution.md) |
+| 08-08 | [工资与分配：从“谁更值钱”转向机制和证据](unit_08_factor_markets_distribution/08_unit_review.md) |
 
-| 节次 | 15 分钟主题 | 本节核心术语 |
-|---:|---|---|
-| 01 | 垄断、市场势力与进入壁垒 | 垄断（Monopoly）、市场势力（Market Power）、进入壁垒（Barriers to Entry） |
-| 02 | 垄断者为什么用 MR=MC 定产量 | 边际收益（Marginal Revenue, MR）、垄断产量（Monopoly Quantity, $Q_m$） |
-| 03 | 垄断福利损失与监管 | 加价率（Markup）、无谓损失（Deadweight Loss, DWL）、自然垄断（Natural Monopoly） |
-| 04 | 价格歧视的条件与影响 | 价格歧视（Price Discrimination）、套利（Arbitrage） |
-| 05 | 垄断竞争和产品差异化 | 垄断竞争（Monopolistic Competition）、产品差异化（Product Differentiation） |
-| 06 | 寡头、卡特尔与合谋 | 寡头（Oligopoly）、卡特尔（Cartel）、合谋（Collusion） |
-| 07 | 占优策略、纳什均衡与囚徒困境 | 占优策略（Dominant Strategy）、纳什均衡（Nash Equilibrium, NE）、囚徒困境（Prisoner's Dilemma） |
-| 08 | 重复博弈、反垄断与复盘 | 重复博弈（Repeated Game）、反垄断法（Antitrust Law） |
+## 09｜消费者选择的机制
 
-**第一轮证据：**一张垄断图、一个价格歧视案例、一个博弈矩阵和纳什均衡判断。
+教材主题：第21章。**学会：**用预算和偏好解释最优选择，分解价格变化的收入与替代效应。
 
-# Unit 08：劳动、收入与分配
+**先修：**01的约束；02的需求；只需基础代数，推导就地解释。
 
-**教材范围：第 18～20 章。**
+[进入单元说明](unit_09_consumer_choice/README.md)
 
-**目标：**理解要素需求、工资差异、收入不平等与政策取舍。
+| 课 | 本课要回答的问题 |
+|---|---|
+| 09-01 | [想买、买得起与最后买下，是三件事](unit_09_consumer_choice/01_budget_constraint.md) |
+| 09-02 | [效用是偏好排序，不是给幸福称重量](unit_09_consumer_choice/02_preferences_indifference_curves.md) |
+| 09-03 | [愿意怎样换，与市场允许怎样换](unit_09_consumer_choice/03_mrs.md) |
+| 09-04 | [最优选择不是看到两条线就找切点](unit_09_consumer_choice/04_consumer_optimum.md) |
+| 09-05 | [降价后多买，究竟是哪一种力量在起作用](unit_09_consumer_choice/05_income_substitution_effects.md) |
+| 09-06 | [劣等品不是劣质品，吉芬品也不是“越贵越抢手”](unit_09_consumer_choice/06_inferior_giffen.md) |
+| 09-07 | [工资更高，为什么不一定工作更多](unit_09_consumer_choice/07_labor_leisure_saving.md) |
+| 09-08 | [综合任务：给“降价一定增加购买”加上完整解释](unit_09_consumer_choice/08_unit_review.md) |
 
-| 节次 | 15 分钟主题 | 本节核心术语 |
-|---:|---|---|
-| 01 | 要素市场与派生需求 | 生产要素（Factors of Production）、派生需求（Derived Demand） |
-| 02 | MPL、VMP 与劳动需求 | 劳动边际产量（Marginal Product of Labor, MPL）、边际产量价值（Value of the Marginal Product, VMP） |
-| 03 | 劳动供给和均衡工资 | 劳动供给（Labor Supply, LS）、劳动需求（Labor Demand, LD）、均衡工资（Equilibrium Wage, $W_e$） |
-| 04 | 人力资本与补偿性工资差异 | 人力资本（Human Capital）、补偿性工资差异（Compensating Wage Differential） |
-| 05 | 歧视与工资差异的证据问题 | 歧视（Discrimination）、生产率差异（Productivity Difference） |
-| 06 | 土地、资本和要素收入 | 资本（Capital）、租金（Rent）、利息（Interest） |
-| 07 | 收入不平等、贫困与测量 | 收入不平等（Income Inequality）、贫困率（Poverty Rate）、基尼系数（Gini Coefficient） |
-| 08 | 再分配政策、效率公平与复盘 | 再分配（Redistribution）、功利主义（Utilitarianism）、自由至上主义（Libertarianism） |
+## 10｜信息、集体选择与行为
 
-**第一轮证据：**一张劳动市场图、一次工资差异机制分析、一次分配政策的实证／规范区分。
+教材主题：第22章。**学会：**辨析隐藏类型与行动、集体选择困难和行为偏差，完成综合迁移。
 
-# Unit 09：消费者选择
+**先修：**前九单元的选择、市场、成本与证据语言。
 
-**教材范围：第 21 章。**
+[进入单元说明](unit_10_micro_frontiers/README.md)
 
-**目标：**用预算约束和偏好解释最优选择及价格变化。
+| 课 | 本课要回答的问题 |
+|---|---|
+| 10-01 | [信息不一样，为什么好产品可能先离开市场](unit_10_micro_frontiers/01_asymmetric_information_adverse_selection.md) |
+| 10-02 | [签了合同后，为什么对方可能不按你期待的方式行动](unit_10_micro_frontiers/02_moral_hazard_principal_agent.md) |
+| 10-03 | [证明自己，与设计菜单让别人表明自己](unit_10_micro_frontiers/03_signaling_screening.md) |
+| 10-04 | [三个人各自想得很清楚，集体为什么还会绕圈](unit_10_micro_frontiers/04_collective_choice_government_failure.md) |
+| 10-05 | [人不会无限计算，但这不等于选择毫无规律](unit_10_micro_frontiers/05_behavioral_bounded_rationality.md) |
+| 10-06 | [同一笔钱，为什么“失去”和“稍后”会改变感受](unit_10_micro_frontiers/06_loss_framing_present_bias.md) |
+| 10-07 | [默认选项改变了参与率，就证明用户受益了吗](unit_10_micro_frontiers/07_nudge_endowment_ethics.md) |
+| 10-08 | [全课程综合：把术语变成一张有证据的企业分析卡](unit_10_micro_frontiers/08_unit_review.md) |
 
-| 节次 | 15 分钟主题 | 本节核心术语 |
-|---:|---|---|
-| 01 | 预算约束与预算线 | 预算约束（Budget Constraint, BC）、预算线（Budget Line, BL） |
-| 02 | 偏好和无差异曲线 | 偏好（Preferences）、无差异曲线（Indifference Curve, IC） |
-| 03 | 边际效用和边际替代率 | 边际效用（Marginal Utility, MU）、边际替代率（Marginal Rate of Substitution, MRS） |
-| 04 | 消费者最优与切点条件 | 消费者最优（Consumer Optimum）、切点条件（Tangency Condition） |
-| 05 | 收入变化与收入效应 | 收入效应（Income Effect, IE）、正常品（Normal Good）、低档品（Inferior Good） |
-| 06 | 价格变化与替代效应 | 替代效应（Substitution Effect, SE）、相对价格（Relative Price） |
-| 07 | 劳动供给、储蓄与吉芬品 | 吉芬品（Giffen Good）、跨期选择（Intertemporal Choice） |
-| 08 | 消费者案例、图形重建与复盘 | 恩格尔曲线（Engel Curve）、需求推导（Derivation of Demand） |
+## 完成后怎样检查
 
-**第一轮证据：**一张预算线、一组无差异曲线、一次收入效应和替代效应分解。
+每个单元至少能闭卷解释一个机制，完整完成其综合题，并给出一个条件改变后的判断。评分看推理与单位，不只看最终数字；看过答案后需要独立重做或换题验证。首次通过后进入待复习，安排隔天或更晚的变式题。
 
-# Unit 10：信息、政治经济与行为经济学
-
-**教材范围：第 22 章。**
-
-**目标：**理解基础模型在信息不完全、政治过程和非完全理性下怎样变化。
-
-| 节次 | 15 分钟主题 | 本节核心术语 |
-|---:|---|---|
-| 01 | 信息不对称的三类问题 | 信息不对称（Information Asymmetry, IA）、隐藏信息（Hidden Information）、隐藏行动（Hidden Action） |
-| 02 | 逆向选择、信号与筛选 | 逆向选择（Adverse Selection, AS）、信号发送（Signaling）、筛选（Screening） |
-| 03 | 道德风险与委托—代理问题 | 道德风险（Moral Hazard, MH）、委托—代理问题（Principal-Agent Problem） |
-| 04 | 公共选择与中位选民 | 公共选择（Public Choice）、中位选民定理（Median Voter Theorem, MVT） |
-| 05 | 有限理性与行为经济学 | 有限理性（Bounded Rationality）、行为经济学（Behavioral Economics） |
-| 06 | 损失厌恶、参照点与锚定 | 损失厌恶（Loss Aversion）、参照点（Reference Point）、锚定效应（Anchoring Effect） |
-| 07 | 当前偏误、选择架构与助推 | 当前偏误（Present Bias）、选择架构（Choice Architecture）、助推（Nudge） |
-| 08 | 综合案例、投资边界和全课复盘 | 前景理论（Prospect Theory, PT）、模型边界（Model Boundary） |
-
-**第一轮证据：**一个逆向选择案例、一个道德风险案例、一个行为偏差实验和一份全课综合分析。
-
----
-
-## 80 节完成后的能力检查
-
-完成第一轮后，应能够：
-
-1. 用自己的话解释核心术语，同时识别英文原词和常见缩写；
-2. 闭卷画出 PPF、供求、剩余、外部性、成本、垄断、劳动市场和消费者选择等核心图形；
-3. 完成比较优势、弹性、剩余、税收、利润最大化和消费者选择的基础计算；
-4. 面对新事件写出“主体—约束—变量—机制—结果—证据—边界”；
-5. 区分事实、教材机制、现实推断和价值判断；
-6. 说明微观经济学不能单独完成股票估值或黄金短期预测。
-
-20 小时只代表完成第一轮知识地图。首次完成后状态应为“待复习”，还要经过 D1、D3、D7、D14、D30 的主动提取和变式题验证。
+课程准备情况见[检查记录](BUILD_REPORT.md)，个人掌握情况只看[学习进度](../00_learning_system/progress.md)。第一轮之后按[能力路线](../../ROADMAP.md)回补具体薄弱处，而非机械重读全部内容。

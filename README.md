@@ -1,78 +1,43 @@
-# AI 辅助微观经济学系统学习与应用实践
+# 微观经济学：从看懂概念到独立分析问题
 
-`microeconomicsLearning` 用于记录借助 AI 系统学习微观经济学的全过程。仓库不仅保存课程，还保存诊断、原始回答、图形、计算、现实案例、错题、费曼复述和延迟复习证据。
+这套课程面向有工程背景、金融基础较少的学习者。以曼昆《经济学原理（第8版）：微观经济学分册》的主题顺序为主线，完成 **10个单元、80节完整短课**。每节围绕一个问题展开，提供术语解释、机制推导、完整算例、反例及带解析的练习。
 
-目标不是“读完一本书”，而是能够用自己的语言解释概念、独立完成图形与计算、分析现实问题，并说明结论依赖哪些假设。
+**先从[第一课：稀缺与机会成本](docs/course_20h/unit_01_economic_thinking/01_scarcity_opportunity_cost.md)开始；完整顺序见[课程地图](docs/course_20h/README.md)。**
 
-## 30 秒开始
+## 怎样学
 
-第一次精简闭卷诊断已经完成，当前正式进入第一章学习。
+1. 打开当前课，先读问题和术语，再跟着例子走完推理；看不懂就停在具体一步。
+2. 合上例子，做一道即时题，再展开解析比较自己的过程。
+3. 不看原文，用自己的话说出“为什么、怎样算、什么条件变了结论会变”。
+4. 在[课程工作簿](docs/course_20h/workbook.md)留下自己的答案。每单元最后一课做综合应用和费曼分享。
 
-1. 打开[第一章：经济学十大原理](docs/units/01_economic_thinking/chapter_01_ten_principles/README.md)；
-2. 打开并复制[第一章学习工作簿](docs/units/01_economic_thinking/chapter_01_ten_principles/workbook.md)；
-3. 开始 [Day 01：为什么资源有限就必须选择？](docs/units/01_economic_thinking/chapter_01_ten_principles/day_01_scarcity.md)；
-4. 每天学习约 10 分钟，只完成当天一篇；
-5. Day 07、Day 11 和 Day 15 进行阶段费曼复盘；
-6. 第一轮结束后安排 D1、D3、D7、D14、D30 延迟复习。
+每课核心学习约 **10–15分钟**，可以分两次完成。原每单元约2小时、全程约20小时保留为第一轮预算；用时不能证明学会，卡住时需要增加练习。迁移题、延伸阅读和延迟复习可以另做。每天有一小时可以连续学几课，并额外做约5分钟分享；只有十几分钟就学一课，结束时留下下一步。
 
-**当前唯一下一步：完成第一章 Day 01。**
+## 你将能回答什么
 
-> 第一章采用“15 天 × 每天约 10 分钟”的微课程。原有长篇 `lesson.md` 保留为汇总参考，不再作为当前默认入口。
-
-## 方法来源
-
-核心学习方法直接参考 Rahul 的文章：[《How To Learn Anything 10x Faster Using Claude》](https://x.com/sairahul1/article/2068250224532050089)。主要原则包括：
-
-1. 先诊断真实起点；
-2. 用能力阶梯定义“学会”；
-3. 优先学习少量高杠杆内容；
-4. 用主动提取和变式题暴露缺口；
-5. 用费曼复述把“看懂”变成“讲清”；
-6. 用延迟复习验证长期保持。
-
-[`localization-mapping-learning`](https://github.com/XiaoJiNu/localization-mapping-learning) 是这套方法在定位建图领域的先行实践。本仓库参考其目录组织、证据记录和 AI 协作方式，但根据微观经济学和个人时间约束采用更细的日课设计。
-
-主要教材为 N. 格里高利·曼昆《经济学原理（第 8 版）：微观经济学分册》。仓库不上传教材 PDF，也不大段复制教材正文，只保留自编课程、个人证据和必要的章节索引。
-
-## 两种学习节奏
-
-| 模式 | 适用情况 | 当前状态 |
+| 学习阶段 | 能回答的问题 | 入口 |
 |---|---|---|
-| 微课程模式 | 每天只能投入约 10 分钟，希望长期稳定推进 | 第一章默认模式，15 天 |
-| 集中模式 | 某天能连续投入约 2 小时 | 保留[两天／两小时流程](docs/00_learning_system/unit_workflow_2h.md)作为可选方式 |
+| 作选择、看市场 | 什么值得继续？价格为什么变？ | [01经济思维](docs/course_20h/unit_01_economic_thinking/README.md) · [02贸易与供需](docs/course_20h/unit_02_trade_and_market/README.md) |
+| 衡量反应与政策 | 涨价会怎样？税负谁承担？交易创造多少价值？ | [03弹性](docs/course_20h/unit_03_elasticity_and_policy/README.md) · [04福利与贸易](docs/course_20h/unit_04_welfare_tax_trade/README.md) |
+| 分析成本与竞争 | 市场为何失灵？企业何时生产或退出？利润能否持续？ | [05公共部门](docs/course_20h/unit_05_public_sector/README.md) · [06企业成本](docs/course_20h/unit_06_costs_competitive_firms/README.md) · [07市场势力](docs/course_20h/unit_07_market_power_strategy/README.md) |
+| 解释分配与选择 | 工资从哪来？预算怎样影响选择？信息和行为如何改变结果？ | [08要素与分配](docs/course_20h/unit_08_factor_markets_distribution/README.md) · [09消费者](docs/course_20h/unit_09_consumer_choice/README.md) · [10信息与行为](docs/course_20h/unit_10_micro_frontiers/README.md) |
 
-无论采用哪种节奏，都不能用“读过”代替学习证据。
+## 术语不用猜
 
-## 当前进度
+例如：**边际成本（Marginal Cost, MC）**，指多做一单位行动增加的成本；**边际收益（Marginal Benefit, MB）**，指多做一单位行动增加的好处。企业销售中另有**边际营收（Marginal Revenue, MR）**，指多卖一单位增加的销售收入，不能与MB混用。
 
-| 阶段 | 状态 | 入口 |
-|---|---|---|
-| 第一次精简闭卷诊断 | 已完成 | [诊断报告](docs/00_learning_system/diagnostic_report.md) |
-| 第一章：经济学十大原理 | 已就绪，尚未开始 Day 01 | [15 天微课程](docs/units/01_economic_thinking/chapter_01_ten_principles/README.md) |
-| 第二章：像经济学家一样思考 | 汇总材料已存在，待拆分微课程 | [单元 01 主页](docs/units/01_economic_thinking/README.md) |
-| 后续单元 | 待开始 | [学习单元目录](docs/units/README.md) |
+每课会重新解释关键术语。没有稳定常用缩写的术语写“无通用缩写”，例如沉没成本（Sunk Cost）；数量记号如 $Q_d$ 是公式符号，不是要求背诵的英文缩写。
 
-详细状态见[学习进度表](docs/00_learning_system/progress.md)。
+- [中英术语与符号表](references/microeconomics_glossary_en_zh.md)
+- [图形读法与自编示意图](docs/course_20h/visual_guide.md)
+- [开始学习说明](START_HERE_20_HOURS.md)
+- [学习进度与已完成诊断](docs/00_learning_system/progress.md)
+- [重构分析与质量说明](docs/course_20h/REDESIGN_ANALYSIS.md)
 
-## 希望练成的五种能力
+## 方法、材料和应用
 
-1. **概念能力**：用自己的话解释稀缺性、机会成本、边际、弹性、剩余和外部性；
-2. **模型能力**：独立画出并解释供求、生产可能性边界、成本曲线和消费者选择模型；
-3. **计算能力**：完成机会成本、弹性、剩余、税收归宿和利润最大化等基础计算，并写清单位；
-4. **因果与证据能力**：区分相关与因果、实证与规范、曲线移动与沿曲线移动；
-5. **应用与判断能力**：把微观经济学用于个人决策、产品定价、行业竞争和企业分析，同时明确适用边界。
+学习方法参考 Rahul 的[《How To Learn Anything 10x Faster Using Claude》](https://x.com/sairahul1/article/2068250224532050089)，并参考[定位建图学习仓库](https://github.com/XiaoJiNu/localization-mapping-learning)的诊断、证据和复习方式。课程采用自编讲解、算例与图形；教材主题索引和公开核对资料见[教材与来源说明](references/textbook_guide.md)。
 
-## 什么算学习证据
+第一次精简诊断已有记录，不需要重新做长诊断。当前没有正式课程完成证据；**材料写完与学习者学完是两回事**。旧版第一章15天日课保留为[补充材料](docs/units/01_economic_thinking/chapter_01_ten_principles/README.md)。
 
-每个微课程日至少留下：
-
-- 一句话结论；
-- 一个自己的例子、判断或小计算；
-- 一次不看资料的一分钟复述；
-- 一个仍然不清楚的问题。
-
-一个章节只有经过阶段复盘、闭卷重建和延迟复习，才能从 `学习中` 进入 `待复习`，再根据后续证据判断是否 `已掌握`。
-
-## 关于股票与黄金
-
-微观经济学可以帮助分析企业成本、消费者需求、定价能力、竞争格局和进入壁垒，但不能单独预测股票或黄金的短期价格。投资结论还需要会计、现金流、估值、宏观环境、市场预期和风险分析。
+投资应用先练企业需求、成本、竞争与激励分析，区分经营判断与买卖决定；股票价格还涉及估值和预期，黄金还涉及资产需求和宏观变量。本课不把简单供需图当成价格预测器。
