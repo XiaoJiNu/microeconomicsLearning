@@ -1,0 +1,96 @@
+{
+  "version": "gpt6-pro",
+  "authored_date": "2026-09-05",
+  "baseline_commit": "2b6ac7218b2e089ed4d302892c49323aae988edb",
+  "unit_count": 10,
+  "lessons_per_unit": 10,
+  "lesson_count": 100,
+  "reference_minutes_per_lesson": 12,
+  "reference_total_minutes": 1200,
+  "timing_is_estimate_not_mastery_criterion": true,
+  "individual_learning_progress_automatically_updated": false,
+  "units": [
+    {
+      "id": "u01",
+      "title": "经济学思维",
+      "chapters": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "u02",
+      "title": "分工与供需",
+      "chapters": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "u03",
+      "title": "弹性与政策",
+      "chapters": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "u04",
+      "title": "福利与贸易",
+      "chapters": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "u05",
+      "title": "公共部门",
+      "chapters": [
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "u06",
+      "title": "成本与竞争",
+      "chapters": [
+        13,
+        14
+      ]
+    },
+    {
+      "id": "u07",
+      "title": "市场势力与博弈",
+      "chapters": [
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "id": "u08",
+      "title": "劳动与分配",
+      "chapters": [
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "id": "u09",
+      "title": "消费者选择",
+      "chapters": [
+        21
+      ]
+    },
+    {
+      "id": "u10",
+      "title": "信息与行为",
+      "chapters": [
+        22
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "scope": "new course and current entry points; not a proof of all teaching claims",
+  "lesson_count": 100,
+  "unit_count": 10,
+  "local_links_checked": 849,
+  "numeric_regressions": 76,
+  "chinese_characters_in_lessons": 66290,
+  "minimum_lesson_chinese_characters": 496,
+  "median_lesson_chinese_characters": 669.0,
+  "maximum_lesson_chinese_characters": 859,
+  "estimated_first_pass_minutes": 1200,
+  "learner_mastery_not_inferred": true,
+  "authored_date": "2026-09-05",
+  "authored_tree": "48fec452dade38290974179a6b3ffe67f7d73306",
+  "baseline_commit": "2b6ac7218b2e089ed4d302892c49323aae988edb",
+  "branch": "gpt6-pro",
+  "historical_diagnostics_preserved": true,
+  "github_run_id": "33943657633"
+}

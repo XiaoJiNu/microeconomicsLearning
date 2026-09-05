@@ -1,78 +1,44 @@
-# AI 辅助微观经济学系统学习与应用实践
+# 微观经济学学习：把问题讲清，用证据判断掌握
 
-`microeconomicsLearning` 用于记录借助 AI 系统学习微观经济学的全过程。仓库不仅保存课程，还保存诊断、原始回答、图形、计算、现实案例、错题、费曼复述和延迟复习证据。
+本分支`gpt6-pro`为2026-09-05重构版。主课程包含**10个单元、100个完整小课**，首轮规划约20小时。课程按概念和问题展开，不按分钟片段切割讲解。
 
-目标不是“读完一本书”，而是能够用自己的语言解释概念、独立完成图形与计算、分析现实问题，并说明结论依赖哪些假设。
+## 唯一默认入口
 
-## 30 秒开始
+**[打开新版课程地图](docs/course_gpt6_pro/README.md)**，或直接进入[第一课](docs/course_gpt6_pro/u01/01.md)。已做过诊断者不必重做整套诊断，按原有证据选择下一知识点。
 
-第一次精简闭卷诊断已经完成，当前正式进入第一章学习。
+[使用方法](docs/course_gpt6_pro/GUIDE.md) · [中英术语与缩写](docs/course_gpt6_pro/GLOSSARY.md) · [工作簿](docs/course_gpt6_pro/WORKBOOK.md) · [综合考核](docs/course_gpt6_pro/CAPSTONE.md) · [重构说明](docs/course_gpt6_pro/AUDIT.md) · [来源](docs/course_gpt6_pro/SOURCES.md)
 
-1. 打开[第一章：经济学十大原理](docs/units/01_economic_thinking/chapter_01_ten_principles/README.md)；
-2. 打开并复制[第一章学习工作簿](docs/units/01_economic_thinking/chapter_01_ten_principles/workbook.md)；
-3. 开始 [Day 01：为什么资源有限就必须选择？](docs/units/01_economic_thinking/chapter_01_ten_principles/day_01_scarcity.md)；
-4. 每天学习约 10 分钟，只完成当天一篇；
-5. Day 07、Day 11 和 Day 15 进行阶段费曼复盘；
-6. 第一轮结束后安排 D1、D3、D7、D14、D30 延迟复习。
+## 十个单元
 
-**当前唯一下一步：完成第一章 Day 01。**
-
-> 第一章采用“15 天 × 每天约 10 分钟”的微课程。原有长篇 `lesson.md` 保留为汇总参考，不再作为当前默认入口。
-
-## 方法来源
-
-核心学习方法直接参考 Rahul 的文章：[《How To Learn Anything 10x Faster Using Claude》](https://x.com/sairahul1/article/2068250224532050089)。主要原则包括：
-
-1. 先诊断真实起点；
-2. 用能力阶梯定义“学会”；
-3. 优先学习少量高杠杆内容；
-4. 用主动提取和变式题暴露缺口；
-5. 用费曼复述把“看懂”变成“讲清”；
-6. 用延迟复习验证长期保持。
-
-[`localization-mapping-learning`](https://github.com/XiaoJiNu/localization-mapping-learning) 是这套方法在定位建图领域的先行实践。本仓库参考其目录组织、证据记录和 AI 协作方式，但根据微观经济学和个人时间约束采用更细的日课设计。
-
-主要教材为 N. 格里高利·曼昆《经济学原理（第 8 版）：微观经济学分册》。仓库不上传教材 PDF，也不大段复制教材正文，只保留自编课程、个人证据和必要的章节索引。
-
-## 两种学习节奏
-
-| 模式 | 适用情况 | 当前状态 |
+| 单元 | 主题 | 入口 |
 |---|---|---|
-| 微课程模式 | 每天只能投入约 10 分钟，希望长期稳定推进 | 第一章默认模式，15 天 |
-| 集中模式 | 某天能连续投入约 2 小时 | 保留[两天／两小时流程](docs/00_learning_system/unit_workflow_2h.md)作为可选方式 |
+| U01 | 经济学思维 | [10个小课](docs/course_gpt6_pro/u01/README.md) |
+| U02 | 分工与供需 | [10个小课](docs/course_gpt6_pro/u02/README.md) |
+| U03 | 弹性与政策 | [10个小课](docs/course_gpt6_pro/u03/README.md) |
+| U04 | 福利与贸易 | [10个小课](docs/course_gpt6_pro/u04/README.md) |
+| U05 | 公共部门 | [10个小课](docs/course_gpt6_pro/u05/README.md) |
+| U06 | 成本与竞争 | [10个小课](docs/course_gpt6_pro/u06/README.md) |
+| U07 | 市场势力与博弈 | [10个小课](docs/course_gpt6_pro/u07/README.md) |
+| U08 | 劳动与分配 | [10个小课](docs/course_gpt6_pro/u08/README.md) |
+| U09 | 消费者选择 | [10个小课](docs/course_gpt6_pro/u09/README.md) |
+| U10 | 信息与行为 | [10个小课](docs/course_gpt6_pro/u10/README.md) |
 
-无论采用哪种节奏，都不能用“读过”代替学习证据。
+原仓库曼昆第8版微观分册第1—22章作为范围框架，OpenStax和CORE用于补充核对。每课有概念、机制、演算例子、短题及解析、适用边界；每单元有综合题和可展开约五分钟的费曼分享参考。
 
-## 当前进度
+## 时间和术语
 
-| 阶段 | 状态 | 入口 |
-|---|---|---|
-| 第一次精简闭卷诊断 | 已完成 | [诊断报告](docs/00_learning_system/diagnostic_report.md) |
-| 第一章：经济学十大原理 | 已就绪，尚未开始 Day 01 | [15 天微课程](docs/units/01_economic_thinking/chapter_01_ten_principles/README.md) |
-| 第二章：像经济学家一样思考 | 汇总材料已存在，待拆分微课程 | [单元 01 主页](docs/units/01_economic_thinking/README.md) |
-| 后续单元 | 待开始 | [学习单元目录](docs/units/README.md) |
+单课按约10—15分钟使用颗粒度设计，以12分钟估计100课约1200分钟。数学补习、延迟复习、真实项目和分享可能另需时间，不承诺人人严格20小时掌握。
 
-详细状态见[学习进度表](docs/00_learning_system/progress.md)。
+专业词首次出现给中文、原始英文、通用缩写与解释；没有统一缩写就明确说明，不造简称。边际收入MR、边际收益MB、边际成本MC分开，缩写与数学符号分开。
 
-## 希望练成的五种能力
+## 保留历史，不并行执行多套日程
 
-1. **概念能力**：用自己的话解释稀缺性、机会成本、边际、弹性、剩余和外部性；
-2. **模型能力**：独立画出并解释供求、生产可能性边界、成本曲线和消费者选择模型；
-3. **计算能力**：完成机会成本、弹性、剩余、税收归宿和利润最大化等基础计算，并写清单位；
-4. **因果与证据能力**：区分相关与因果、实证与规范、曲线移动与沿曲线移动；
-5. **应用与判断能力**：把微观经济学用于个人决策、产品定价、行业竞争和企业分析，同时明确适用边界。
+[原诊断与进度](docs/00_learning_system/progress.md)继续保留，不虚构个人完成数。旧入口归档：[原README](README_legacy_before_gpt6_pro.md)、[原80课指南](START_HERE_legacy_80.md)、[原100天路线](ROADMAP_legacy_100_days.md)、[原80课地图](docs/course_20h/README_legacy_80_lessons.md)。旧正文可回看，新版是唯一默认主线。
 
-## 什么算学习证据
+## 检查
 
-每个微课程日至少留下：
+```bash
+python3 scripts/validate_gpt6_pro_course.py
+```
 
-- 一句话结论；
-- 一个自己的例子、判断或小计算；
-- 一次不看资料的一分钟复述；
-- 一个仍然不清楚的问题。
-
-一个章节只有经过阶段复盘、闭卷重建和延迟复习，才能从 `学习中` 进入 `待复习`，再根据后续证据判断是否 `已掌握`。
-
-## 关于股票与黄金
-
-微观经济学可以帮助分析企业成本、消费者需求、定价能力、竞争格局和进入壁垒，但不能单独预测股票或黄金的短期价格。投资结论还需要会计、现金流、估值、宏观环境、市场预期和风险分析。
+[实际检查报告](docs/course_gpt6_pro/VALIDATION_REPORT.json)记录本次结构与算例核验；自动测试不等于教学效果证明。更新仅在`gpt6-pro`，不自动合并`main`。
