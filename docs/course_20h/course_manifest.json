@@ -7,14 +7,14 @@
       "id": 1,
       "title": "选择与经济学模型",
       "textbook_chapters": "1–2",
-      "budget_minutes": 120,
+      "budget_minutes": 165,
       "goal": "列清可行选择、机会成本与边际变化；辨析模型、证据和价值判断。",
       "prerequisites": "无专业先修；用直觉和简单四则运算开始。",
       "lessons": [
         {
           "id": "01-01",
-          "title": "为什么“没花钱”也可能很贵？",
-          "path": "unit_01_economic_thinking/01_scarcity_opportunity_cost.md",
+          "title": "为什么“免费”的晚上也很贵？",
+          "path": "unit_01_economic_thinking/01_scarcity_tradeoff.md",
           "core_minutes_range": [
             10,
             15
@@ -23,8 +23,8 @@
         },
         {
           "id": "01-02",
-          "title": "已经投入很多，应该继续吗？",
-          "path": "unit_01_economic_thinking/02_sunk_cost_marginal_analysis.md",
+          "title": "选了 A，真正放弃的是什么？",
+          "path": "unit_01_economic_thinking/02_opportunity_cost.md",
           "core_minutes_range": [
             10,
             15
@@ -33,8 +33,8 @@
         },
         {
           "id": "01-03",
-          "title": "改变一个价格或考核指标，会改变什么？",
-          "path": "unit_01_economic_thinking/03_incentives_trade_markets.md",
+          "title": "已经投入很多，还要继续吗？",
+          "path": "unit_01_economic_thinking/03_sunk_cost.md",
           "core_minutes_range": [
             10,
             15
@@ -43,8 +43,8 @@
         },
         {
           "id": "01-04",
-          "title": "模型删掉了现实细节，为什么还可能有用？",
-          "path": "unit_01_economic_thinking/04_models_ceteris_paribus.md",
+          "title": "“再做一点”，做到哪一单位为止？",
+          "path": "unit_01_economic_thinking/04_marginal_analysis.md",
           "core_minutes_range": [
             10,
             15
@@ -53,8 +53,8 @@
         },
         {
           "id": "01-05",
-          "title": "钱流向哪里，资源又允许生产多少？",
-          "path": "unit_01_economic_thinking/05_circular_flow_ppf.md",
+          "title": "改一个指标，为什么人会变？",
+          "path": "unit_01_economic_thinking/05_incentives.md",
           "core_minutes_range": [
             10,
             15
@@ -63,8 +63,8 @@
         },
         {
           "id": "01-06",
-          "title": "一个说法是在描述事实，还是在表达价值？",
-          "path": "unit_01_economic_thinking/06_micro_macro_positive_normative.md",
+          "title": "陌生人互不亏欠，交换为什么双赢？",
+          "path": "unit_01_economic_thinking/06_trade_price_coordination.md",
           "core_minutes_range": [
             10,
             15
@@ -73,8 +73,8 @@
         },
         {
           "id": "01-07",
-          "title": "两件事一起变化，为什么还不能说谁导致了谁？",
-          "path": "unit_01_economic_thinking/07_correlation_causality.md",
+          "title": "删掉细节的模型为什么还有用？",
+          "path": "unit_01_economic_thinking/07_models_simplify.md",
           "core_minutes_range": [
             10,
             15
@@ -83,15 +83,66 @@
         },
         {
           "id": "01-08",
-          "title": "完成一份能被别人检查的决策说明",
-          "path": "unit_01_economic_thinking/08_unit_review.md",
+          "title": "价格和销量一起涨，涨价就没影响吗？",
+          "path": "unit_01_economic_thinking/08_ceteris_paribus.md",
           "core_minutes_range": [
             10,
             15
           ],
+          "is_review": false
+        },
+        {
+          "id": "01-09",
+          "title": "一杯咖啡的钱流向哪里？",
+          "path": "unit_01_economic_thinking/09_circular_flow.md",
+          "core_minutes_range": [
+            10,
+            15
+          ],
+          "is_review": false
+        },
+        {
+          "id": "01-10",
+          "title": "同一批资源最多能做出多少组合？",
+          "path": "unit_01_economic_thinking/10_ppf.md",
+          "core_minutes_range": [
+            10,
+            15
+          ],
+          "is_review": false
+        },
+        {
+          "id": "01-11",
+          "title": "一句话该用哪套工具分析？",
+          "path": "unit_01_economic_thinking/11_micro_macro_positive_normative.md",
+          "core_minutes_range": [
+            10,
+            15
+          ],
+          "is_review": false
+        },
+        {
+          "id": "01-12",
+          "title": "一起变化，就能说谁导致谁吗？",
+          "path": "unit_01_economic_thinking/12_correlation_causality.md",
+          "core_minutes_range": [
+            10,
+            15
+          ],
+          "is_review": false
+        },
+        {
+          "id": "01-13",
+          "title": "单元复习：写一份可检查的决策说明",
+          "path": "unit_01_economic_thinking/13_unit_review.md",
+          "core_minutes_range": [
+            15,
+            20
+          ],
           "is_review": true
         }
-      ]
+      ],
+      "note": "kimi-k3: 拆分为 12 节 10–15 分钟微课 + 1 节复习课；每课一问题一图一题一复述"
     },
     {
       "id": 2,

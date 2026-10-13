@@ -2,7 +2,7 @@
 
 这是一条按知识依赖组织的完整课程。每课正文、算例、即时题和推理答案均可直接阅读；不需要先找另一份大课或等待AI临时补正文。
 
-**首次学习从[01-01](unit_01_economic_thinking/01_scarcity_opportunity_cost.md)开始。** 已有诊断，不必重做长诊断。每课核心学习预计10–15分钟；每单元8课按约2小时预留，10单元合计约20小时。时间只是预算，达到“会解释、会计算、能换条件判断”才继续；额外迁移题、分享准备和延迟复习按需增加。
+**首次学习从[01-01](unit_01_economic_thinking/01_scarcity_tradeoff.md)开始。** 已有诊断，不必重做长诊断。单元 01 已拆分为 12 节微课 + 1 节复习课，每节核心学习 10–15 分钟；其余单元每课核心学习预计 10–15 分钟、每单元 8 课按约 2 小时预留。时间只是预算，达到“会解释、会计算、能换条件判断”才继续；额外迁移题、分享准备和延迟复习按需增加。
 
 使用[工作簿](workbook.md)记录自己的原始答案。遇到字母查[术语表](../../references/microeconomics_glossary_en_zh.md)，读图看[图形指南](visual_guide.md)。各单元第8课都有综合应用、评分依据及完整费曼分享稿。每天可把当前课的一分钟复述扩成约5分钟分享，不必等到单元结束。
 
@@ -18,14 +18,19 @@
 
 | 课 | 本课要回答的问题 |
 |---|---|
-| 01-01 | [为什么“没花钱”也可能很贵？](unit_01_economic_thinking/01_scarcity_opportunity_cost.md) |
-| 01-02 | [已经投入很多，应该继续吗？](unit_01_economic_thinking/02_sunk_cost_marginal_analysis.md) |
-| 01-03 | [改变一个价格或考核指标，会改变什么？](unit_01_economic_thinking/03_incentives_trade_markets.md) |
-| 01-04 | [模型删掉了现实细节，为什么还可能有用？](unit_01_economic_thinking/04_models_ceteris_paribus.md) |
-| 01-05 | [钱流向哪里，资源又允许生产多少？](unit_01_economic_thinking/05_circular_flow_ppf.md) |
-| 01-06 | [一个说法是在描述事实，还是在表达价值？](unit_01_economic_thinking/06_micro_macro_positive_normative.md) |
-| 01-07 | [两件事一起变化，为什么还不能说谁导致了谁？](unit_01_economic_thinking/07_correlation_causality.md) |
-| 01-08 | [完成一份能被别人检查的决策说明](unit_01_economic_thinking/08_unit_review.md) |
+| 01-01 | [为什么“免费”的晚上也很贵？](unit_01_economic_thinking/01_scarcity_tradeoff.md) |
+| 01-02 | [选了 A，真正放弃的是什么？](unit_01_economic_thinking/02_opportunity_cost.md) |
+| 01-03 | [已经投入很多，还要继续吗？](unit_01_economic_thinking/03_sunk_cost.md) |
+| 01-04 | [“再做一点”，做到哪一单位为止？](unit_01_economic_thinking/04_marginal_analysis.md) |
+| 01-05 | [改一个指标，为什么人会变？](unit_01_economic_thinking/05_incentives.md) |
+| 01-06 | [陌生人互不亏欠，交换为什么双赢？](unit_01_economic_thinking/06_trade_price_coordination.md) |
+| 01-07 | [删掉细节的模型为什么还有用？](unit_01_economic_thinking/07_models_simplify.md) |
+| 01-08 | [价格和销量一起涨，涨价就没影响吗？](unit_01_economic_thinking/08_ceteris_paribus.md) |
+| 01-09 | [一杯咖啡的钱流向哪里？](unit_01_economic_thinking/09_circular_flow.md) |
+| 01-10 | [同一批资源最多能做出多少组合？](unit_01_economic_thinking/10_ppf.md) |
+| 01-11 | [一句话该用哪套工具分析？](unit_01_economic_thinking/11_micro_macro_positive_normative.md) |
+| 01-12 | [一起变化，就能说谁导致谁吗？](unit_01_economic_thinking/12_correlation_causality.md) |
+| 01-13 | [单元复习：写一份可检查的决策说明](unit_01_economic_thinking/13_unit_review.md) |
 
 ## 02｜分工、贸易与供求
 
