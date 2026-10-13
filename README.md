@@ -2,7 +2,7 @@
 
 这套课程面向有工程背景、金融基础较少的学习者。以曼昆《经济学原理（第8版）：微观经济学分册》的主题顺序为主线，完成 **10个单元、80节完整短课**。每节围绕一个问题展开，提供术语解释、机制推导、完整算例、反例及带解析的练习。
 
-**先从[第一课：稀缺与机会成本](docs/course_20h/unit_01_economic_thinking/01_scarcity_opportunity_cost.md)开始；完整顺序见[课程地图](docs/course_20h/README.md)。**
+**先从[第一课：稀缺与权衡](docs/course_20h/unit_01_economic_thinking/01_scarcity_tradeoff.md)开始；完整顺序见[课程地图](docs/course_20h/README.md)。单元 01 已拆分为 12 节微课 + 1 节复习课（kimi-k3 分支），每节核心学习 10–15 分钟。**
 
 ## 怎样学
 

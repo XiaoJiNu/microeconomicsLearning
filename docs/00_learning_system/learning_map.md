@@ -1,6 +1,6 @@
 # 学习地图与五级能力
 
-当前完整材料是[10单元80课](../course_20h/README.md)，依次形成选择、市场、政策、企业与信息分析能力。精简诊断已完成；当前正式短课尚无个人完成证据，下一步从[01-01](../course_20h/unit_01_economic_thinking/01_scarcity_opportunity_cost.md)开始。
+当前完整材料是[10单元课程](../course_20h/README.md)，依次形成选择、市场、政策、企业与信息分析能力。精简诊断已完成；当前正式短课尚无个人完成证据，下一步从[01-01](../course_20h/unit_01_economic_thinking/01_scarcity_tradeoff.md)开始。单元 01 已拆分为 12 节 10–15 分钟微课 + 1 节复习课（kimi-k3 分支）。
 
 ## 五级能力阶梯
 

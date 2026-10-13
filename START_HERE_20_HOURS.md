@@ -4,7 +4,7 @@
 
 ## 今天只做这些
 
-打开[01-01：稀缺与机会成本](docs/course_20h/unit_01_economic_thinking/01_scarcity_opportunity_cost.md)，读完讲解和算例，自己做即时题，再展开答案。用一分钟解释“为什么机会成本不是把所有没选的方案相加”，记录在[工作簿](docs/course_20h/workbook.md)。如果这点已经稳定，按下一节导航继续。
+打开[01-01：为什么“免费”的晚上也很贵？](docs/course_20h/unit_01_economic_thinking/01_scarcity_tradeoff.md)，先看图，再读例子，自己做本课自测题，再展开答案。用一分钟解释“为什么稀缺的判断跟有没有钱无关”，记录在[工作簿](docs/course_20h/workbook.md)。如果这点已经稳定，按下一节导航继续。
 
 诊断已完成，详见[诊断报告](docs/00_learning_system/diagnostic_report.md)。不再从头进行一长串考试。
 
