@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+<title id="title">边际分析：每一小时单独投票</title>
+<desc id="desc">柱形图显示每再投入一小时的边际收益依次为300、180、90、50，边际成本恒为100的水平虚线。第1、2小时收益高于成本值得做，第3、4小时低于成本不值得做。</desc>
+<rect width="900" height="520" fill="#f8fafc"/>
+<g font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#0f172a">
+<text x="40" y="48" font-size="26" font-weight="700">Marginal analysis: each extra hour votes on its own</text>
+<text x="40" y="78" font-size="16" fill="#475569">Verification task. MB = marginal benefit of that hour; MC = marginal cost, constant at 100.</text>
+
+<line x1="90" y1="420" x2="850" y2="420" stroke="#334155" stroke-width="2"/>
+
+<rect x="150" y="180" width="120" height="240" fill="#0f766e"/>
+<text x="210" y="168" font-size="18" text-anchor="middle" fill="#0f766e">MB 300</text>
+<text x="210" y="446" font-size="16" text-anchor="middle">hour 1</text>
+
+<rect x="330" y="276" width="120" height="144" fill="#0f766e"/>
+<text x="390" y="264" font-size="18" text-anchor="middle" fill="#0f766e">MB 180</text>
+<text x="390" y="446" font-size="16" text-anchor="middle">hour 2</text>
+
+<rect x="510" y="348" width="120" height="72" fill="#b91c1c"/>
+<text x="570" y="336" font-size="18" text-anchor="middle" fill="#b91c1c">MB 90</text>
+<text x="570" y="446" font-size="16" text-anchor="middle">hour 3</text>
+
+<rect x="690" y="380" width="120" height="40" fill="#b91c1c"/>
+<text x="750" y="368" font-size="18" text-anchor="middle" fill="#b91c1c">MB 50</text>
+<text x="750" y="446" font-size="16" text-anchor="middle">hour 4</text>
+
+<line x1="90" y1="340" x2="850" y2="340" stroke="#d89a20" stroke-width="3" stroke-dasharray="10 6"/>
+<text x="845" y="330" font-size="17" fill="#d89a20" text-anchor="end">MC = 100</text>
+
+<text x="150" y="500" font-size="15" fill="#0f766e">Hours 1-2: MB &gt; MC, add them.</text>
+<text x="480" y="500" font-size="15" fill="#b91c1c">Hours 3-4: MB &lt; MC, stop. Best size = 2 hours.</text>
+</g></svg>

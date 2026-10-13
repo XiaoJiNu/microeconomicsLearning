@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+<title id="title">机会成本：最佳选择放弃了什么</title>
+<desc id="desc">三个互斥方案的净价值柱形图：课程500、兼职350、休息300。选择课程时，最佳被放弃方案是兼职350，它就是机会成本；不能把三个方案相加。</desc>
+<rect width="900" height="520" fill="#f8fafc"/>
+<g font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#0f172a">
+<text x="40" y="48" font-size="26" font-weight="700">Opportunity cost = value of the BEST forgone option</text>
+<text x="40" y="78" font-size="16" fill="#475569">Net value of each mutually exclusive plan for the same 2 hours (self-assessed, currency-equivalent)</text>
+
+<line x1="90" y1="420" x2="850" y2="420" stroke="#334155" stroke-width="2"/>
+
+<rect x="160" y="120" width="150" height="300" fill="#2563eb"/>
+<text x="235" y="108" font-size="19" text-anchor="middle" fill="#2563eb">500</text>
+<text x="235" y="448" font-size="17" text-anchor="middle">A Course (net)</text>
+
+<rect x="390" y="210" width="150" height="210" fill="#b91c1c"/>
+<text x="465" y="198" font-size="19" text-anchor="middle" fill="#b91c1c">350</text>
+<text x="465" y="448" font-size="17" text-anchor="middle">B Part-time (net)</text>
+
+<rect x="620" y="240" width="150" height="180" fill="#94a3b8"/>
+<text x="695" y="228" font-size="19" text-anchor="middle" fill="#475569">300</text>
+<text x="695" y="448" font-size="17" text-anchor="middle">C Rest (net)</text>
+
+<line x1="330" y1="210" x2="380" y2="210" stroke="#b91c1c" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="352" y="196" font-size="15" fill="#b91c1c" text-anchor="middle">best forgone</text>
+
+<text x="40" y="500" font-size="15" fill="#475569">Choose A: opportunity cost is B = 350, not B + C = 650. Only the best single alternative counts.</text>
+</g></svg>

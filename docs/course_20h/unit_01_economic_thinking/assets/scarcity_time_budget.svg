@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+<title id="title">稀缺：同一段时间只能使用一次</title>
+<desc id="desc">今晚两小时画成一条预算条。学习、兼职、休息三个方案各自都能占满整条两小时，但三者不能同时完整占有它。</desc>
+<rect width="900" height="520" fill="#f8fafc"/>
+<g font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#0f172a">
+<text x="40" y="48" font-size="26" font-weight="700">Scarcity: the same 2 hours, usable only once</text>
+<text x="40" y="78" font-size="16" fill="#475569">Tonight 19:00-21:00. One time budget, three mutually exclusive uses.</text>
+
+<text x="60" y="143" font-size="19">A  Study economics</text>
+<rect x="330" y="120" width="470" height="34" rx="6" fill="#2563eb"/>
+<text x="565" y="143" font-size="17" fill="#ffffff" text-anchor="middle">fills all 2 h</text>
+
+<text x="60" y="223" font-size="19">B  Part-time job</text>
+<rect x="330" y="200" width="470" height="34" rx="6" fill="#0f766e"/>
+<text x="565" y="223" font-size="17" fill="#ffffff" text-anchor="middle">fills all 2 h</text>
+
+<text x="60" y="303" font-size="19">C  Sports and rest</text>
+<rect x="330" y="280" width="470" height="34" rx="6" fill="#d89a20"/>
+<text x="565" y="303" font-size="17" fill="#ffffff" text-anchor="middle">fills all 2 h</text>
+
+<line x1="330" y1="340" x2="800" y2="340" stroke="#e2e8f0"/>
+<text x="330" y="378" font-size="17" fill="#b91c1c">A + B + C would need 6 h — the evening does not stretch.</text>
+<text x="330" y="412" font-size="17" fill="#334155">Choosing one means giving up the best of the other two.</text>
+<text x="40" y="482" font-size="15" fill="#475569">Scarcity = adding one use forces you to drop another use. It is not the same as being poor.</text>
+</g></svg>

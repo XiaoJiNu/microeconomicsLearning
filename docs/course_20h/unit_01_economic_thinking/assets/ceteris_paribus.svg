@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+<title id="title">其他条件不变：把同时发生的变化拆开</title>
+<desc id="desc">瀑布图：开学前60杯，单独提价2元减少20杯到40，新增顾客再增加30杯到70。观察到的总量变化是正10，但价格单独的作用是负20。</desc>
+<rect width="900" height="520" fill="#f8fafc"/>
+<g font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#0f172a">
+<text x="40" y="48" font-size="26" font-weight="700">Ceteris paribus: decompose simultaneous changes</text>
+<text x="40" y="78" font-size="16" fill="#475569">Cups per day. Price 6 to 8 (effect -20) and new customers arrive (effect +30) in the same week.</text>
+
+<line x1="90" y1="420" x2="850" y2="420" stroke="#334155" stroke-width="2"/>
+
+<rect x="120" y="240" width="110" height="180" fill="#2563eb"/>
+<text x="175" y="228" font-size="17" text-anchor="middle" fill="#1d4ed8">60</text>
+<text x="175" y="446" font-size="15" text-anchor="middle">before</text>
+
+<rect x="300" y="240" width="110" height="60" fill="#b91c1c"/>
+<text x="355" y="228" font-size="17" text-anchor="middle" fill="#b91c1c">-20</text>
+<text x="355" y="446" font-size="15" text-anchor="middle">price +2 alone</text>
+<line x1="230" y1="240" x2="300" y2="240" stroke="#94a3b8" stroke-dasharray="4 4"/>
+
+<rect x="480" y="210" width="110" height="90" fill="#0f766e"/>
+<text x="535" y="198" font-size="17" text-anchor="middle" fill="#0f766e">+30</text>
+<text x="535" y="446" font-size="15" text-anchor="middle">new customers</text>
+<line x1="410" y1="300" x2="480" y2="300" stroke="#94a3b8" stroke-dasharray="4 4"/>
+
+<rect x="660" y="210" width="110" height="210" fill="#2563eb"/>
+<text x="715" y="198" font-size="17" text-anchor="middle" fill="#1d4ed8">70</text>
+<text x="715" y="446" font-size="15" text-anchor="middle">after both</text>
+<line x1="590" y1="210" x2="660" y2="210" stroke="#94a3b8" stroke-dasharray="4 4"/>
+
+<rect x="150" y="478" width="620" height="34" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+<text x="460" y="500" font-size="15" text-anchor="middle" fill="#334155">Observed: 60 to 70, up 10. Price effect alone: -20. Both are true at the same time.</text>
+</g></svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+<title id="title">价格协调：谁买谁卖由各自的数值决定</title>
+<desc id="desc">左侧三根蓝柱是三位买者的支付意愿180、140、90；右侧三根绿柱是三份服务的新增成本60、110、160。虚线价格125。支付意愿高于价格且成本低于价格的前两单位成交，第三单位不成交。</desc>
+<rect width="900" height="520" fill="#f8fafc"/>
+<g font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#0f172a">
+<text x="40" y="48" font-size="26" font-weight="700">How one price coordinates strangers</text>
+<text x="40" y="78" font-size="16" fill="#475569">Buyers compare value with price; sellers compare price with cost. Price = 125 (dashed line).</text>
+
+<line x1="90" y1="400" x2="850" y2="400" stroke="#334155" stroke-width="2"/>
+<line x1="90" y1="250" x2="850" y2="250" stroke="#b91c1c" stroke-width="2.5" stroke-dasharray="10 6"/>
+<text x="845" y="240" font-size="17" fill="#b91c1c" text-anchor="end">P = 125</text>
+
+<text x="245" y="120" font-size="18" text-anchor="middle" font-weight="700" fill="#1d4ed8">Buyers: willingness to pay</text>
+<rect x="130" y="184" width="90" height="216" fill="#2563eb"/>
+<text x="175" y="174" font-size="16" text-anchor="middle" fill="#1d4ed8">180</text>
+<rect x="245" y="232" width="90" height="168" fill="#2563eb"/>
+<text x="290" y="222" font-size="16" text-anchor="middle" fill="#1d4ed8">140</text>
+<rect x="360" y="292" width="90" height="108" fill="#93c5fd"/>
+<text x="405" y="282" font-size="16" text-anchor="middle" fill="#475569">90</text>
+<text x="175" y="426" font-size="15" text-anchor="middle">buyer 1</text>
+<text x="290" y="426" font-size="15" text-anchor="middle">buyer 2</text>
+<text x="405" y="426" font-size="15" text-anchor="middle">buyer 3</text>
+
+<text x="655" y="120" font-size="18" text-anchor="middle" font-weight="700" fill="#166534">Sellers: added cost per unit</text>
+<rect x="540" y="328" width="90" height="72" fill="#0f766e"/>
+<text x="585" y="318" font-size="16" text-anchor="middle" fill="#0f766e">60</text>
+<rect x="655" y="268" width="90" height="132" fill="#0f766e"/>
+<text x="700" y="292" font-size="16" text-anchor="middle" fill="#ffffff">110</text>
+<rect x="770" y="208" width="90" height="192" fill="#99f6e4"/>
+<text x="815" y="198" font-size="16" text-anchor="middle" fill="#475569">160</text>
+<text x="585" y="426" font-size="15" text-anchor="middle">unit 1</text>
+<text x="700" y="426" font-size="15" text-anchor="middle">unit 2</text>
+<text x="815" y="426" font-size="15" text-anchor="middle">unit 3</text>
+
+<text x="175" y="470" font-size="15" fill="#0f766e">trade</text>
+<text x="290" y="470" font-size="15" fill="#0f766e">trade</text>
+<text x="405" y="470" font-size="15" fill="#b91c1c">no trade</text>
+<text x="655" y="470" font-size="15" fill="#334155">2 units traded; total gain = (180+140) - (60+110) = 150</text>
+<text x="40" y="505" font-size="14" fill="#475569">The 125 paid by buyers equals the 125 received by sellers: price divides the gain, it does not create it.</text>
+</g></svg>

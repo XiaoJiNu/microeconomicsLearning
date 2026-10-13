@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+<title id="title">相关不等于因果：三条路径都能产生同一个相关</title>
+<desc id="desc">因果示意图：培训与收入之间有问号箭头；能力动机同时指向培训和收入，是混杂因素；收入到培训有虚线反向箭头，表示高收入更能负担课程。三种路径都会让培训与收入一起变高。</desc>
+<defs><marker id="ar12" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7" fill="#334155"/></marker>
+<marker id="ar12r" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7" fill="#b91c1c"/></marker></defs>
+<rect width="900" height="520" fill="#f8fafc"/>
+<g font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#0f172a">
+<text x="40" y="48" font-size="26" font-weight="700">Correlation is one fact; causation is one of several stories</text>
+<text x="40" y="78" font-size="16" fill="#475569">Observed: people who took the training earn 20 percent more. Three stories all fit.</text>
+
+<rect x="330" y="110" width="240" height="64" rx="10" fill="#fef3c7"/>
+<text x="450" y="136" font-size="16" text-anchor="middle" font-weight="700" fill="#92600a">Ability / motivation</text>
+<text x="450" y="159" font-size="13" text-anchor="middle" fill="#92600a">confounding factor</text>
+
+<rect x="90" y="330" width="240" height="70" rx="10" fill="#dbeafe"/>
+<text x="210" y="358" font-size="16" text-anchor="middle" font-weight="700" fill="#1d4ed8">Take the training</text>
+<text x="210" y="381" font-size="13" text-anchor="middle" fill="#1d4ed8">group earns +20 percent</text>
+
+<rect x="570" y="330" width="240" height="70" rx="10" fill="#dcfce7"/>
+<text x="690" y="358" font-size="16" text-anchor="middle" font-weight="700" fill="#166534">Higher income</text>
+<text x="690" y="381" font-size="13" text-anchor="middle" fill="#166534">the outcome</text>
+
+<line x1="390" y1="176" x2="250" y2="322" stroke="#92600a" stroke-width="2.5" marker-end="url(#ar5)"/>
+<text x="270" y="240" font-size="13" fill="#92600a">pushes both</text>
+<line x1="510" y1="176" x2="650" y2="322" stroke="#92600a" stroke-width="2.5" marker-end="url(#ar5)"/>
+<text x="620" y="240" font-size="13" fill="#92600a">pushes both</text>
+
+<line x1="332" y1="352" x2="566" y2="352" stroke="#334155" stroke-width="3" marker-end="url(#ar12)"/>
+<text x="449" y="340" font-size="16" text-anchor="middle" fill="#334155" font-weight="700">causal effect?</text>
+
+<path d="M 566 385 L 332 385" stroke="#b91c1c" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#ar12r)"/>
+<text x="449" y="412" font-size="13" text-anchor="middle" fill="#b91c1c">reverse: higher income makes the course affordable</text>
+
+<text x="40" y="482" font-size="15" fill="#475569">Random assignment (RCT) breaks the confounder arrows by making groups comparable on average.</text>
+<text x="40" y="505" font-size="15" fill="#475569">Without it, propose rival stories and state what comparison would separate them.</text>
+</g></svg>
