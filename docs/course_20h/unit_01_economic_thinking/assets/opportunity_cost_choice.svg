@@ -1,27 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
-<title id="title">机会成本：最佳选择放弃了什么</title>
-<desc id="desc">三个互斥方案的净价值柱形图：课程500、兼职350、休息300。选择课程时，最佳被放弃方案是兼职350，它就是机会成本；不能把三个方案相加。</desc>
-<rect width="900" height="520" fill="#f8fafc"/>
-<g font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#0f172a">
-<text x="40" y="48" font-size="26" font-weight="700">Opportunity cost = value of the BEST forgone option</text>
-<text x="40" y="78" font-size="16" fill="#475569">Net value of each mutually exclusive plan for the same 2 hours (self-assessed, currency-equivalent)</text>
-
-<line x1="90" y1="420" x2="850" y2="420" stroke="#334155" stroke-width="2"/>
-
-<rect x="160" y="120" width="150" height="300" fill="#2563eb"/>
-<text x="235" y="108" font-size="19" text-anchor="middle" fill="#2563eb">500</text>
-<text x="235" y="448" font-size="17" text-anchor="middle">A Course (net)</text>
-
-<rect x="390" y="210" width="150" height="210" fill="#b91c1c"/>
-<text x="465" y="198" font-size="19" text-anchor="middle" fill="#b91c1c">350</text>
-<text x="465" y="448" font-size="17" text-anchor="middle">B Part-time (net)</text>
-
-<rect x="620" y="240" width="150" height="180" fill="#94a3b8"/>
-<text x="695" y="228" font-size="19" text-anchor="middle" fill="#475569">300</text>
-<text x="695" y="448" font-size="17" text-anchor="middle">C Rest (net)</text>
-
-<line x1="330" y1="210" x2="380" y2="210" stroke="#b91c1c" stroke-width="2" stroke-dasharray="6 5"/>
-<text x="352" y="196" font-size="15" fill="#b91c1c" text-anchor="middle">best forgone</text>
-
-<text x="40" y="500" font-size="15" fill="#475569">Choose A: opportunity cost is B = 350, not B + C = 650. Only the best single alternative counts.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-labelledby="t d">
+<title id="t">机会成本：最佳选择放弃了什么</title><desc id="d">同一两小时三个方案净值为500、350、300；选A的机会成本是B的350，不是B加C。</desc>
+<defs><filter id="wob" filterUnits="userSpaceOnUse" x="-20" y="-20" width="1000" height="640"><feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" seed="22" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="4.2"/></filter></defs>
+<rect width="960" height="600" fill="#fdf6e9"/>
+<g font-family="'Segoe Print','Ma Shan Zheng','Xingkai SC','STXingkai','Kaiti SC','STKaiti','KaiTi','Noto Sans CJK SC',cursive" fill="#3b3734">
+<rect x="40" y="51.76" width="635.04" height="17.6" fill="#ffe082" opacity="0.75" filter="url(#wob)"/>
+<text x="48" y="62" font-size="32" fill="#3b3734" text-anchor="start" font-weight="700">机会成本 Opportunity Cost ＝ 放弃的最好那个</text>
+<path d="M 42 72 q 307.52 8 631.04 0" fill="none" stroke="#3b3734" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#wob)"/>
+<rect x="70" y="130" width="250" height="180" rx="20" fill="#d6eaf8" stroke="#2471a3" stroke-width="3.5" filter="url(#wob)"/>
+<text x="92" y="172" font-size="24" fill="#2471a3" text-anchor="start" font-weight="700">A  学课程</text>
+<text x="92" y="232" font-size="18" fill="#7f8c8d" text-anchor="start" font-weight="500">净值</text>
+<text x="92" y="282" font-size="48" fill="#3b3734" text-anchor="start" font-weight="700">500</text>
+<text x="200" y="282" font-size="16" fill="#7f8c8d" text-anchor="start" font-weight="500">元（自评）</text>
+<rect x="370" y="130" width="250" height="180" rx="20" fill="#d5f5e3" stroke="#1e8449" stroke-width="3.5" filter="url(#wob)"/>
+<text x="392" y="172" font-size="24" fill="#1e8449" text-anchor="start" font-weight="700">B  兼职接单</text>
+<text x="392" y="232" font-size="18" fill="#7f8c8d" text-anchor="start" font-weight="500">净值</text>
+<text x="392" y="282" font-size="48" fill="#3b3734" text-anchor="start" font-weight="700">350</text>
+<text x="500" y="282" font-size="16" fill="#7f8c8d" text-anchor="start" font-weight="500">元（自评）</text>
+<rect x="670" y="130" width="250" height="180" rx="20" fill="#fdebd0" stroke="#e67e22" stroke-width="3.5" filter="url(#wob)"/>
+<text x="692" y="172" font-size="24" fill="#e67e22" text-anchor="start" font-weight="700">C  运动休息</text>
+<text x="692" y="232" font-size="18" fill="#7f8c8d" text-anchor="start" font-weight="500">净值</text>
+<text x="692" y="282" font-size="48" fill="#3b3734" text-anchor="start" font-weight="700">300</text>
+<text x="800" y="282" font-size="16" fill="#7f8c8d" text-anchor="start" font-weight="500">元（自评）</text>
+<path d="M 275 140 L 290.0 156.0 L 315 126.0" fill="none" stroke="#1e8449" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" filter="url(#wob)"/>
+<text x="262" y="116" font-size="18" fill="#1e8449" text-anchor="start" font-weight="700">选它</text>
+<ellipse cx="495" cy="220" rx="140" ry="108" fill="none" stroke="#c0392b" stroke-width="3.5" filter="url(#wob)"/>
+<text x="495" y="104" font-size="18" fill="#c0392b" text-anchor="middle" font-weight="700">放弃项里最好的</text>
+<rect x="90" y="360" width="780" height="96" rx="18" fill="white" stroke="#3b3734" stroke-width="3.5" filter="url(#wob)"/>
+<text x="120" y="400" font-size="23" fill="#3b3734" text-anchor="start" font-weight="700">选了 A：机会成本 = B 的 350</text>
+<text x="120" y="436" font-size="18" fill="#7f8c8d" text-anchor="start" font-weight="500">只算这一个，不是把放弃的都加起来</text>
+<line x1="674" y1="380" x2="706" y2="412" stroke="#c0392b" stroke-width="5" stroke-linecap="round" filter="url(#wob)"/>
+<line x1="674" y1="412" x2="706" y2="380" stroke="#c0392b" stroke-width="5" stroke-linecap="round" filter="url(#wob)"/>
+<text x="716" y="404" font-size="21" fill="#c0392b" text-anchor="start" font-weight="700">B + C = 650</text>
+<rect x="48" y="522" width="864" height="58" rx="18" fill="#fff3c4" stroke="#3b3734" stroke-width="3.5" filter="url(#wob)"/>
+<polygon points="78.0,538.0 81.4,546.3 90.4,547.0 83.6,552.8 85.6,561.5 78.0,556.9 70.4,561.5 72.4,552.8 65.6,547.0 74.6,546.3" fill="#e67e22" stroke="#3b3734" stroke-width="2" filter="url(#wob)"/>
+<text x="104" y="559" font-size="19.5" fill="#3b3734" text-anchor="start" font-weight="700">机会成本只数“放弃选项里最好的一个”——它从不是一串数字的和。</text>
 </g></svg>

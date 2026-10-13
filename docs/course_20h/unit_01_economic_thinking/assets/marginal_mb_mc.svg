@@ -1,32 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
-<title id="title">边际分析：每一小时单独投票</title>
-<desc id="desc">柱形图显示每再投入一小时的边际收益依次为300、180、90、50，边际成本恒为100的水平虚线。第1、2小时收益高于成本值得做，第3、4小时低于成本不值得做。</desc>
-<rect width="900" height="520" fill="#f8fafc"/>
-<g font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#0f172a">
-<text x="40" y="48" font-size="26" font-weight="700">Marginal analysis: each extra hour votes on its own</text>
-<text x="40" y="78" font-size="16" fill="#475569">Verification task. MB = marginal benefit of that hour; MC = marginal cost, constant at 100.</text>
-
-<line x1="90" y1="420" x2="850" y2="420" stroke="#334155" stroke-width="2"/>
-
-<rect x="150" y="180" width="120" height="240" fill="#0f766e"/>
-<text x="210" y="168" font-size="18" text-anchor="middle" fill="#0f766e">MB 300</text>
-<text x="210" y="446" font-size="16" text-anchor="middle">hour 1</text>
-
-<rect x="330" y="276" width="120" height="144" fill="#0f766e"/>
-<text x="390" y="264" font-size="18" text-anchor="middle" fill="#0f766e">MB 180</text>
-<text x="390" y="446" font-size="16" text-anchor="middle">hour 2</text>
-
-<rect x="510" y="348" width="120" height="72" fill="#b91c1c"/>
-<text x="570" y="336" font-size="18" text-anchor="middle" fill="#b91c1c">MB 90</text>
-<text x="570" y="446" font-size="16" text-anchor="middle">hour 3</text>
-
-<rect x="690" y="380" width="120" height="40" fill="#b91c1c"/>
-<text x="750" y="368" font-size="18" text-anchor="middle" fill="#b91c1c">MB 50</text>
-<text x="750" y="446" font-size="16" text-anchor="middle">hour 4</text>
-
-<line x1="90" y1="340" x2="850" y2="340" stroke="#d89a20" stroke-width="3" stroke-dasharray="10 6"/>
-<text x="845" y="330" font-size="17" fill="#d89a20" text-anchor="end">MC = 100</text>
-
-<text x="150" y="500" font-size="15" fill="#0f766e">Hours 1-2: MB &gt; MC, add them.</text>
-<text x="480" y="500" font-size="15" fill="#b91c1c">Hours 3-4: MB &lt; MC, stop. Best size = 2 hours.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-labelledby="t d">
+<title id="t">边际分析：每一小时单独投票</title><desc id="d">每小时边际收益依次为300、180、90、50，边际成本恒为100；前两小时值得做，后两小时停止。</desc>
+<defs><filter id="wob" filterUnits="userSpaceOnUse" x="-20" y="-20" width="1000" height="640"><feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" seed="44" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="4.2"/></filter></defs>
+<rect width="960" height="600" fill="#fdf6e9"/>
+<g font-family="'Segoe Print','Ma Shan Zheng','Xingkai SC','STXingkai','Kaiti SC','STKaiti','KaiTi','Noto Sans CJK SC',cursive" fill="#3b3734">
+<rect x="40" y="51.76" width="297.76" height="17.6" fill="#ffe082" opacity="0.75" filter="url(#wob)"/>
+<text x="48" y="62" font-size="32" fill="#3b3734" text-anchor="start" font-weight="700">边际分析：每一小时，单独投票</text>
+<path d="M 42 72 q 138.88 8 293.76 0" fill="none" stroke="#3b3734" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#wob)"/>
+<line x1="80" y1="440" x2="900" y2="440" stroke="#3b3734" stroke-width="4" stroke-linecap="round" filter="url(#wob)"/>
+<rect x="130" y="140" width="110" height="300" rx="10" fill="#d5f5e3" stroke="#1e8449" stroke-width="3.5" filter="url(#wob)"/>
+<text x="185" y="122" font-size="20" fill="#1e8449" text-anchor="middle" font-weight="700">MB 300</text>
+<text x="185" y="474" font-size="19" fill="#3b3734" text-anchor="middle" font-weight="500">第 1 小时</text>
+<path d="M 169 84 L 181.0 96.8 L 201 72.8" fill="none" stroke="#1e8449" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" filter="url(#wob)"/>
+<text x="185" y="56" font-size="20" fill="#1e8449" text-anchor="middle" font-weight="700">加！</text>
+<rect x="320" y="260" width="110" height="180" rx="10" fill="#d5f5e3" stroke="#1e8449" stroke-width="3.5" filter="url(#wob)"/>
+<text x="375" y="242" font-size="20" fill="#1e8449" text-anchor="middle" font-weight="700">MB 180</text>
+<text x="375" y="474" font-size="19" fill="#3b3734" text-anchor="middle" font-weight="500">第 2 小时</text>
+<path d="M 359 204 L 371.0 216.8 L 391 192.8" fill="none" stroke="#1e8449" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" filter="url(#wob)"/>
+<text x="375" y="176" font-size="20" fill="#1e8449" text-anchor="middle" font-weight="700">加！</text>
+<rect x="510" y="350" width="110" height="90" rx="10" fill="#e9e7e4" stroke="#7f8c8d" stroke-width="3.5" filter="url(#wob)"/>
+<text x="565" y="332" font-size="20" fill="#7f8c8d" text-anchor="middle" font-weight="700">MB 90</text>
+<text x="565" y="474" font-size="19" fill="#3b3734" text-anchor="middle" font-weight="500">第 3 小时</text>
+<line x1="550" y1="273" x2="580" y2="303" stroke="#c0392b" stroke-width="5" stroke-linecap="round" filter="url(#wob)"/>
+<line x1="550" y1="303" x2="580" y2="273" stroke="#c0392b" stroke-width="5" stroke-linecap="round" filter="url(#wob)"/>
+<text x="565" y="254" font-size="20" fill="#c0392b" text-anchor="middle" font-weight="700">停！</text>
+<rect x="700" y="390" width="110" height="50" rx="10" fill="#e9e7e4" stroke="#7f8c8d" stroke-width="3.5" filter="url(#wob)"/>
+<text x="755" y="372" font-size="20" fill="#7f8c8d" text-anchor="middle" font-weight="700">MB 50</text>
+<text x="755" y="474" font-size="19" fill="#3b3734" text-anchor="middle" font-weight="500">第 4 小时</text>
+<line x1="740" y1="313" x2="770" y2="343" stroke="#c0392b" stroke-width="5" stroke-linecap="round" filter="url(#wob)"/>
+<line x1="740" y1="343" x2="770" y2="313" stroke="#c0392b" stroke-width="5" stroke-linecap="round" filter="url(#wob)"/>
+<text x="755" y="294" font-size="20" fill="#c0392b" text-anchor="middle" font-weight="700">停！</text>
+<line x1="90" y1="340" x2="890" y2="340" stroke="#c0392b" stroke-width="4" stroke-linecap="round" stroke-dasharray="14 10" filter="url(#wob)"/>
+<line x1="640" y1="150" x2="716" y2="150" stroke="#c0392b" stroke-width="4" stroke-linecap="round" stroke-dasharray="12 8" filter="url(#wob)"/>
+<text x="728" y="158" font-size="20" fill="#c0392b" text-anchor="start" font-weight="700">MC = 100（恒定）</text>
+<rect x="48" y="522" width="864" height="58" rx="18" fill="#fff3c4" stroke="#3b3734" stroke-width="3.5" filter="url(#wob)"/>
+<polygon points="78.0,538.0 81.4,546.3 90.4,547.0 83.6,552.8 85.6,561.5 78.0,556.9 70.4,561.5 72.4,552.8 65.6,547.0 74.6,546.3" fill="#e67e22" stroke="#3b3734" stroke-width="2" filter="url(#wob)"/>
+<text x="104" y="559" font-size="19.5" fill="#3b3734" text-anchor="start" font-weight="700">MB &gt; MC 就再加一单位；MB &lt; MC 就停——最优工作量是 2 小时。</text>
 </g></svg>

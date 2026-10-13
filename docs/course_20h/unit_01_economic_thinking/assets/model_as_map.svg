@@ -1,35 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
-<title id="title">模型如地图：为回答问题而省略</title>
-<desc id="desc">左侧现实云里写着收入、天气、竞品价格、口味、心情、库存等许多因素；中间漏斗写着只保留回答问题所需的因素；右侧模型卡片写着需求关系Q等于120减10P和一条向下的小直线。</desc>
-<defs><marker id="ar7" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7" fill="#334155"/></marker></defs>
-<rect width="900" height="520" fill="#f8fafc"/>
-<g font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#0f172a">
-<text x="40" y="48" font-size="26" font-weight="700">A model is a map: useful because it leaves things out</text>
-<text x="40" y="78" font-size="16" fill="#475569">Question: how does one coffee shop price change affect planned purchases?</text>
-
-<rect x="40" y="120" width="280" height="300" rx="14" fill="#e2e8f0"/>
-<text x="190" y="152" font-size="18" text-anchor="middle" font-weight="700" fill="#334155">Reality (messy)</text>
-<text x="70" y="196" font-size="15" fill="#475569">income, weather, rivals,</text>
-<text x="70" y="222" font-size="15" fill="#475569">taste, mood, queue length,</text>
-<text x="70" y="248" font-size="15" fill="#475569">machine capacity, beans,</text>
-<text x="70" y="274" font-size="15" fill="#475569">rent, marketing, season,</text>
-<text x="70" y="300" font-size="15" fill="#475569">habits, health, trends ...</text>
-<text x="70" y="344" font-size="14" text-anchor="start" fill="#92600a">too much to compute</text>
-<text x="70" y="368" font-size="14" fill="#92600a">directly</text>
-
-<line x1="328" y1="270" x2="432" y2="270" stroke="#334155" stroke-width="2.5" marker-end="url(#ar7)"/>
-<text x="378" y="250" font-size="11" text-anchor="middle" fill="#334155">keep only what</text>
-<text x="378" y="298" font-size="11" text-anchor="middle" fill="#334155">answers the question</text>
-
-<rect x="440" y="120" width="420" height="300" rx="14" fill="#ffffff" stroke="#0f766e" stroke-width="2"/>
-<text x="650" y="152" font-size="18" text-anchor="middle" font-weight="700" fill="#0f766e">Model (small on purpose)</text>
-<text x="650" y="200" font-size="22" text-anchor="middle" fill="#0f172a">Q = 120 - 10 P,  0 to 12</text>
-<text x="650" y="232" font-size="14" text-anchor="middle" fill="#475569">P: price per cup (input, exogenous here)</text>
-<text x="650" y="256" font-size="14" text-anchor="middle" fill="#475569">Q: planned cups per day (output)</text>
-<text x="650" y="280" font-size="14" text-anchor="middle" fill="#475569">120: intercept;  10: cups lost per +1 price</text>
-<line x1="490" y1="320" x2="810" y2="380" stroke="#2563eb" stroke-width="3"/>
-<text x="500" y="310" font-size="13" fill="#2563eb">demand relation (teaching example)</text>
-<text x="650" y="406" font-size="14" text-anchor="middle" fill="#b91c1c">fails outside its range: P = 20 gives negative Q</text>
-
-<text x="40" y="482" font-size="15" fill="#475569">A map that showed every crack would be useless. Same for models: omission is a feature, judged by the question.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-labelledby="t d">
+<title id="t">模型如地图：为回答问题而省略</title><desc id="d">现实包含收入天气心情等太多变量；模型只保留价格与数量关系Q等于120减10P，超出范围会失效。</desc>
+<defs><filter id="wob" filterUnits="userSpaceOnUse" x="-20" y="-20" width="1000" height="640"><feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" seed="77" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="4.2"/></filter></defs>
+<rect width="960" height="600" fill="#fdf6e9"/>
+<g font-family="'Segoe Print','Ma Shan Zheng','Xingkai SC','STXingkai','Kaiti SC','STKaiti','KaiTi','Noto Sans CJK SC',cursive" fill="#3b3734">
+<rect x="40" y="51.76" width="297.76" height="17.6" fill="#ffe082" opacity="0.75" filter="url(#wob)"/>
+<text x="48" y="62" font-size="32" fill="#3b3734" text-anchor="start" font-weight="700">模型是地图：有用，正因为省略</text>
+<path d="M 42 72 q 138.88 8 293.76 0" fill="none" stroke="#3b3734" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#wob)"/>
+<text x="480" y="112" font-size="20" fill="#3b3734" text-anchor="middle" font-weight="700">问题：咖啡店涨 1 元，每天少卖几杯？</text>
+<rect x="46" y="140" width="330" height="300" rx="20" fill="#fadbd8" stroke="#c0392b" stroke-width="3.5" filter="url(#wob)"/>
+<text x="211" y="178" font-size="23" fill="#c0392b" text-anchor="middle" font-weight="700">现实（一团乱）</text>
+<text x="211" y="224" font-size="17" fill="#3b3734" text-anchor="middle" font-weight="500" transform="rotate(1 211 224)">收入  天气  对手  心情</text>
+<text x="211" y="264" font-size="17" fill="#3b3734" text-anchor="middle" font-weight="500" transform="rotate(-1 211 264)">排队  机器  豆子  房租</text>
+<text x="211" y="304" font-size="17" fill="#3b3734" text-anchor="middle" font-weight="500" transform="rotate(1 211 304)">营销  季节  习惯  健康</text>
+<text x="211" y="344" font-size="17" fill="#3b3734" text-anchor="middle" font-weight="500" transform="rotate(-1 211 344)">潮流动向  库存  汇率</text>
+<text x="211" y="384" font-size="17" fill="#3b3734" text-anchor="middle" font-weight="500" transform="rotate(1 211 384)">…… 算不过来！</text>
+<path d="M 410 200 L 500 260 L 410 320 Z" fill="#fcf3cf" stroke="#e67e22" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#wob)"/>
+<line x1="500" y1="260" x2="574" y2="260" stroke="#3b3734" stroke-width="4" stroke-linecap="round" filter="url(#wob)"/>
+<path d="M 559.5 266.8 L 574 260 L 559.5 253.2" fill="none" stroke="#3b3734" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" filter="url(#wob)"/>
+<text x="455" y="176" font-size="16" fill="#e67e22" text-anchor="middle" font-weight="700">只留回答</text>
+<text x="455" y="356" font-size="16" fill="#e67e22" text-anchor="middle" font-weight="700">问题的变量</text>
+<rect x="590" y="140" width="330" height="300" rx="20" fill="#d6eaf8" stroke="#2471a3" stroke-width="3.5" filter="url(#wob)"/>
+<text x="755" y="178" font-size="23" fill="#2471a3" text-anchor="middle" font-weight="700">模型（故意很小）</text>
+<text x="755" y="238" font-size="27" fill="#3b3734" text-anchor="middle" font-weight="700">Q = 120 − 10 × P</text>
+<text x="622" y="292" font-size="17" fill="#3b3734" text-anchor="start" font-weight="500">P：每杯价格（输入）</text>
+<text x="622" y="324" font-size="17" fill="#3b3734" text-anchor="start" font-weight="500">Q：每天计划杯数（输出）</text>
+<text x="622" y="356" font-size="17" fill="#3b3734" text-anchor="start" font-weight="500">10：每涨 1 元，少卖 10 杯</text>
+<text x="755" y="412" font-size="16.5" fill="#c0392b" text-anchor="middle" font-weight="700">超出范围会失效：P = 20 → Q &lt; 0</text>
+<rect x="48" y="522" width="864" height="58" rx="18" fill="#fff3c4" stroke="#3b3734" stroke-width="3.5" filter="url(#wob)"/>
+<polygon points="78.0,538.0 81.4,546.3 90.4,547.0 83.6,552.8 85.6,561.5 78.0,556.9 70.4,561.5 72.4,552.8 65.6,547.0 74.6,546.3" fill="#e67e22" stroke="#3b3734" stroke-width="2" filter="url(#wob)"/>
+<text x="104" y="559" font-size="19.5" fill="#3b3734" text-anchor="start" font-weight="700">画出每条裂缝的地图没有用——省略是特性，好坏由它要回答的问题决定。</text>
 </g></svg>

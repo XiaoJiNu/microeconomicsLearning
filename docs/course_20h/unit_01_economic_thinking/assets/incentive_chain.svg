@@ -1,40 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
-<title id="title">激励链条：规则改变相对得失，相对得失改变行为</title>
-<desc id="desc">四个方框依次相连：规则变化（奖金按样本总数）到相对得失变化（普通样本省力且同样计奖）到行为响应（普通场景90升到190，罕见场景仍是10）到目标偏离（总数翻倍，罕见场景覆盖没变）。</desc>
-<defs><marker id="ar5" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7" fill="#334155"/></marker></defs>
-<rect width="900" height="520" fill="#f8fafc"/>
-<g font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#0f172a">
-<text x="40" y="48" font-size="26" font-weight="700">Incentives: rule to payoff, payoff to behavior</text>
-<text x="40" y="78" font-size="16" fill="#475569">Annotation team case: bonus tied to total submitted samples.</text>
-
-<rect x="40" y="150" width="185" height="110" rx="10" fill="#dbeafe"/>
-<text x="132" y="180" font-size="16" text-anchor="middle" font-weight="700" fill="#1d4ed8">1. Rule change</text>
-<text x="132" y="206" font-size="14" text-anchor="middle" fill="#1d4ed8">bonus per total</text>
-<text x="132" y="228" font-size="14" text-anchor="middle" fill="#1d4ed8">sample count</text>
-
-<line x1="228" y1="205" x2="258" y2="205" stroke="#334155" stroke-width="2.5" marker-end="url(#ar5)"/>
-
-<rect x="262" y="150" width="185" height="110" rx="10" fill="#ccfbf1"/>
-<text x="354" y="180" font-size="16" text-anchor="middle" font-weight="700" fill="#0f766e">2. Relative payoff</text>
-<text x="354" y="206" font-size="14" text-anchor="middle" fill="#0f766e">easy scenes: same pay,</text>
-<text x="354" y="228" font-size="14" text-anchor="middle" fill="#0f766e">much less effort</text>
-
-<line x1="450" y1="205" x2="480" y2="205" stroke="#334155" stroke-width="2.5" marker-end="url(#ar5)"/>
-
-<rect x="484" y="150" width="185" height="110" rx="10" fill="#fef3c7"/>
-<text x="576" y="180" font-size="16" text-anchor="middle" font-weight="700" fill="#92600a">3. Behavior shifts</text>
-<text x="576" y="206" font-size="14" text-anchor="middle" fill="#92600a">common scenes 90 to 190</text>
-<text x="576" y="228" font-size="14" text-anchor="middle" fill="#92600a">rare scenes stay 10</text>
-
-<line x1="672" y1="205" x2="702" y2="205" stroke="#334155" stroke-width="2.5" marker-end="url(#ar5)"/>
-
-<rect x="706" y="150" width="160" height="110" rx="10" fill="#fee2e2"/>
-<text x="786" y="180" font-size="16" text-anchor="middle" font-weight="700" fill="#b91c1c">4. Goal drift</text>
-<text x="786" y="206" font-size="14" text-anchor="middle" fill="#b91c1c">total +100 percent,</text>
-<text x="786" y="228" font-size="14" text-anchor="middle" fill="#b91c1c">rare coverage +0</text>
-
-<rect x="150" y="330" width="600" height="96" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
-<text x="450" y="362" font-size="17" text-anchor="middle" font-weight="700">The metric went up. The goal did not move.</text>
-<text x="450" y="392" font-size="15" text-anchor="middle" fill="#475569">People respond to relative payoffs, not to what you hoped they would do.</text>
-<text x="450" y="414" font-size="15" text-anchor="middle" fill="#475569">Separate the true goal, the proxy metric, and the behavior it rewards.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-labelledby="t d">
+<title id="t">激励链条：规则改变相对得失</title><desc id="d">奖金按提交总数发放后，简单场景标注量从90涨到190而稀有场景仍为10，指标上升目标未动。</desc>
+<defs><filter id="wob" filterUnits="userSpaceOnUse" x="-20" y="-20" width="1000" height="640"><feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" seed="55" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="4.2"/></filter></defs>
+<rect width="960" height="600" fill="#fdf6e9"/>
+<g font-family="'Segoe Print','Ma Shan Zheng','Xingkai SC','STXingkai','Kaiti SC','STKaiti','KaiTi','Noto Sans CJK SC',cursive" fill="#3b3734">
+<rect x="40" y="51.76" width="496.15999999999997" height="17.6" fill="#ffe082" opacity="0.75" filter="url(#wob)"/>
+<text x="48" y="62" font-size="32" fill="#3b3734" text-anchor="start" font-weight="700">激励 Incentives：改一个指标，人就会变</text>
+<path d="M 42 72 q 238.07999999999998 8 492.15999999999997 0" fill="none" stroke="#3b3734" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#wob)"/>
+<circle cx="62" cy="138" r="20" fill="white" stroke="#2471a3" stroke-width="3.5" filter="url(#wob)"/>
+<text x="62" y="146" font-size="24" fill="#2471a3" text-anchor="middle" font-weight="700">1</text>
+<rect x="36" y="168" width="208" height="190" rx="18" fill="#d6eaf8" stroke="#2471a3" stroke-width="3.5" filter="url(#wob)"/>
+<text x="140" y="214" font-size="22" fill="#2471a3" text-anchor="middle" font-weight="700">规则变了</text>
+<text x="140" y="262" font-size="16.5" fill="#3b3734" text-anchor="middle" font-weight="500">奖金按</text>
+<text x="140" y="296" font-size="16.5" fill="#3b3734" text-anchor="middle" font-weight="500">提交样本总数发</text>
+<line x1="244" y1="262" x2="274" y2="262" stroke="#3b3734" stroke-width="3.5" stroke-linecap="round" filter="url(#wob)"/>
+<path d="M 259.5 268.8 L 274 262 L 259.5 255.2" fill="none" stroke="#3b3734" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#wob)"/>
+<circle cx="302" cy="138" r="20" fill="white" stroke="#7d3c98" stroke-width="3.5" filter="url(#wob)"/>
+<text x="302" y="146" font-size="24" fill="#7d3c98" text-anchor="middle" font-weight="700">2</text>
+<rect x="276" y="168" width="208" height="190" rx="18" fill="#e8daef" stroke="#7d3c98" stroke-width="3.5" filter="url(#wob)"/>
+<text x="380" y="214" font-size="22" fill="#7d3c98" text-anchor="middle" font-weight="700">相对得失</text>
+<text x="380" y="262" font-size="16.5" fill="#3b3734" text-anchor="middle" font-weight="500">简单场景：同样的钱，</text>
+<text x="380" y="296" font-size="16.5" fill="#3b3734" text-anchor="middle" font-weight="500">省很多力气</text>
+<line x1="484" y1="262" x2="514" y2="262" stroke="#3b3734" stroke-width="3.5" stroke-linecap="round" filter="url(#wob)"/>
+<path d="M 499.5 268.8 L 514 262 L 499.5 255.2" fill="none" stroke="#3b3734" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#wob)"/>
+<circle cx="542" cy="138" r="20" fill="white" stroke="#e67e22" stroke-width="3.5" filter="url(#wob)"/>
+<text x="542" y="146" font-size="24" fill="#e67e22" text-anchor="middle" font-weight="700">3</text>
+<rect x="516" y="168" width="208" height="190" rx="18" fill="#fdebd0" stroke="#e67e22" stroke-width="3.5" filter="url(#wob)"/>
+<text x="620" y="214" font-size="22" fill="#e67e22" text-anchor="middle" font-weight="700">行为改变</text>
+<text x="620" y="262" font-size="16.5" fill="#3b3734" text-anchor="middle" font-weight="500">常见场景 90 → 190</text>
+<text x="620" y="296" font-size="16.5" fill="#3b3734" text-anchor="middle" font-weight="500">稀有场景 仍然 10</text>
+<line x1="724" y1="262" x2="754" y2="262" stroke="#3b3734" stroke-width="3.5" stroke-linecap="round" filter="url(#wob)"/>
+<path d="M 739.5 268.8 L 754 262 L 739.5 255.2" fill="none" stroke="#3b3734" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#wob)"/>
+<circle cx="782" cy="138" r="20" fill="white" stroke="#c0392b" stroke-width="3.5" filter="url(#wob)"/>
+<text x="782" y="146" font-size="24" fill="#c0392b" text-anchor="middle" font-weight="700">4</text>
+<rect x="756" y="168" width="208" height="190" rx="18" fill="#fadbd8" stroke="#c0392b" stroke-width="3.5" filter="url(#wob)"/>
+<text x="860" y="214" font-size="22" fill="#c0392b" text-anchor="middle" font-weight="700">目标漂移</text>
+<text x="860" y="262" font-size="16.5" fill="#3b3734" text-anchor="middle" font-weight="500">总量 +100%</text>
+<text x="860" y="296" font-size="16.5" fill="#3b3734" text-anchor="middle" font-weight="500">稀有覆盖 +0</text>
+<text x="480" y="420" font-size="26" fill="#c0392b" text-anchor="middle" font-weight="700">⚠ 指标涨了，目标没动</text>
+<path d="M 200 442 q 280 22 560 0" fill="none" stroke="#c0392b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#wob)"/>
+<rect x="48" y="522" width="864" height="58" rx="18" fill="#fff3c4" stroke="#3b3734" stroke-width="3.5" filter="url(#wob)"/>
+<polygon points="78.0,538.0 81.4,546.3 90.4,547.0 83.6,552.8 85.6,561.5 78.0,556.9 70.4,561.5 72.4,552.8 65.6,547.0 74.6,546.3" fill="#e67e22" stroke="#3b3734" stroke-width="2" filter="url(#wob)"/>
+<text x="104" y="559" font-size="19.5" fill="#3b3734" text-anchor="start" font-weight="700">人响应的是相对得失——分清真目标、代理指标、和被奖励的行为。</text>
 </g></svg>
