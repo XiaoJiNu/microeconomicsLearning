@@ -1,44 +1,76 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-labelledby="t d">
-<title id="t">稀缺：同一段时间只能用一次</title><desc id="d">今晚两小时被三个互斥方案争夺：学经济学、兼职、运动休息，每个方案都占满两小时，不可兼得。</desc>
-<defs><filter id="wob" filterUnits="userSpaceOnUse" x="-20" y="-20" width="1000" height="640"><feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" seed="11" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="4.2"/></filter></defs>
-<rect width="960" height="600" fill="#fdf6e9"/>
-<g font-family="'Segoe Print','Ma Shan Zheng','Xingkai SC','STXingkai','Kaiti SC','STKaiti','KaiTi','Noto Sans CJK SC',cursive" fill="#3b3734">
-<rect x="40" y="51.76" width="476.32" height="17.6" fill="#ffe082" opacity="0.75" filter="url(#wob)"/>
-<text x="48" y="62" font-size="32" fill="#3b3734" text-anchor="start" font-weight="700">稀缺 Scarcity：同一段时间，只能用一次</text>
-<path d="M 42 72 q 228.16 8 472.32 0" fill="none" stroke="#3b3734" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#wob)"/>
-<circle cx="872" cy="66" r="30" fill="white" stroke="#3b3734" stroke-width="3.5" filter="url(#wob)"/>
-<line x1="872" y1="66" x2="872" y2="46" stroke="#3b3734" stroke-width="3" stroke-linecap="round" filter="url(#wob)"/>
-<line x1="872" y1="66" x2="888" y2="74" stroke="#3b3734" stroke-width="3" stroke-linecap="round" filter="url(#wob)"/>
-<line x1="150" y1="118" x2="810" y2="118" stroke="#3b3734" stroke-width="4" stroke-linecap="round" filter="url(#wob)"/>
-<line x1="150" y1="106" x2="150" y2="130" stroke="#3b3734" stroke-width="4" stroke-linecap="round" filter="url(#wob)"/>
-<line x1="810" y1="106" x2="810" y2="130" stroke="#3b3734" stroke-width="4" stroke-linecap="round" filter="url(#wob)"/>
-<text x="480" y="104" font-size="21" fill="#3b3734" text-anchor="middle" font-weight="700">今晚 19:00 – 21:00 · 一共 2 小时</text>
-<rect x="190" y="160" width="470" height="76" rx="20" fill="#d6eaf8" stroke="#2471a3" stroke-width="3.5" filter="url(#wob)"/>
-<circle cx="160" cy="198" r="24" fill="white" stroke="#2471a3" stroke-width="3.5" filter="url(#wob)"/>
-<text x="160" y="207" font-size="26" fill="#2471a3" text-anchor="middle" font-weight="700">A</text>
-<text x="214" y="196" font-size="23" fill="#3b3734" text-anchor="start" font-weight="700">学经济学</text>
-<text x="214" y="222" font-size="17" fill="#7f8c8d" text-anchor="start" font-weight="500">占满全部 2 小时</text>
-<rect x="190" y="262" width="470" height="76" rx="20" fill="#d5f5e3" stroke="#1e8449" stroke-width="3.5" filter="url(#wob)"/>
-<circle cx="160" cy="300" r="24" fill="white" stroke="#1e8449" stroke-width="3.5" filter="url(#wob)"/>
-<text x="160" y="309" font-size="26" fill="#1e8449" text-anchor="middle" font-weight="700">B</text>
-<text x="214" y="298" font-size="23" fill="#3b3734" text-anchor="start" font-weight="700">接一单兼职</text>
-<text x="214" y="324" font-size="17" fill="#7f8c8d" text-anchor="start" font-weight="500">占满全部 2 小时</text>
-<rect x="190" y="364" width="470" height="76" rx="20" fill="#fdebd0" stroke="#e67e22" stroke-width="3.5" filter="url(#wob)"/>
-<circle cx="160" cy="402" r="24" fill="white" stroke="#e67e22" stroke-width="3.5" filter="url(#wob)"/>
-<text x="160" y="411" font-size="26" fill="#e67e22" text-anchor="middle" font-weight="700">C</text>
-<text x="214" y="400" font-size="23" fill="#3b3734" text-anchor="start" font-weight="700">运动 + 休息</text>
-<text x="214" y="426" font-size="17" fill="#7f8c8d" text-anchor="start" font-weight="500">占满全部 2 小时</text>
-<text x="700" y="210" font-size="23" fill="#c0392b" text-anchor="start" font-weight="700">A + B + C</text>
-<text x="700" y="240" font-size="23" fill="#c0392b" text-anchor="start" font-weight="700">需要 6 小时</text>
-<text x="700" y="278" font-size="19" fill="#c0392b" text-anchor="start" font-weight="500">这个晚上</text>
-<text x="700" y="304" font-size="19" fill="#c0392b" text-anchor="start" font-weight="500">不会变长</text>
-<line x1="852" y1="198" x2="904" y2="250" stroke="#c0392b" stroke-width="5" stroke-linecap="round" filter="url(#wob)"/>
-<line x1="852" y1="250" x2="904" y2="198" stroke="#c0392b" stroke-width="5" stroke-linecap="round" filter="url(#wob)"/>
-<line x1="690" y1="320" x2="672" y2="320" stroke="#c0392b" stroke-width="3" stroke-linecap="round" filter="url(#wob)"/>
-<path d="M 686.5 313.2 L 672 320 L 686.5 326.8" fill="none" stroke="#c0392b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#wob)"/>
-<text x="700" y="350" font-size="18" fill="#3b3734" text-anchor="start" font-weight="500">选了 A，</text>
-<text x="700" y="374" font-size="18" fill="#3b3734" text-anchor="start" font-weight="500">B、C 就消失了</text>
-<rect x="48" y="522" width="864" height="58" rx="18" fill="#fff3c4" stroke="#3b3734" stroke-width="3.5" filter="url(#wob)"/>
-<polygon points="78.0,538.0 81.4,546.3 90.4,547.0 83.6,552.8 85.6,561.5 78.0,556.9 70.4,561.5 72.4,552.8 65.6,547.0 74.6,546.3" fill="#e67e22" stroke="#3b3734" stroke-width="2" filter="url(#wob)"/>
-<text x="104" y="559" font-size="19.5" fill="#3b3734" text-anchor="start" font-weight="700">选一个 = 放弃另外两个里最好的那个。稀缺不是穷，是用途互斥。</text>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="t d">
+  <title id="t">权衡取舍的三个层次</title>
+  <desc id="d">个人时间、家庭收入、社会资源三个层面的权衡取舍示例：选择一种用途就要放弃另一种用途。</desc>
+
+  <!-- 背景 -->
+  <rect width="900" height="560" rx="18" fill="#fdfcf8"/>
+  <rect x="1" y="1" width="898" height="558" rx="17" fill="none" stroke="#e7e2d6" stroke-width="2"/>
+
+  <!-- 字体统一 -->
+  <g font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif">
+
+    <!-- 标题区 -->
+    <text x="450" y="52" text-anchor="middle" font-size="15" fill="#b45309" letter-spacing="4">原理一 · 人们面临权衡取舍</text>
+    <text x="450" y="88" text-anchor="middle" font-size="30" font-weight="700" fill="#1f2937">选了 A，就意味着放弃 B</text>
+
+    <!-- 格言胶囊 -->
+    <rect x="330" y="108" width="240" height="36" rx="18" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="450" y="132" text-anchor="middle" font-size="16" font-weight="600" fill="#92400e">“天下没有免费的午餐”</text>
+
+    <!-- ===== 第一行：个人 ===== -->
+    <rect x="50" y="168" width="800" height="96" rx="12" fill="#ffffff" stroke="#e7e2d6" stroke-width="1.5"/>
+    <rect x="74" y="192" width="88" height="48" rx="10" fill="#dbeafe"/>
+    <text x="118" y="214" text-anchor="middle" font-size="16" font-weight="700" fill="#1d4ed8">个人</text>
+    <text x="118" y="233" text-anchor="middle" font-size="12" fill="#3b82f6">1 小时</text>
+    <text x="186" y="200" font-size="15" fill="#374151">一小时用来<tspan font-weight="700" fill="#1d4ed8">学经济学</tspan>，就不能同时用来：</text>
+    <rect x="186" y="214" width="118" height="34" rx="17" fill="#f3f4f6" stroke="#d1d5db"/>
+    <text x="245" y="236" text-anchor="middle" font-size="14" fill="#4b5563">学心理学</text>
+    <rect x="316" y="214" width="100" height="34" rx="17" fill="#f3f4f6" stroke="#d1d5db"/>
+    <text x="366" y="236" text-anchor="middle" font-size="14" fill="#4b5563">打个盹</text>
+    <rect x="428" y="214" width="100" height="34" rx="17" fill="#f3f4f6" stroke="#d1d5db"/>
+    <text x="478" y="236" text-anchor="middle" font-size="14" fill="#4b5563">骑车</text>
+    <rect x="540" y="214" width="130" height="34" rx="17" fill="#f3f4f6" stroke="#d1d5db"/>
+    <text x="605" y="236" text-anchor="middle" font-size="14" fill="#4b5563">兼职赚零花钱</text>
+    <text x="826" y="236" text-anchor="end" font-size="13" fill="#9ca3af">用途互斥</text>
+
+    <!-- ===== 第二行：家庭 ===== -->
+    <rect x="50" y="282" width="800" height="96" rx="12" fill="#ffffff" stroke="#e7e2d6" stroke-width="1.5"/>
+    <rect x="74" y="306" width="88" height="48" rx="10" fill="#ccfbf1"/>
+    <text x="118" y="328" text-anchor="middle" font-size="16" font-weight="700" fill="#0f766e">家庭</text>
+    <text x="118" y="347" text-anchor="middle" font-size="12" fill="#14b8a6">1 美元</text>
+    <text x="186" y="314" font-size="15" fill="#374151">收入多花 1 美元在<tspan font-weight="700" fill="#0f766e">食物 · 衣物 · 度假</tspan>上，</text>
+    <text x="186" y="338" font-size="15" fill="#374151">就要在<tspan font-weight="700" fill="#0f766e">退休储蓄 · 子女教育储蓄</tspan>上少花 1 美元</text>
+    <text x="826" y="350" text-anchor="end" font-size="13" fill="#9ca3af">此消彼长</text>
+
+    <!-- ===== 第三行：社会 ===== -->
+    <rect x="50" y="396" width="800" height="108" rx="12" fill="#ffffff" stroke="#e7e2d6" stroke-width="1.5"/>
+    <rect x="74" y="426" width="88" height="48" rx="10" fill="#ffedd5"/>
+    <text x="118" y="448" text-anchor="middle" font-size="16" font-weight="700" fill="#c2410c">社会</text>
+    <text x="118" y="467" text-anchor="middle" font-size="12" fill="#ea580c">总支出</text>
+    <!-- 三对经典取舍 -->
+    <g font-size="14.5">
+      <rect x="186" y="412" width="150" height="32" rx="16" fill="#f3f4f6" stroke="#d1d5db"/>
+      <text x="261" y="433" text-anchor="middle" fill="#4b5563">大炮（国防）</text>
+      <text x="352" y="433" text-anchor="middle" font-size="16" fill="#b45309">⚖</text>
+      <rect x="366" y="412" width="150" height="32" rx="16" fill="#f3f4f6" stroke="#d1d5db"/>
+      <text x="441" y="433" text-anchor="middle" fill="#4b5563">黄油（消费品）</text>
+
+      <rect x="186" y="452" width="150" height="32" rx="16" fill="#f3f4f6" stroke="#d1d5db"/>
+      <text x="261" y="473" text-anchor="middle" fill="#4b5563">清洁的环境</text>
+      <text x="352" y="473" text-anchor="middle" font-size="16" fill="#b45309">⚖</text>
+      <rect x="366" y="452" width="150" height="32" rx="16" fill="#f3f4f6" stroke="#d1d5db"/>
+      <text x="441" y="473" text-anchor="middle" fill="#4b5563">高收入水平</text>
+
+      <rect x="560" y="412" width="130" height="32" rx="16" fill="#fef3c7" stroke="#f59e0b"/>
+      <text x="625" y="433" text-anchor="middle" fill="#92400e">效率 · 蛋糕做大</text>
+      <text x="704" y="433" text-anchor="middle" font-size="16" fill="#b45309">⚖</text>
+      <rect x="716" y="412" width="120" height="32" rx="16" fill="#fef3c7" stroke="#f59e0b"/>
+      <text x="776" y="433" text-anchor="middle" fill="#92400e">平等 · 均分</text>
+      <text x="560" y="473" font-size="13" fill="#9ca3af">政府政策常在这两个目标之间冲突</text>
+    </g>
+
+    <!-- 底部结论条 -->
+    <rect x="50" y="518" width="800" height="1.5" fill="#e7e2d6"/>
+    <text x="450" y="543" text-anchor="middle" font-size="14.5" fill="#6b7280">认识到权衡取舍 <tspan font-weight="700" fill="#b45309">不会替你做出选择</tspan>，但了解选择是做出良好决策的前提</text>
+  </g>
+</svg>

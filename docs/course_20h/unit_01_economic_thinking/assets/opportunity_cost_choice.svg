@@ -1,37 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-labelledby="t d">
-<title id="t">机会成本：最佳选择放弃了什么</title><desc id="d">同一两小时三个方案净值为500、350、300；选A的机会成本是B的350，不是B加C。</desc>
-<defs><filter id="wob" filterUnits="userSpaceOnUse" x="-20" y="-20" width="1000" height="640"><feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" seed="22" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="4.2"/></filter></defs>
-<rect width="960" height="600" fill="#fdf6e9"/>
-<g font-family="'Segoe Print','Ma Shan Zheng','Xingkai SC','STXingkai','Kaiti SC','STKaiti','KaiTi','Noto Sans CJK SC',cursive" fill="#3b3734">
-<rect x="40" y="51.76" width="635.04" height="17.6" fill="#ffe082" opacity="0.75" filter="url(#wob)"/>
-<text x="48" y="62" font-size="32" fill="#3b3734" text-anchor="start" font-weight="700">机会成本 Opportunity Cost ＝ 放弃的最好那个</text>
-<path d="M 42 72 q 307.52 8 631.04 0" fill="none" stroke="#3b3734" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#wob)"/>
-<rect x="70" y="130" width="250" height="180" rx="20" fill="#d6eaf8" stroke="#2471a3" stroke-width="3.5" filter="url(#wob)"/>
-<text x="92" y="172" font-size="24" fill="#2471a3" text-anchor="start" font-weight="700">A  学课程</text>
-<text x="92" y="232" font-size="18" fill="#7f8c8d" text-anchor="start" font-weight="500">净值</text>
-<text x="92" y="282" font-size="48" fill="#3b3734" text-anchor="start" font-weight="700">500</text>
-<text x="200" y="282" font-size="16" fill="#7f8c8d" text-anchor="start" font-weight="500">元（自评）</text>
-<rect x="370" y="130" width="250" height="180" rx="20" fill="#d5f5e3" stroke="#1e8449" stroke-width="3.5" filter="url(#wob)"/>
-<text x="392" y="172" font-size="24" fill="#1e8449" text-anchor="start" font-weight="700">B  兼职接单</text>
-<text x="392" y="232" font-size="18" fill="#7f8c8d" text-anchor="start" font-weight="500">净值</text>
-<text x="392" y="282" font-size="48" fill="#3b3734" text-anchor="start" font-weight="700">350</text>
-<text x="500" y="282" font-size="16" fill="#7f8c8d" text-anchor="start" font-weight="500">元（自评）</text>
-<rect x="670" y="130" width="250" height="180" rx="20" fill="#fdebd0" stroke="#e67e22" stroke-width="3.5" filter="url(#wob)"/>
-<text x="692" y="172" font-size="24" fill="#e67e22" text-anchor="start" font-weight="700">C  运动休息</text>
-<text x="692" y="232" font-size="18" fill="#7f8c8d" text-anchor="start" font-weight="500">净值</text>
-<text x="692" y="282" font-size="48" fill="#3b3734" text-anchor="start" font-weight="700">300</text>
-<text x="800" y="282" font-size="16" fill="#7f8c8d" text-anchor="start" font-weight="500">元（自评）</text>
-<path d="M 275 140 L 290.0 156.0 L 315 126.0" fill="none" stroke="#1e8449" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" filter="url(#wob)"/>
-<text x="262" y="116" font-size="18" fill="#1e8449" text-anchor="start" font-weight="700">选它</text>
-<ellipse cx="495" cy="220" rx="140" ry="108" fill="none" stroke="#c0392b" stroke-width="3.5" filter="url(#wob)"/>
-<text x="495" y="104" font-size="18" fill="#c0392b" text-anchor="middle" font-weight="700">放弃项里最好的</text>
-<rect x="90" y="360" width="780" height="96" rx="18" fill="white" stroke="#3b3734" stroke-width="3.5" filter="url(#wob)"/>
-<text x="120" y="400" font-size="23" fill="#3b3734" text-anchor="start" font-weight="700">选了 A：机会成本 = B 的 350</text>
-<text x="120" y="436" font-size="18" fill="#7f8c8d" text-anchor="start" font-weight="500">只算这一个，不是把放弃的都加起来</text>
-<line x1="674" y1="380" x2="706" y2="412" stroke="#c0392b" stroke-width="5" stroke-linecap="round" filter="url(#wob)"/>
-<line x1="674" y1="412" x2="706" y2="380" stroke="#c0392b" stroke-width="5" stroke-linecap="round" filter="url(#wob)"/>
-<text x="716" y="404" font-size="21" fill="#c0392b" text-anchor="start" font-weight="700">B + C = 650</text>
-<rect x="48" y="522" width="864" height="58" rx="18" fill="#fff3c4" stroke="#3b3734" stroke-width="3.5" filter="url(#wob)"/>
-<polygon points="78.0,538.0 81.4,546.3 90.4,547.0 83.6,552.8 85.6,561.5 78.0,556.9 70.4,561.5 72.4,552.8 65.6,547.0 74.6,546.3" fill="#e67e22" stroke="#3b3734" stroke-width="2" filter="url(#wob)"/>
-<text x="104" y="559" font-size="19.5" fill="#3b3734" text-anchor="start" font-weight="700">机会成本只数“放弃选项里最好的一个”——它从不是一串数字的和。</text>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="t d">
+  <title id="t">上大学的机会成本</title>
+  <desc id="d">对比两种算法：把学费住宿伙食加总的常见算法有两个问题；真正的机会成本要扣除并非多出的食宿费，并加上被忽略的最大一项——放弃的工作收入。</desc>
+
+  <rect width="900" height="560" rx="18" fill="#fdfcf8"/>
+  <rect x="1" y="1" width="898" height="558" rx="17" fill="none" stroke="#e7e2d6" stroke-width="2"/>
+
+  <g font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif">
+
+    <text x="450" y="52" text-anchor="middle" font-size="15" fill="#b45309" letter-spacing="4">原理二 · 某种东西的成本是为了得到它所放弃的东西</text>
+    <text x="450" y="88" text-anchor="middle" font-size="30" font-weight="700" fill="#1f2937">上一年大学，真正花了你什么？</text>
+
+    <!-- ===== 左卡：常见算法 ===== -->
+    <rect x="50" y="116" width="380" height="250" rx="14" fill="#ffffff" stroke="#e7e2d6" stroke-width="1.5"/>
+    <rect x="74" y="138" width="150" height="34" rx="17" fill="#fee2e2"/>
+    <text x="149" y="160" text-anchor="middle" font-size="15" font-weight="700" fill="#b91c1c">直觉的算法 ✗</text>
+
+    <g font-size="14.5" fill="#374151">
+      <text x="86" y="202">学费 ＋ 书籍</text>
+      <text x="86" y="232">＋ 住宿 ＋ 伙食</text>
+      <text x="86" y="262" font-weight="700" fill="#b91c1c">＝ “上一年的全部成本”</text>
+    </g>
+
+    <rect x="74" y="286" width="332" height="62" rx="10" fill="#fef2f2" stroke="#fecaca"/>
+    <text x="90" y="310" font-size="13.5" fill="#b91c1c">问题① 住宿和伙食：离开学校你也要吃住</text>
+    <text x="90" y="333" font-size="13.5" fill="#b91c1c">问题② 漏掉了最大的成本——你的时间</text>
+
+    <!-- 中间箭头 -->
+    <path d="M 444 241 L 470 241" stroke="#b45309" stroke-width="2.5" fill="none"/>
+    <path d="M 470 241 L 460 234 M 470 241 L 460 248" stroke="#b45309" stroke-width="2.5" fill="none"/>
+
+    <!-- ===== 右卡：机会成本算法 ===== -->
+    <rect x="486" y="116" width="364" height="250" rx="14" fill="#ffffff" stroke="#e7e2d6" stroke-width="1.5"/>
+    <rect x="510" y="138" width="170" height="34" rx="17" fill="#d1fae5"/>
+    <text x="595" y="160" text-anchor="middle" font-size="15" font-weight="700" fill="#047857">经济学家的算法 ✓</text>
+
+    <!-- 堆叠条：宽度大致按比例，放弃的收入最大 -->
+    <rect x="510" y="196" width="96" height="44" rx="8" fill="#93c5fd"/>
+    <text x="558" y="223" text-anchor="middle" font-size="13" fill="#1e3a8a">学费＋书籍</text>
+    <rect x="606" y="196" width="76" height="44" rx="8" fill="#fcd34d"/>
+    <text x="644" y="216" text-anchor="middle" font-size="12" fill="#78350f">食宿贵出</text>
+    <text x="644" y="232" text-anchor="middle" font-size="12" fill="#78350f">的部分</text>
+    <rect x="682" y="196" width="148" height="44" rx="8" fill="#f87171"/>
+    <text x="756" y="216" text-anchor="middle" font-size="12.5" fill="#ffffff">放弃的一年工资</text>
+    <text x="756" y="232" text-anchor="middle" font-size="12.5" fill="#ffffff">（最大单项成本）</text>
+
+    <text x="510" y="272" font-size="13.5" fill="#6b7280">当你把一年用于听课、读书和写论文，这一年就不</text>
+    <text x="510" y="294" font-size="13.5" fill="#6b7280">能用来工作。<tspan font-weight="700" fill="#b91c1c">为上学放弃的收入</tspan>是大多数学生接</text>
+    <text x="510" y="316" font-size="13.5" fill="#6b7280">受教育的最大单项成本。</text>
+    <text x="510" y="346" font-size="13.5" fill="#047857">决策时，要看到每一种行动“放弃了什么”。</text>
+
+    <!-- ===== 底部例子条：大学运动员 ===== -->
+    <rect x="50" y="392" width="800" height="86" rx="14" fill="#fffbeb" stroke="#fcd34d" stroke-width="1.5"/>
+    <text x="74" y="424" font-size="15" font-weight="700" fill="#92400e">教材里的对照例子</text>
+    <text x="74" y="450" font-size="14.5" fill="#78350f">能进职业队的大学运动员，退学打球每年可赚几百万美元 —— 他们上大学的机会成本极高，</text>
+    <text x="74" y="472" font-size="14.5" fill="#78350f">所以常常认为不值得。他们并不是“不算账”，而是算清了这笔被忽略的账。</text>
+
+    <!-- 定义条 -->
+    <rect x="50" y="498" width="800" height="42" rx="21" fill="#1f2937"/>
+    <text x="450" y="525" text-anchor="middle" font-size="15.5" fill="#fef3c7">机会成本（Opportunity Cost）＝ 为了得到某种东西所必须放弃的东西</text>
+  </g>
+</svg>
