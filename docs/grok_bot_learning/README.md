@@ -1,26 +1,35 @@
 # Grok Bot 学习记录
 
-本目录只记 Grok Bot 辅导时用的材料：学到哪、原书章节落到哪一课、还缺哪一条。课文不放在这里。
+本目录是 Grok Bot 的书序辅导材料，对齐曼昆《经济学原理》第 8 版微观分册第 1–22 章。课文按章写在 `chapters/`。第 1 章正文以 [`chapters/ch01/`](chapters/ch01/README.md) 为准。
 
-默认课文在 [`docs/course_gpt6_pro/`](../course_gpt6_pro/README.md)。历史 80 课（每节约 15 分钟）在 [`docs/course_20h/`](../course_20h/README.md)，需要回看时再打开。仓库入口 [`START_HERE_20_HOURS.md`](../../START_HERE_20_HOURS.md) 指向 `course_gpt6_pro`。
+以前的勾选页和对照表仍可当地图。它们不代替第 1 章正文。本路径从头学，不把别处做过的进度当成免修。
+
+## 建议入口
+
+按这个顺序打开：
+
+1. [全书概述](book_overview.md) 与 [全书思维导图](book_mindmap.md)
+2. [第 1 章概述与思维导图](chapters/ch01/README.md)（先读章首，约 5–8 分钟）
+3. 第 1 章小课 [01](chapters/ch01/01_tradeoffs.md) 到 [07](chapters/ch01/07_macro_boundary_review.md)
+
+## 每一章都要先有概述和导图
+
+以后每个 `chapters/chNN/` 在小课之前必须带上两样东西：整章**概述**，以及一张能在 GitHub 上读的 **思维导图**（mermaid）。先看完整章怎样连在一起，再进入单课。第 2–22 章按同一模板补。当前只交付第 1 章正文。
 
 ## 分支怎么用
 
-辅导记录提交在 `grok-bot`。没有明确要求时，不把这个分支合并进 `main`。
+辅导材料和提交在 `grok-bot`。没有明确要求时，不把这个分支合并进 `main`。
 
-`gpt6-pro` 上的课程若有更新，在本分支用 rebase 或 merge 从 `gpt6-pro` 同步。同步是为了让对照表跟着课文走，不在本分支改 `course_gpt6_pro` 或 `course_20h` 的课文。
+`gpt6-pro` 上的课程若有更新，在本分支用 rebase 或 merge 从 `gpt6-pro` 同步。同步是为了让对照表跟着仓库走，不在本分支改 `course_gpt6_pro` 或 `course_20h` 的课文。
 
-## 本分支默认怎么学
+## 对照地图
 
-导航按曼昆微观第 8 版第 1–22 章。步骤、进度规则和全表在 [按书序学](book_order_path.md)。
+这些文件保留，用来对目录和旧排法，不代替 `chapters/` 里的正文：
 
-课文仍用 [`docs/course_gpt6_pro/`](../course_gpt6_pro/README.md) 深学。`course_20h` / 知乎里已经做过的课，对得上时回看。
+- [按书序学](book_order_path.md)
+- [全书概述](book_overview.md)
+- [第 1–22 章落到哪](chapter_map.md)
+- [为什么旧课文对着目录会觉得缺一块](gap_analysis_vs_mankiw.md)
+- [第 1 章旧清单](ch01_learning_plan.md)（历史对照）
 
-对照材料：
-
-- [为什么对着曼昆目录会觉得缺了一大块](gap_analysis_vs_mankiw.md)
-- [第 1–22 章落到哪一课](chapter_map.md)
-
-当前勾选页：[第 1 章学习计划](ch01_learning_plan.md)。第 2 章起的勾选页学到该章再建。
-
-章节范围以 [`docs/course_gpt6_pro/SCOPE.md`](../course_gpt6_pro/SCOPE.md) 为准。清单只标注每条怎么学：深学、扫读知边界，或延后到后面的章。
+`docs/course_gpt6_pro/` 仍是另一套按问题编排的 100 小课。某一章的 `chapters/chNN/` 还没写时，书序表里的课号只说明想法落在哪，不表示可以凭旧进度跳过。
