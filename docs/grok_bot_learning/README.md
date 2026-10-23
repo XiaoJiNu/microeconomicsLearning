@@ -8,7 +8,7 @@
 
 按这个顺序打开：
 
-1. [全书概述](book_overview.md) 与 [全书思维导图](book_mindmap.md)
+1. [全书概述](book_overview.md)（约 10–15 分钟的阅读，讲清目标、获得和用法）与 [全书思维导图](book_mindmap.md)
 2. [第 1 章概述与思维导图](chapters/ch01/README.md)（先读章首，约 5–8 分钟）。配套 [勾选清单](chapters/ch01/CHECKLIST.md) 与 [术语表](chapters/ch01/GLOSSARY.md)
 3. 第 1 章小课 [01](chapters/ch01/01_tradeoffs.md) 到 [07](chapters/ch01/07_macro_boundary_review.md)
 
