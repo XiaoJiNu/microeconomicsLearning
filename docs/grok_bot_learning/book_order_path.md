@@ -1,6 +1,6 @@
 # 按曼昆章节顺序学
 
-本文件是 `grok-bot` 的书序导航。先读 [全书概述](book_overview.md)（约 10–15 分钟）和 [全书思维导图](book_mindmap.md)，再进入已写好的章。
+本文件是 `grok-bot` 的书序导航。先读 [全书概述](book_overview.md)（约 8–10 分钟）和 [全书思维导图](book_mindmap.md)，再进入已写好的章。
 
 第 1 章正文在 [chapters/ch01](chapters/ch01/README.md)，状态为**文档齐备**（材料完整：概述、导图、七课、配图、对照表、[勾选清单](chapters/ch01/CHECKLIST.md)、[术语表](chapters/ch01/GLOSSARY.md)、原书目录覆盖表）。忽略以前在知乎或 `course_20h` 里的完成记录，按新材料把第 1 章重学一遍。旧清单 [ch01_learning_plan.md](ch01_learning_plan.md) 只作历史对照。
 
