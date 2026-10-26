@@ -99,6 +99,8 @@ flowchart LR
 | 07 | [07_macro_boundary_review.md](07_macro_boundary_review.md) | 8–10 宏观边界，加总复盘 | 简讲 | 12 |
 | 合计 | | | | **100** |
 
+04、05 另有精简对照草稿：[04_incentives_compact.md](04_incentives_compact.md)、[05_trade_markets_compact.md](05_trade_markets_compact.md)。旧文件 `04_incentives.md`、`05_trade_markets.md` 保留，便于并排对照。
+
 七课合计 94 分钟。加上章首，整章约 100 分钟。后面全课程大约 30 小时，本章是稍厚的地基，不是提前把第 3 章以后的内容讲完。全书位置见 [全书概述](../../book_overview.md)。
 
 ## 与原书三大块对应
