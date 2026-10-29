@@ -18,7 +18,23 @@
 
 名词：[GLOSSARY.md](chapters/ch01/GLOSSARY.md) · 往后读什么：[FURTHER_READING.md](chapters/ch01/FURTHER_READING.md) · 抽认卡：[FLASHCARDS.md](chapters/ch01/FLASHCARDS.md)
 
-## 教材依据
+## 从这里进入第 2 章
+
+学习台（地图、文件表、原书覆盖）：[chapters/ch02/README.md](chapters/ch02/README.md)
+
+原书是曼昆微观分册第 8 版第 2 章「像经济学家一样思考」：科学家与假设、循环流量图、汽车与电脑的生产可能性边界、微观与宏观、实证与规范、意见分歧，以及附录里相关还不等于因果。
+
+| 表面 | 你在做什么 | 入口 |
+|---|---|---|
+| Book | 顺着六页活页读，做页内小测验 | [假设与模型](chapters/ch02/book/01_scientist.md) |
+| Mastery Path | 按「认出 → 讲清 → 用上 → 自核」过关 | [MASTERY_PATH.md](chapters/ch02/MASTERY_PATH.md) |
+| Practice | 做选择、判断、简答，再对要点 | [PRACTICE.md](chapters/ch02/PRACTICE.md) · [ANSWER_KEY.md](chapters/ch02/ANSWER_KEY.md) |
+
+名词：[GLOSSARY.md](chapters/ch02/GLOSSARY.md) · 往后读什么：[FURTHER_READING.md](chapters/ch02/FURTHER_READING.md) · 抽认卡：[FLASHCARDS.md](chapters/ch02/FLASHCARDS.md)
+
+第 1 章的关卡不抵第 2 章。两章分开过。
+
+## 第 1 章的教材依据
 
 曼昆（N. Gregory Mankiw）《经济学原理》**微观分册第 8 版**，**第 1 章：十大经济学原理**（导论章）。
 
@@ -39,4 +55,4 @@
 
 那边是按书序写的摘要课，第 1 章入口在 [docs/grok_bot_learning/chapters/ch01/README.md](../grok_bot_learning/chapters/ch01/README.md)。这边把同一章改写成 DeepTutor 的三块表面：活页、过关、题库。两套可以对照，进度**互不抵扣**。在摘要课里读过，不等于掌握路径的关已过。
 
-本包不改摘要课的任何文件。目前只有第 1 章。第 2 章及以后不在这里。
+本包不改摘要课的任何文件。第 1 章和第 2 章都在本目录。第 3 章及以后不在这里。
