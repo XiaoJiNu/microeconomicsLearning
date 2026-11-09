@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="500" viewBox="0 0 1100 500" role="img" aria-labelledby="title desc">
+<title id="title">需求右移与供给左移：价格上升，数量方向取决于相对幅度</title><desc id="desc">需求右移与供给左移：价格上升，数量方向取决于相对幅度</desc>
+<style>text{font-family:"Noto Sans CJK SC","Microsoft YaHei","PingFang SC",sans-serif;fill:#17202a}.axis{stroke:#344054;stroke-width:1.5}.grid{stroke:#e4e7ec;stroke-width:1}.blue{stroke:#2457a6}.red{stroke:#b33a3a}.green{stroke:#16805b}.orange{stroke:#c75b12}.gray{stroke:#667085}.curve{fill:none;stroke-width:3}.dash{stroke-dasharray:6 5}.dot{stroke-dasharray:2 4}</style>
+<rect width="100%" height="100%" fill="white"/>
+<text x="550.0" y="34.0" font-size="22" text-anchor="middle" font-weight="600">需求右移 + 供给左移：价格上升，数量方向取决于相对幅度</text>
+<text x="275.0" y="76.0" font-size="18" text-anchor="middle" font-weight="600">需求移动较大：数量增加</text>
+<line x1="65.0" y1="105.0" x2="65.0" y2="415.0" class="axis" />
+<line x1="65.0" y1="415.0" x2="485.0" y2="415.0" class="axis" />
+<polyline points="65.0,200.4 485.0,367.3" class="curve blue"/>
+<polyline points="65.0,128.8 485.0,295.8" class="curve green"/>
+<polyline points="65.0,391.2 485.0,224.2" class="curve red"/>
+<polyline points="65.0,367.3 485.0,200.4" class="curve orange"/>
+<circle cx="305.0" cy="295.8" r="5" fill="#17202a"/>
+<circle cx="365.0" cy="248.1" r="5" fill="#17202a"/>
+<line x1="305.0" y1="295.8" x2="305.0" y2="415.0" class="gray dot" />
+<line x1="305.0" y1="295.8" x2="65.0" y2="295.8" class="gray dot" />
+<line x1="365.0" y1="248.1" x2="365.0" y2="415.0" class="gray dash" />
+<line x1="365.0" y1="248.1" x2="65.0" y2="248.1" class="gray dash" />
+<text x="305.0" y="438.0" font-size="14" text-anchor="middle">Q1</text>
+<text x="365.0" y="438.0" font-size="14" text-anchor="middle">Q2</text>
+<text x="55.0" y="300.8" font-size="14" text-anchor="end">P1</text>
+<text x="55.0" y="253.1" font-size="14" text-anchor="end">P2</text>
+<text x="275.0" y="465.0" font-size="16" text-anchor="middle">数量</text>
+<text x="22.0" y="260.0" font-size="16" text-anchor="middle" transform="rotate(-90 22.0 260.0)">价格</text>
+<line x1="220.0" y1="120.0" x2="248.0" y2="120.0" class="blue" stroke-width="3"/>
+<text x="258.0" y="125.0" font-size="14" text-anchor="start">D1</text>
+<line x1="315.0" y1="120.0" x2="343.0" y2="120.0" class="red" stroke-width="3"/>
+<text x="353.0" y="125.0" font-size="14" text-anchor="start">S1</text>
+<line x1="220.0" y1="146.0" x2="248.0" y2="146.0" class="green" stroke-width="3"/>
+<text x="258.0" y="151.0" font-size="14" text-anchor="start">D2</text>
+<line x1="315.0" y1="146.0" x2="343.0" y2="146.0" class="orange" stroke-width="3"/>
+<text x="353.0" y="151.0" font-size="14" text-anchor="start">S2</text>
+<text x="815.0" y="76.0" font-size="18" text-anchor="middle" font-weight="600">供给移动较大：数量减少</text>
+<line x1="605.0" y1="105.0" x2="605.0" y2="415.0" class="axis" />
+<line x1="605.0" y1="415.0" x2="1025.0" y2="415.0" class="axis" />
+<polyline points="605.0,200.4 1025.0,367.3" class="curve blue"/>
+<polyline points="605.0,176.5 1025.0,343.5" class="curve green"/>
+<polyline points="605.0,391.2 1025.0,224.2" class="curve red"/>
+<polyline points="605.0,319.6 1025.0,152.7" class="curve orange"/>
+<circle cx="845.0" cy="295.8" r="5" fill="#17202a"/>
+<circle cx="785.0" cy="248.1" r="5" fill="#17202a"/>
+<line x1="845.0" y1="295.8" x2="845.0" y2="415.0" class="gray dot" />
+<line x1="845.0" y1="295.8" x2="605.0" y2="295.8" class="gray dot" />
+<line x1="785.0" y1="248.1" x2="785.0" y2="415.0" class="gray dash" />
+<line x1="785.0" y1="248.1" x2="605.0" y2="248.1" class="gray dash" />
+<text x="845.0" y="438.0" font-size="14" text-anchor="middle">Q1</text>
+<text x="785.0" y="438.0" font-size="14" text-anchor="middle">Q2</text>
+<text x="595.0" y="300.8" font-size="14" text-anchor="end">P1</text>
+<text x="595.0" y="253.1" font-size="14" text-anchor="end">P2</text>
+<text x="815.0" y="465.0" font-size="16" text-anchor="middle">数量</text>
+<text x="562.0" y="260.0" font-size="16" text-anchor="middle" transform="rotate(-90 562.0 260.0)">价格</text>
+</svg>

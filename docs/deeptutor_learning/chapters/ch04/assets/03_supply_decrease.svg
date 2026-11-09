@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="540" viewBox="0 0 720 540" role="img" aria-labelledby="title desc">
+<title id="title">供给减少：价格上升，数量减少</title><desc id="desc">供给减少：价格上升，数量减少</desc>
+<style>text{font-family:"Noto Sans CJK SC","Microsoft YaHei","PingFang SC",sans-serif;fill:#17202a}.axis{stroke:#344054;stroke-width:1.5}.grid{stroke:#e4e7ec;stroke-width:1}.blue{stroke:#2457a6}.red{stroke:#b33a3a}.green{stroke:#16805b}.orange{stroke:#c75b12}.gray{stroke:#667085}.curve{fill:none;stroke-width:3}.dash{stroke-dasharray:6 5}.dot{stroke-dasharray:2 4}</style>
+<rect width="100%" height="100%" fill="white"/>
+<text x="360.0" y="34.0" font-size="22" text-anchor="middle" font-weight="600">供给减少：价格上升，数量减少</text>
+<line x1="90.0" y1="78.0" x2="90.0" y2="435.0" class="grid" />
+<text x="90.0" y="458.0" font-size="13" text-anchor="middle">0</text>
+<line x1="160.0" y1="78.0" x2="160.0" y2="435.0" class="grid" />
+<text x="160.0" y="458.0" font-size="13" text-anchor="middle">2.5</text>
+<line x1="230.0" y1="78.0" x2="230.0" y2="435.0" class="grid" />
+<text x="230.0" y="458.0" font-size="13" text-anchor="middle">5</text>
+<line x1="300.0" y1="78.0" x2="300.0" y2="435.0" class="grid" />
+<text x="300.0" y="458.0" font-size="13" text-anchor="middle">7.5</text>
+<line x1="370.0" y1="78.0" x2="370.0" y2="435.0" class="grid" />
+<text x="370.0" y="458.0" font-size="13" text-anchor="middle">10</text>
+<line x1="440.0" y1="78.0" x2="440.0" y2="435.0" class="grid" />
+<text x="440.0" y="458.0" font-size="13" text-anchor="middle">12.5</text>
+<line x1="510.0" y1="78.0" x2="510.0" y2="435.0" class="grid" />
+<text x="510.0" y="458.0" font-size="13" text-anchor="middle">15</text>
+<line x1="580.0" y1="78.0" x2="580.0" y2="435.0" class="grid" />
+<text x="580.0" y="458.0" font-size="13" text-anchor="middle">17.5</text>
+<line x1="650.0" y1="78.0" x2="650.0" y2="435.0" class="grid" />
+<text x="650.0" y="458.0" font-size="13" text-anchor="middle">20</text>
+<line x1="90.0" y1="393.0" x2="650.0" y2="393.0" class="grid" />
+<text x="78.0" y="398.0" font-size="13" text-anchor="end">1</text>
+<line x1="90.0" y1="323.0" x2="650.0" y2="323.0" class="grid" />
+<text x="78.0" y="328.0" font-size="13" text-anchor="end">1.5</text>
+<line x1="90.0" y1="253.0" x2="650.0" y2="253.0" class="grid" />
+<text x="78.0" y="258.0" font-size="13" text-anchor="end">2</text>
+<line x1="90.0" y1="183.0" x2="650.0" y2="183.0" class="grid" />
+<text x="78.0" y="188.0" font-size="13" text-anchor="end">2.5</text>
+<line x1="90.0" y1="113.0" x2="650.0" y2="113.0" class="grid" />
+<text x="78.0" y="118.0" font-size="13" text-anchor="end">3</text>
+<line x1="90.0" y1="78.0" x2="90.0" y2="435.0" class="axis" />
+<line x1="90.0" y1="435.0" x2="650.0" y2="435.0" class="axis" />
+<text x="370.0" y="487.0" font-size="16" text-anchor="middle">数量（个）</text>
+<text x="24.0" y="256.5" font-size="16" text-anchor="middle" transform="rotate(-90 24.0 256.5)">价格（美元）</text>
+<polyline points="454.0,393.0 370.0,323.0 286.0,253.0 202.0,183.0 118.0,113.0" class="curve blue"/>
+<polyline points="118.0,393.0 202.0,323.0 286.0,253.0 370.0,183.0 454.0,113.0" class="curve red"/>
+<polyline points="-50.0,393.0 34.0,323.0 118.0,253.0 202.0,183.0 286.0,113.0" class="curve orange"/>
+<text x="291.6" y="134.0" font-size="16" text-anchor="start" fill="#c75b12" style="fill:#c75b12">供给左移</text>
+<line x1="280.4" y1="155.0" x2="151.6" y2="218.0" class="orange" />
+<circle cx="286.0" cy="253.0" r="5" fill="#17202a"/>
+<circle cx="202.0" cy="183.0" r="5" fill="#17202a"/>
+<line x1="286.0" y1="253.0" x2="286.0" y2="435.0" class="gray dot" />
+<line x1="286.0" y1="253.0" x2="90.0" y2="253.0" class="gray dot" />
+<line x1="202.0" y1="183.0" x2="202.0" y2="435.0" class="gray dash" />
+<line x1="202.0" y1="183.0" x2="90.0" y2="183.0" class="gray dash" />
+<text x="298.0" y="308.0" font-size="15" text-anchor="start">原均衡</text>
+<text x="214.0" y="168.0" font-size="15" text-anchor="start">新均衡</text>
+<line x1="450.0" y1="345.0" x2="478.0" y2="345.0" class="blue" stroke-width="3"/>
+<text x="488.0" y="350.0" font-size="14" text-anchor="start">D（不变）</text>
+<line x1="450.0" y1="372.0" x2="478.0" y2="372.0" class="red" stroke-width="3"/>
+<text x="488.0" y="377.0" font-size="14" text-anchor="start">S1</text>
+<line x1="450.0" y1="399.0" x2="478.0" y2="399.0" class="orange" stroke-width="3"/>
+<text x="488.0" y="404.0" font-size="14" text-anchor="start">S2（供给减少）</text>
+</svg>
