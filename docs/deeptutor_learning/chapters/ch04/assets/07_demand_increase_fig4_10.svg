@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="540" viewBox="0 0 740 540" role="img" aria-labelledby="title desc">
+<title id="title">图 4-10 需求增加如何影响均衡</title><desc id="desc">炎热天气使冰淇淋需求曲线从 D1 右移到 D2，均衡价格从 2.00 美元升至 2.50 美元，均衡数量从 7 个增至 10 个。</desc>
+<style>text{font-family:"WenQuanYi Micro Hei","Noto Sans CJK SC","Microsoft YaHei","PingFang SC",sans-serif;fill:#17202a}.axis{stroke:#344054;stroke-width:1.8}.grid{stroke:#e4e7ec;stroke-width:1}.blue{stroke:#2457a6}.red{stroke:#b33a3a}.green{stroke:#16805b}.gray{stroke:#667085}.curve{fill:none;stroke-width:3}.dash{stroke-dasharray:6 5}.dot{stroke-dasharray:2 4}</style>
+<defs>
+  <marker id="arr-g10" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M0,1 L9,5 L0,9 z" fill="#16805b"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="white"/>
+<text x="370" y="34" font-size="22" text-anchor="middle" font-weight="600">图 4-10 需求增加如何影响均衡（炎热天气）</text>
+<line x1="95" y1="393" x2="655" y2="393" class="grid"/>
+<line x1="95" y1="323" x2="655" y2="323" class="grid"/>
+<line x1="95" y1="253" x2="655" y2="253" class="grid"/>
+<line x1="95" y1="183" x2="655" y2="183" class="grid"/>
+<line x1="95" y1="113" x2="655" y2="113" class="grid"/>
+
+<line x1="95" y1="78" x2="95" y2="435" class="axis"/>
+<line x1="95" y1="435" x2="660" y2="435" class="axis"/>
+
+<text x="95" y="458" font-size="13" text-anchor="middle">0</text>
+<text x="291" y="458" font-size="13" text-anchor="middle">7</text>
+<text x="375" y="458" font-size="13" text-anchor="middle" font-weight="600">10</text>
+<text x="83" y="400" font-size="13" text-anchor="end">$1.00</text>
+<text x="83" y="328" font-size="13" text-anchor="end">$1.50</text>
+<text x="83" y="258" font-size="13" text-anchor="end">$2.00</text>
+<text x="83" y="188" font-size="13" text-anchor="end" font-weight="600">$2.50</text>
+<text x="83" y="118" font-size="13" text-anchor="end">$3.00</text>
+
+<text x="375" y="502" font-size="16" text-anchor="middle">冰淇淋蛋卷数量（个）</text>
+<text x="24" y="256" font-size="16" text-anchor="middle" transform="rotate(-90 24 256)">冰淇淋蛋卷价格</text>
+
+<line x1="291" y1="253" x2="291" y2="435" class="gray dot"/>
+<line x1="95" y1="253" x2="291" y2="253" class="gray dot"/>
+<line x1="375" y1="183" x2="375" y2="435" class="gray dash"/>
+<line x1="95" y1="183" x2="375" y2="183" class="gray dash"/>
+
+<polyline points="459,393 375,323 291,253 207,183 123,113" class="curve blue"/>
+<polyline points="627,393 543,323 459,253 375,183 291,113" class="curve green"/>
+<polyline points="123,393 207,323 291,253 375,183 459,113" class="curve red"/>
+
+<circle cx="291" cy="253" r="5.5" fill="#17202a"/>
+<circle cx="375" cy="183" r="5.5" fill="#17202a"/>
+<text x="278" y="274" font-size="14" text-anchor="end">原均衡</text>
+<text x="387" y="177" font-size="14" font-weight="600">新均衡</text>
+
+<line x1="472" y1="315" x2="528" y2="315" stroke="#16805b" stroke-width="2.5" marker-end="url(#arr-g10)"/>
+<text x="415" y="96" font-size="14" font-weight="600" style="fill:#16805b">1. 炎热天气使冰淇淋需求增加（D₁ → D₂）</text>
+<line x1="118" y1="247" x2="118" y2="191" stroke="#16805b" stroke-width="2.2" marker-end="url(#arr-g10)"/>
+<text x="128" y="224" font-size="13" font-weight="600" style="fill:#16805b">2. 价格上升</text>
+<line x1="298" y1="414" x2="366" y2="414" stroke="#16805b" stroke-width="2.2" marker-end="url(#arr-g10)"/>
+<text x="333" y="478" font-size="13" text-anchor="middle" font-weight="600" style="fill:#16805b">3. 销售量增加（沿 S 移动）</text>
+
+<text x="467" y="405" font-size="14" font-weight="600" style="fill:#2457a6">D₁</text>
+<text x="635" y="405" font-size="14" font-weight="600" style="fill:#16805b">D₂</text>
+<text x="468" y="118" font-size="14" font-weight="600" style="fill:#b33a3a">供给 S</text>
+</svg>
