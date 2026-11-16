@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="500" viewBox="0 0 1120 500" role="img" aria-labelledby="title desc">
+<title id="title">图 4-12 供给与需求同时移动</title><desc id="desc">（a）需求大幅增加、供给小幅减少时，均衡价格上升、数量增加；（b）需求小幅增加、供给大幅减少时，均衡价格上升、数量减少。</desc>
+<style>text{font-family:"WenQuanYi Micro Hei","Noto Sans CJK SC","Microsoft YaHei","PingFang SC",sans-serif;fill:#17202a}.axis{stroke:#344054;stroke-width:1.8}.blue{stroke:#2457a6}.red{stroke:#b33a3a}.green{stroke:#16805b}.orange{stroke:#c75b12}.gray{stroke:#667085}.curve{fill:none;stroke-width:3}.dash{stroke-dasharray:6 5}.dot{stroke-dasharray:2 4}</style>
+<rect width="100%" height="100%" fill="white"/>
+<text x="560" y="34" font-size="22" text-anchor="middle" font-weight="600">图 4-12 供给与需求同时移动：价格一定上升，数量取决于相对幅度</text>
+
+<!-- Panel (a) -->
+<text x="285" y="76" font-size="17" text-anchor="middle" font-weight="600">（a）需求大幅增加、供给小幅减少 → 数量增加</text>
+<line x1="65" y1="105" x2="65" y2="415" class="axis"/>
+<line x1="65" y1="415" x2="485" y2="415" class="axis"/>
+<polyline points="65,200.4 485,367.3" class="curve blue"/>
+<polyline points="65,128.8 485,295.8" class="curve green"/>
+<polyline points="65,391.2 485,224.2" class="curve red"/>
+<polyline points="65,367.3 485,200.4" class="curve orange"/>
+<circle cx="305" cy="295.8" r="5" fill="#17202a"/>
+<circle cx="365" cy="248.1" r="5.5" fill="#17202a"/>
+<line x1="305" y1="295.8" x2="305" y2="415" class="gray dot"/>
+<line x1="305" y1="295.8" x2="65" y2="295.8" class="gray dot"/>
+<line x1="365" y1="248.1" x2="365" y2="415" class="gray dash"/>
+<line x1="365" y1="248.1" x2="65" y2="248.1" class="gray dash"/>
+<text x="305" y="438" font-size="14" text-anchor="middle">Q₁</text>
+<text x="365" y="438" font-size="14" text-anchor="middle" font-weight="600">Q₂</text>
+<text x="55" y="300.8" font-size="14" text-anchor="end">P₁</text>
+<text x="55" y="253.1" font-size="14" text-anchor="end" font-weight="600">P₂</text>
+<text x="275" y="472" font-size="15" text-anchor="middle">冰淇淋蛋卷数量</text>
+<text x="22" y="260" font-size="15" text-anchor="middle" transform="rotate(-90 22 260)">价格</text>
+<text x="492" y="204" font-size="14" font-weight="600" style="fill:#c75b12">S₂</text>
+<text x="492" y="228" font-size="14" font-weight="600" style="fill:#b33a3a">S₁</text>
+<text x="492" y="300" font-size="14" font-weight="600" style="fill:#16805b">D₂</text>
+<text x="492" y="372" font-size="14" font-weight="600" style="fill:#2457a6">D₁</text>
+<text x="292" y="315" font-size="13" text-anchor="end">原均衡</text>
+<text x="358" y="236" font-size="13" text-anchor="end" font-weight="600">新均衡</text>
+
+<!-- Panel (b) -->
+<text x="825" y="76" font-size="17" text-anchor="middle" font-weight="600">（b）需求小幅增加、供给大幅减少 → 数量减少</text>
+<line x1="605" y1="105" x2="605" y2="415" class="axis"/>
+<line x1="605" y1="415" x2="1025" y2="415" class="axis"/>
+<polyline points="605,200.4 1025,367.3" class="curve blue"/>
+<polyline points="605,176.5 1025,343.5" class="curve green"/>
+<polyline points="605,391.2 1025,224.2" class="curve red"/>
+<polyline points="605,319.6 1025,152.7" class="curve orange"/>
+<circle cx="845" cy="295.8" r="5" fill="#17202a"/>
+<circle cx="785" cy="248.1" r="5.5" fill="#17202a"/>
+<line x1="845" y1="295.8" x2="845" y2="415" class="gray dot"/>
+<line x1="845" y1="295.8" x2="605" y2="295.8" class="gray dot"/>
+<line x1="785" y1="248.1" x2="785" y2="415" class="gray dash"/>
+<line x1="785" y1="248.1" x2="605" y2="248.1" class="gray dash"/>
+<text x="845" y="438" font-size="14" text-anchor="middle">Q₁</text>
+<text x="785" y="438" font-size="14" text-anchor="middle" font-weight="600">Q₂</text>
+<text x="595" y="300.8" font-size="14" text-anchor="end">P₁</text>
+<text x="595" y="253.1" font-size="14" text-anchor="end" font-weight="600">P₂</text>
+<text x="815" y="472" font-size="15" text-anchor="middle">冰淇淋蛋卷数量</text>
+<text x="562" y="260" font-size="15" text-anchor="middle" transform="rotate(-90 562 260)">价格</text>
+<text x="1032" y="157" font-size="14" font-weight="600" style="fill:#c75b12">S₂</text>
+<text x="1032" y="228" font-size="14" font-weight="600" style="fill:#b33a3a">S₁</text>
+<text x="1032" y="348" font-size="14" font-weight="600" style="fill:#16805b">D₂</text>
+<text x="1032" y="372" font-size="14" font-weight="600" style="fill:#2457a6">D₁</text>
+<text x="858" y="315" font-size="13">原均衡</text>
+<text x="795" y="236" font-size="13" font-weight="600">新均衡</text>
+</svg>
