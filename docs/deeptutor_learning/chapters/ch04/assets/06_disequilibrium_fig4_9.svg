@@ -13,7 +13,7 @@
 <text x="560" y="34" font-size="22" text-anchor="middle" font-weight="600">图 4-9 非均衡的市场</text>
 
 <!-- Panel (a): Excess Supply / Surplus -->
-<text x="295" y="74" font-size="17" text-anchor="middle" font-weight="600">（a）超额供给（过剩：P = $2.50 &gt; P*）</text>
+<text x="295" y="74" font-size="17" text-anchor="middle" font-weight="600">（a）超额供给（过剩：市价 $2.50 高于均衡价格）</text>
 <line x1="85" y1="95" x2="85" y2="415" class="axis"/>
 <line x1="85" y1="415" x2="510" y2="415" class="axis"/>
 <text x="75" y="420" font-size="13" text-anchor="end">0</text>
@@ -47,7 +47,7 @@
 <text x="122" y="194" font-size="13" font-weight="600" style="fill:#c75b12">降价</text>
 
 <!-- Panel (b): Excess Demand / Shortage -->
-<text x="845" y="74" font-size="17" text-anchor="middle" font-weight="600">（b）超额需求（短缺：P = $1.50 &lt; P*）</text>
+<text x="845" y="74" font-size="17" text-anchor="middle" font-weight="600">（b）超额需求（短缺：市价 $1.50 低于均衡价格）</text>
 <line x1="635" y1="95" x2="635" y2="415" class="axis"/>
 <line x1="635" y1="415" x2="1060" y2="415" class="axis"/>
 <text x="625" y="420" font-size="13" text-anchor="end">0</text>

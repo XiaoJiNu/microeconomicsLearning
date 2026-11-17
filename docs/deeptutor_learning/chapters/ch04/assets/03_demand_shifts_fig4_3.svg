@@ -13,7 +13,7 @@
 <text x="375" y="482" font-size="16" text-anchor="middle">冰淇淋蛋卷数量</text>
 <text x="28" y="255" font-size="16" text-anchor="middle" transform="rotate(-90 28 255)">冰淇淋蛋卷价格</text>
 <line x1="90" y1="255" x2="480" y2="255" class="gray dash"/>
-<text x="80" y="260" font-size="14" text-anchor="end">P₀</text>
+<text x="80" y="260" font-size="13" text-anchor="end">既定价格</text>
 <polyline points="110,145 350,385" class="curve orange"/>
 <polyline points="220,125 480,385" class="curve blue"/>
 <polyline points="350,125 610,385" class="curve green"/>

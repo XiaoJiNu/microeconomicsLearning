@@ -49,7 +49,7 @@
 <line x1="95" y1="217" x2="291" y2="217" class="gray dash"/>
 <circle cx="291" cy="217" r="6" fill="#17202a"/>
 
-<text x="308" y="222" font-size="16" font-weight="600">均衡（Q* = 7，P* = $2.00）</text>
+<text x="308" y="222" font-size="16" font-weight="600">均衡（7 个，$2.00）</text>
 <text x="115" y="206" font-size="13" font-weight="600">均衡价格</text>
 <text x="472" y="108" font-size="15" font-weight="600" style="fill:#b33a3a">供给曲线 S</text>
 <text x="560" y="378" font-size="15" font-weight="600" style="fill:#2457a6">需求曲线 D</text>
