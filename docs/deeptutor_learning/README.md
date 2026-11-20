@@ -62,7 +62,35 @@
 
 名词：[GLOSSARY.md](chapters/ch04/GLOSSARY.md) · 往后读什么：[FURTHER_READING.md](chapters/ch04/FURTHER_READING.md) · 抽认卡：[FLASHCARDS.md](chapters/ch04/FLASHCARDS.md)
 
-四章的关卡互不抵扣，按章分别完成。
+## 从这里进入第 5 章
+
+学习台（地图、文件表、原书覆盖）：[chapters/ch05/README.md](chapters/ch05/README.md)
+
+原书是第 5 章「弹性及其应用」：需求价格弹性与中点法、五类需求曲线、总收益与弹性、线性需求曲线上的弹性变化、收入弹性与交叉价格弹性、供给价格弹性，以及农业好消息、OPEC 石油与禁毒政策三个应用。
+
+| 表面 | 你在做什么 | 入口 |
+|---|---|---|
+| Book | 顺着六页活页读，练中点法、总收益判据与三步加弹性应用 | [需求价格弹性与中点法](chapters/ch05/book/01_demand_elasticity_basics.md) |
+| Mastery Path | 按「认出 → 讲清 → 用上 → 自核」过关 | [MASTERY_PATH.md](chapters/ch05/MASTERY_PATH.md) |
+| Practice | 先算弹性与总收益变动，再对答案要点 | [PRACTICE.md](chapters/ch05/PRACTICE.md) · [ANSWER_KEY.md](chapters/ch05/ANSWER_KEY.md) |
+
+名词：[GLOSSARY.md](chapters/ch05/GLOSSARY.md) · 往后读什么：[FURTHER_READING.md](chapters/ch05/FURTHER_READING.md) · 抽认卡：[FLASHCARDS.md](chapters/ch05/FLASHCARDS.md)
+
+## 从这里进入第 6 章
+
+学习台（地图、文件表、原书覆盖）：[chapters/ch06/README.md](chapters/ch06/README.md)
+
+原书是第 6 章「供给、需求与政府政策」：价格上限（汽油长队、短长期租金控制）、价格下限（最低工资）与补贴替代、向卖者征税与向买者征税的等效性（FICA 工薪税），以及相对弹性与税收归宿（游艇奢侈品税）。
+
+| 表面 | 你在做什么 | 入口 |
+|---|---|---|
+| Book | 顺着五页活页读，分析限价短缺／过剩与税收归宿 | [价格上限与非价格配给](chapters/ch06/book/01_price_ceilings.md) |
+| Mastery Path | 按「认出 → 讲清 → 用上 → 自核」过关 | [MASTERY_PATH.md](chapters/ch06/MASTERY_PATH.md) |
+| Practice | 判定限制性约束、计算税收楔子与归宿，再对答案要点 | [PRACTICE.md](chapters/ch06/PRACTICE.md) · [ANSWER_KEY.md](chapters/ch06/ANSWER_KEY.md) |
+
+名词：[GLOSSARY.md](chapters/ch06/GLOSSARY.md) · 往后读什么：[FURTHER_READING.md](chapters/ch06/FURTHER_READING.md) · 抽认卡：[FLASHCARDS.md](chapters/ch06/FLASHCARDS.md)
+
+六章的关卡互不抵扣，按章分别完成。
 
 ## 第 1 章的教材依据
 
@@ -85,4 +113,4 @@
 
 那边是按书序写的摘要课，第 1 章入口在 [docs/grok_bot_learning/chapters/ch01/README.md](../grok_bot_learning/chapters/ch01/README.md)。这边把同一章改写成 DeepTutor 的三块表面：活页、过关、题库。两套可以对照，进度**互不抵扣**。在摘要课里读过，不等于掌握路径的关已过。
 
-本包不改摘要课的任何文件。第 1 章至第 4 章都在本目录。第 5 章及以后尚未建立。
+本包不改摘要课的任何文件。第 1 章至第 6 章都在本目录。第 7 章及以后尚未建立。
