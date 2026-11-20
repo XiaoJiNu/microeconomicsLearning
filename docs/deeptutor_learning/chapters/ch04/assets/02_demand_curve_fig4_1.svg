@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="500" viewBox="0 0 880 500" role="img" aria-labelledby="title desc">
+<title id="title">图 4-1 Catherine 的需求表与需求曲线</title><desc id="desc">左侧列出每个价格下 Catherine 购买的冰淇淋蛋卷数量，右侧画出向右下方倾斜的个人需求曲线：价格从 2.00 美元降至 1.50 美元时，需求量从 4 个增至 6 个。</desc>
+<style>text{font-family:"WenQuanYi Micro Hei","Noto Sans CJK SC","Microsoft YaHei","PingFang SC",sans-serif;fill:#17202a}.axis{stroke:#344054;stroke-width:1.8}.grid{stroke:#e4e7ec;stroke-width:1}.blue{stroke:#2457a6}.green{stroke:#16805b}.gray{stroke:#667085}.curve{fill:none;stroke-width:3}.dash{stroke-dasharray:5 4}.tbl{stroke:#d0d5dd;stroke-width:1}</style>
+<defs>
+  <marker id="arr-d1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M0,1 L9,5 L0,9 z" fill="#16805b"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="white"/>
+<text x="440" y="36" font-size="22" text-anchor="middle" font-weight="600">图 4-1 Catherine 的需求表与需求曲线</text>
+
+<!-- Demand Schedule Table -->
+<rect x="32" y="88" width="248" height="336" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+<rect x="32" y="88" width="248" height="48" rx="6" fill="#eef2f6"/>
+<line x1="156" y1="88" x2="156" y2="424" class="tbl"/>
+<text x="94" y="118" font-size="14" text-anchor="middle" font-weight="600">冰淇淋价格</text>
+<text x="218" y="118" font-size="14" text-anchor="middle" font-weight="600">需求量（个）</text>
+<line x1="32" y1="136" x2="280" y2="136" class="tbl"/>
+<text x="94" y="163" font-size="14" text-anchor="middle">$0.00</text><text x="218" y="163" font-size="14" text-anchor="middle">12</text>
+<line x1="32" y1="177" x2="280" y2="177" class="tbl"/>
+<text x="94" y="204" font-size="14" text-anchor="middle">$0.50</text><text x="218" y="204" font-size="14" text-anchor="middle">10</text>
+<line x1="32" y1="218" x2="280" y2="218" class="tbl"/>
+<text x="94" y="245" font-size="14" text-anchor="middle">$1.00</text><text x="218" y="245" font-size="14" text-anchor="middle">8</text>
+<line x1="32" y1="259" x2="280" y2="259" class="tbl"/>
+<rect x="33" y="260" width="246" height="81" fill="#ecfdf3"/>
+<line x1="156" y1="259" x2="156" y2="341" class="tbl"/>
+<text x="94" y="286" font-size="14" text-anchor="middle" font-weight="600">$1.50</text><text x="218" y="286" font-size="14" text-anchor="middle" font-weight="600">6</text>
+<line x1="32" y1="300" x2="280" y2="300" class="tbl"/>
+<text x="94" y="327" font-size="14" text-anchor="middle" font-weight="600">$2.00</text><text x="218" y="327" font-size="14" text-anchor="middle" font-weight="600">4</text>
+<line x1="32" y1="341" x2="280" y2="341" class="tbl"/>
+<text x="94" y="368" font-size="14" text-anchor="middle">$2.50</text><text x="218" y="368" font-size="14" text-anchor="middle">2</text>
+<line x1="32" y1="382" x2="280" y2="382" class="tbl"/>
+<text x="94" y="409" font-size="14" text-anchor="middle">$3.00</text><text x="218" y="409" font-size="14" text-anchor="middle">0</text>
+
+<!-- Demand Curve Graph -->
+<line x1="390" y1="95" x2="846" y2="95" class="grid"/>
+<line x1="390" y1="150" x2="846" y2="150" class="grid"/>
+<line x1="390" y1="205" x2="846" y2="205" class="grid"/>
+<line x1="390" y1="260" x2="846" y2="260" class="grid"/>
+<line x1="390" y1="315" x2="846" y2="315" class="grid"/>
+<line x1="390" y1="370" x2="846" y2="370" class="grid"/>
+<line x1="466" y1="85" x2="466" y2="425" class="grid"/>
+<line x1="542" y1="85" x2="542" y2="425" class="grid"/>
+<line x1="618" y1="85" x2="618" y2="425" class="grid"/>
+<line x1="694" y1="85" x2="694" y2="425" class="grid"/>
+<line x1="770" y1="85" x2="770" y2="425" class="grid"/>
+<line x1="846" y1="85" x2="846" y2="425" class="grid"/>
+
+<line x1="390" y1="80" x2="390" y2="425" class="axis"/>
+<line x1="390" y1="425" x2="855" y2="425" class="axis"/>
+<text x="380" y="430" font-size="13" text-anchor="end">0</text>
+<text x="380" y="375" font-size="13" text-anchor="end">$0.50</text>
+<text x="380" y="320" font-size="13" text-anchor="end">$1.00</text>
+<text x="380" y="265" font-size="13" text-anchor="end" font-weight="600">$1.50</text>
+<text x="380" y="210" font-size="13" text-anchor="end" font-weight="600">$2.00</text>
+<text x="380" y="155" font-size="13" text-anchor="end">$2.50</text>
+<text x="380" y="100" font-size="13" text-anchor="end">$3.00</text>
+
+<text x="466" y="447" font-size="13" text-anchor="middle">2</text>
+<text x="542" y="447" font-size="13" text-anchor="middle" font-weight="600">4</text>
+<text x="618" y="447" font-size="13" text-anchor="middle" font-weight="600">6</text>
+<text x="694" y="447" font-size="13" text-anchor="middle">8</text>
+<text x="770" y="447" font-size="13" text-anchor="middle">10</text>
+<text x="846" y="447" font-size="13" text-anchor="middle">12</text>
+
+<text x="618" y="478" font-size="15" text-anchor="middle">冰淇淋蛋卷数量（个）</text>
+<text x="322" y="255" font-size="15" text-anchor="middle" transform="rotate(-90 322 255)">冰淇淋蛋卷价格</text>
+
+<line x1="390" y1="205" x2="542" y2="205" class="gray dash"/>
+<line x1="542" y1="205" x2="542" y2="425" class="gray dash"/>
+<line x1="390" y1="260" x2="618" y2="260" class="gray dash"/>
+<line x1="618" y1="260" x2="618" y2="425" class="gray dash"/>
+
+<polyline points="390,95 466,150 542,205 618,260 694,315 770,370 846,425" class="curve blue"/>
+<circle cx="390" cy="95" r="4.5" fill="#2457a6"/>
+<circle cx="466" cy="150" r="4.5" fill="#2457a6"/>
+<circle cx="542" cy="205" r="5" fill="#2457a6"/>
+<circle cx="618" cy="260" r="5" fill="#2457a6"/>
+<circle cx="694" cy="315" r="4.5" fill="#2457a6"/>
+<circle cx="770" cy="370" r="4.5" fill="#2457a6"/>
+<circle cx="846" cy="425" r="4.5" fill="#2457a6"/>
+
+<text x="724" y="308" font-size="15" font-weight="600" style="fill:#2457a6">Catherine 的需求曲线</text>
+<line x1="418" y1="210" x2="418" y2="253" stroke="#16805b" stroke-width="2.3" marker-end="url(#arr-d1)"/>
+<text x="430" y="237" font-size="14" font-weight="600" style="fill:#16805b">1. 价格下降</text>
+<line x1="548" y1="395" x2="611" y2="395" stroke="#16805b" stroke-width="2.3" marker-end="url(#arr-d1)"/>
+<text x="628" y="400" font-size="14" font-weight="600" style="fill:#16805b">2. 需求量增加</text>
+</svg>

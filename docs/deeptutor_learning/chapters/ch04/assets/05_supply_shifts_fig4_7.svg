@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="520" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+<title id="title">图 4-7 供给曲线的移动</title><desc id="desc">在任意既定价格下，供给增加使供给曲线从 S1 右移到 S2，供给减少使供给曲线从 S1 左移到 S3。</desc>
+<style>text{font-family:"WenQuanYi Micro Hei","Noto Sans CJK SC","Microsoft YaHei","PingFang SC",sans-serif;fill:#17202a}.axis{stroke:#344054;stroke-width:1.8}.red{stroke:#b33a3a}.green{stroke:#16805b}.orange{stroke:#c75b12}.gray{stroke:#667085}.curve{fill:none;stroke-width:3}.dash{stroke-dasharray:6 5}</style>
+<defs>
+  <marker id="arr-s-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,1 L9,5 L0,9 z" fill="#16805b"/></marker>
+  <marker id="arr-s-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,1 L9,5 L0,9 z" fill="#c75b12"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="white"/>
+<text x="360" y="36" font-size="22" text-anchor="middle" font-weight="600">图 4-7 供给曲线的移动</text>
+<line x1="90" y1="75" x2="90" y2="435" class="axis"/>
+<line x1="90" y1="435" x2="660" y2="435" class="axis"/>
+<text x="80" y="440" font-size="14" text-anchor="end">0</text>
+<text x="375" y="482" font-size="16" text-anchor="middle">冰淇淋蛋卷数量</text>
+<text x="28" y="255" font-size="16" text-anchor="middle" transform="rotate(-90 28 255)">冰淇淋蛋卷价格</text>
+<line x1="90" y1="260" x2="505" y2="260" class="gray dash"/>
+<text x="80" y="265" font-size="13" text-anchor="end">既定价格</text>
+<polyline points="120,375 350,145" class="curve orange"/>
+<polyline points="245,385 485,145" class="curve red"/>
+<polyline points="380,385 620,145" class="curve green"/>
+<circle cx="235" cy="260" r="4.5" fill="#c75b12"/>
+<circle cx="370" cy="260" r="4.5" fill="#b33a3a"/>
+<circle cx="505" cy="260" r="4.5" fill="#16805b"/>
+<line x1="382" y1="236" x2="478" y2="236" stroke="#16805b" stroke-width="2.5" marker-end="url(#arr-s-green)"/>
+<text x="430" y="222" font-size="15" text-anchor="middle" font-weight="600" style="fill:#16805b">供给增加</text>
+<line x1="358" y1="284" x2="262" y2="284" stroke="#c75b12" stroke-width="2.5" marker-end="url(#arr-s-orange)"/>
+<text x="310" y="308" font-size="15" text-anchor="middle" font-weight="600" style="fill:#c75b12">供给减少</text>
+<text x="350" y="128" font-size="15" text-anchor="middle" font-weight="600" style="fill:#c75b12">供给曲线 S₃</text>
+<text x="485" y="128" font-size="15" text-anchor="middle" font-weight="600" style="fill:#b33a3a">供给曲线 S₁</text>
+<text x="620" y="128" font-size="15" text-anchor="middle" font-weight="600" style="fill:#16805b">供给曲线 S₂</text>
+</svg>

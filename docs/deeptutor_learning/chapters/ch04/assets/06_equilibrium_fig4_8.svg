@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="540" viewBox="0 0 720 540" role="img" aria-labelledby="title desc">
+<title id="title">图 4-8 供给与需求的均衡</title><desc id="desc">冰淇淋市场需求曲线与供给曲线在价格 2.00 美元、数量 7 个处相交，该交点即为市场均衡。</desc>
+<style>text{font-family:"WenQuanYi Micro Hei","Noto Sans CJK SC","Microsoft YaHei","PingFang SC",sans-serif;fill:#17202a}.axis{stroke:#344054;stroke-width:1.8}.grid{stroke:#e4e7ec;stroke-width:1}.blue{stroke:#2457a6}.red{stroke:#b33a3a}.gray{stroke:#667085}.curve{fill:none;stroke-width:3}.dash{stroke-dasharray:6 5}</style>
+<rect width="100%" height="100%" fill="white"/>
+<text x="360" y="36" font-size="22" text-anchor="middle" font-weight="600">图 4-8 供给与需求的均衡</text>
+<line x1="95" y1="86" x2="95" y2="445" class="grid"/>
+<line x1="207" y1="86" x2="207" y2="445" class="grid"/>
+<line x1="291" y1="86" x2="291" y2="445" class="grid"/>
+<line x1="375" y1="86" x2="375" y2="445" class="grid"/>
+<line x1="459" y1="86" x2="459" y2="445" class="grid"/>
+<line x1="543" y1="86" x2="543" y2="445" class="grid"/>
+<line x1="627" y1="86" x2="627" y2="445" class="grid"/>
+
+<line x1="95" y1="388" x2="655" y2="388" class="grid"/>
+<line x1="95" y1="331" x2="655" y2="331" class="grid"/>
+<line x1="95" y1="274" x2="655" y2="274" class="grid"/>
+<line x1="95" y1="217" x2="655" y2="217" class="grid"/>
+<line x1="95" y1="160" x2="655" y2="160" class="grid"/>
+<line x1="95" y1="103" x2="655" y2="103" class="grid"/>
+
+<line x1="95" y1="80" x2="95" y2="445" class="axis"/>
+<line x1="95" y1="445" x2="660" y2="445" class="axis"/>
+
+<text x="95" y="468" font-size="13" text-anchor="middle">0</text>
+<text x="123" y="468" font-size="13" text-anchor="middle">1</text>
+<text x="207" y="468" font-size="13" text-anchor="middle">4</text>
+<text x="291" y="468" font-size="13" text-anchor="middle" font-weight="600">7</text>
+<text x="375" y="468" font-size="13" text-anchor="middle">10</text>
+<text x="459" y="468" font-size="13" text-anchor="middle">13</text>
+<text x="543" y="468" font-size="13" text-anchor="middle">16</text>
+<text x="627" y="468" font-size="13" text-anchor="middle">19</text>
+<text x="291" y="488" font-size="13" text-anchor="middle" font-weight="600">均衡数量</text>
+
+<text x="83" y="450" font-size="13" text-anchor="end">0</text>
+<text x="83" y="393" font-size="13" text-anchor="end">$0.50</text>
+<text x="83" y="336" font-size="13" text-anchor="end">$1.00</text>
+<text x="83" y="279" font-size="13" text-anchor="end">$1.50</text>
+<text x="83" y="222" font-size="13" text-anchor="end" font-weight="600">$2.00</text>
+<text x="83" y="165" font-size="13" text-anchor="end">$2.50</text>
+<text x="83" y="108" font-size="13" text-anchor="end">$3.00</text>
+
+<text x="380" y="518" font-size="16" text-anchor="middle">冰淇淋蛋卷数量（个）</text>
+<text x="24" y="265" font-size="16" text-anchor="middle" transform="rotate(-90 24 265)">冰淇淋蛋卷价格</text>
+
+<polyline points="627,445 543,388 459,331 375,274 291,217 207,160 123,103" class="curve blue"/>
+<polyline points="95,445 95,388 123,331 207,274 291,217 375,160 459,103" class="curve red"/>
+
+<line x1="291" y1="217" x2="291" y2="445" class="gray dash"/>
+<line x1="95" y1="217" x2="291" y2="217" class="gray dash"/>
+<circle cx="291" cy="217" r="6" fill="#17202a"/>
+
+<text x="308" y="222" font-size="16" font-weight="600">均衡（7 个，$2.00）</text>
+<text x="115" y="206" font-size="13" font-weight="600">均衡价格</text>
+<text x="472" y="108" font-size="15" font-weight="600" style="fill:#b33a3a">供给曲线 S</text>
+<text x="560" y="378" font-size="15" font-weight="600" style="fill:#2457a6">需求曲线 D</text>
+</svg>

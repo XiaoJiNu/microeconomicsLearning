@@ -34,6 +34,64 @@
 
 第 1 章的关卡不抵第 2 章。两章分开过。
 
+## 从这里进入第 3 章
+
+学习台（地图、文件表、原书覆盖）：[chapters/ch03/README.md](chapters/ch03/README.md)
+
+原书是第 3 章「相互依存性与贸易的好处」：生产可能性、专业化与贸易、绝对优势、机会成本、比较优势、贸易收益与贸易价格，以及个人和国家层面的应用。
+
+| 表面 | 你在做什么 | 入口 |
+|---|---|---|
+| Book | 顺着五页活页读，逐格核对生产、交换与消费 | [生产可能性](chapters/ch03/book/01_production_possibilities.md) |
+| Mastery Path | 按「认出 → 讲清 → 用上 → 自核」过关 | [MASTERY_PATH.md](chapters/ch03/MASTERY_PATH.md) |
+| Practice | 先算机会成本和贸易价格，再对答案要点 | [PRACTICE.md](chapters/ch03/PRACTICE.md) · [ANSWER_KEY.md](chapters/ch03/ANSWER_KEY.md) |
+
+名词：[GLOSSARY.md](chapters/ch03/GLOSSARY.md) · 往后读什么：[FURTHER_READING.md](chapters/ch03/FURTHER_READING.md) · 抽认卡：[FLASHCARDS.md](chapters/ch03/FLASHCARDS.md)
+
+## 从这里进入第 4 章
+
+学习台（地图、文件表、原书覆盖）：[chapters/ch04/README.md](chapters/ch04/README.md)
+
+原书是第 4 章「供给与需求的市场力量」：竞争市场、需求与供给的市场加总、曲线移动与沿曲线移动、均衡及其调整、均衡变动三步骤，以及价格配置资源。
+
+| 表面 | 你在做什么 | 入口 |
+|---|---|---|
+| Book | 顺着八页活页读，用冰淇淋数据核对图形 | [市场与竞争](chapters/ch04/book/01_markets_competition.md) |
+| Mastery Path | 按「认出 → 讲清 → 用上 → 自核」过关 | [MASTERY_PATH.md](chapters/ch04/MASTERY_PATH.md) |
+| Practice | 判断曲线如何移动，并分析新旧均衡 | [PRACTICE.md](chapters/ch04/PRACTICE.md) · [ANSWER_KEY.md](chapters/ch04/ANSWER_KEY.md) |
+
+名词：[GLOSSARY.md](chapters/ch04/GLOSSARY.md) · 往后读什么：[FURTHER_READING.md](chapters/ch04/FURTHER_READING.md) · 抽认卡：[FLASHCARDS.md](chapters/ch04/FLASHCARDS.md)
+
+## 从这里进入第 5 章
+
+学习台（地图、文件表、原书覆盖）：[chapters/ch05/README.md](chapters/ch05/README.md)
+
+原书是第 5 章「弹性及其应用」：需求价格弹性与中点法、五类需求曲线、总收益与弹性、线性需求曲线上的弹性变化、收入弹性与交叉价格弹性、供给价格弹性，以及农业好消息、OPEC 石油与禁毒政策三个应用。
+
+| 表面 | 你在做什么 | 入口 |
+|---|---|---|
+| Book | 顺着六页活页读，练中点法、总收益判据与三步加弹性应用 | [需求价格弹性与中点法](chapters/ch05/book/01_demand_elasticity_basics.md) |
+| Mastery Path | 按「认出 → 讲清 → 用上 → 自核」过关 | [MASTERY_PATH.md](chapters/ch05/MASTERY_PATH.md) |
+| Practice | 先算弹性与总收益变动，再对答案要点 | [PRACTICE.md](chapters/ch05/PRACTICE.md) · [ANSWER_KEY.md](chapters/ch05/ANSWER_KEY.md) |
+
+名词：[GLOSSARY.md](chapters/ch05/GLOSSARY.md) · 往后读什么：[FURTHER_READING.md](chapters/ch05/FURTHER_READING.md) · 抽认卡：[FLASHCARDS.md](chapters/ch05/FLASHCARDS.md)
+
+## 从这里进入第 6 章
+
+学习台（地图、文件表、原书覆盖）：[chapters/ch06/README.md](chapters/ch06/README.md)
+
+原书是第 6 章「供给、需求与政府政策」：价格上限（汽油长队、短长期租金控制）、价格下限（最低工资）与补贴替代、向卖者征税与向买者征税的等效性（FICA 工薪税），以及相对弹性与税收归宿（游艇奢侈品税）。
+
+| 表面 | 你在做什么 | 入口 |
+|---|---|---|
+| Book | 顺着五页活页读，分析限价短缺／过剩与税收归宿 | [价格上限与非价格配给](chapters/ch06/book/01_price_ceilings.md) |
+| Mastery Path | 按「认出 → 讲清 → 用上 → 自核」过关 | [MASTERY_PATH.md](chapters/ch06/MASTERY_PATH.md) |
+| Practice | 判定限制性约束、计算税收楔子与归宿，再对答案要点 | [PRACTICE.md](chapters/ch06/PRACTICE.md) · [ANSWER_KEY.md](chapters/ch06/ANSWER_KEY.md) |
+
+名词：[GLOSSARY.md](chapters/ch06/GLOSSARY.md) · 往后读什么：[FURTHER_READING.md](chapters/ch06/FURTHER_READING.md) · 抽认卡：[FLASHCARDS.md](chapters/ch06/FLASHCARDS.md)
+
+六章的关卡互不抵扣，按章分别完成。
+
 ## 第 1 章的教材依据
 
 曼昆（N. Gregory Mankiw）《经济学原理》**微观分册第 8 版**，**第 1 章：十大经济学原理**（导论章）。
@@ -55,4 +113,4 @@
 
 那边是按书序写的摘要课，第 1 章入口在 [docs/grok_bot_learning/chapters/ch01/README.md](../grok_bot_learning/chapters/ch01/README.md)。这边把同一章改写成 DeepTutor 的三块表面：活页、过关、题库。两套可以对照，进度**互不抵扣**。在摘要课里读过，不等于掌握路径的关已过。
 
-本包不改摘要课的任何文件。第 1 章和第 2 章都在本目录。第 3 章及以后不在这里。
+本包不改摘要课的任何文件。第 1 章至第 6 章都在本目录。第 7 章及以后尚未建立。

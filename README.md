@@ -1,44 +1,43 @@
-# 微观经济学学习：把问题讲清，用证据判断掌握
+# 微观经济学：从看懂概念到独立分析问题
 
-本分支`gpt6-pro`为2026-09-05重构版。主课程包含**10个单元、100个完整小课**，首轮规划约20小时。课程按概念和问题展开，不按分钟片段切割讲解。
+这套课程面向有工程背景、金融基础较少的学习者。以曼昆《经济学原理（第8版）：微观经济学分册》的主题顺序为主线，完成 **10个单元、80节完整短课**。每节围绕一个问题展开，提供术语解释、机制推导、完整算例、反例及带解析的练习。
 
-## 唯一默认入口
+**先从[第一课：稀缺与机会成本](docs/course_20h/unit_01_economic_thinking/01_scarcity_opportunity_cost.md)开始；完整顺序见[课程地图](docs/course_20h/README.md)。**
 
-**[打开新版课程地图](docs/course_gpt6_pro/README.md)**，或直接进入[第一课](docs/course_gpt6_pro/u01/01.md)。已做过诊断者不必重做整套诊断，按原有证据选择下一知识点。
+## 怎样学
 
-[使用方法](docs/course_gpt6_pro/GUIDE.md) · [中英术语与缩写](docs/course_gpt6_pro/GLOSSARY.md) · [工作簿](docs/course_gpt6_pro/WORKBOOK.md) · [综合考核](docs/course_gpt6_pro/CAPSTONE.md) · [重构说明](docs/course_gpt6_pro/AUDIT.md) · [来源](docs/course_gpt6_pro/SOURCES.md)
+1. 打开当前课，先读问题和术语，再跟着例子走完推理；看不懂就停在具体一步。
+2. 合上例子，做一道即时题，再展开解析比较自己的过程。
+3. 不看原文，用自己的话说出“为什么、怎样算、什么条件变了结论会变”。
+4. 在[课程工作簿](docs/course_20h/workbook.md)留下自己的答案。每单元最后一课做综合应用和费曼分享。
 
-## 十个单元
+每课核心学习约 **10–15分钟**，可以分两次完成。原每单元约2小时、全程约20小时保留为第一轮预算；用时不能证明学会，卡住时需要增加练习。迁移题、延伸阅读和延迟复习可以另做。每天有一小时可以连续学几课，并额外做约5分钟分享；只有十几分钟就学一课，结束时留下下一步。
 
-| 单元 | 主题 | 入口 |
+## 你将能回答什么
+
+| 学习阶段 | 能回答的问题 | 入口 |
 |---|---|---|
-| U01 | 经济学思维 | [10个小课](docs/course_gpt6_pro/u01/README.md) |
-| U02 | 分工与供需 | [10个小课](docs/course_gpt6_pro/u02/README.md) |
-| U03 | 弹性与政策 | [10个小课](docs/course_gpt6_pro/u03/README.md) |
-| U04 | 福利与贸易 | [10个小课](docs/course_gpt6_pro/u04/README.md) |
-| U05 | 公共部门 | [10个小课](docs/course_gpt6_pro/u05/README.md) |
-| U06 | 成本与竞争 | [10个小课](docs/course_gpt6_pro/u06/README.md) |
-| U07 | 市场势力与博弈 | [10个小课](docs/course_gpt6_pro/u07/README.md) |
-| U08 | 劳动与分配 | [10个小课](docs/course_gpt6_pro/u08/README.md) |
-| U09 | 消费者选择 | [10个小课](docs/course_gpt6_pro/u09/README.md) |
-| U10 | 信息与行为 | [10个小课](docs/course_gpt6_pro/u10/README.md) |
+| 作选择、看市场 | 什么值得继续？价格为什么变？ | [01经济思维](docs/course_20h/unit_01_economic_thinking/README.md) · [02贸易与供需](docs/course_20h/unit_02_trade_and_market/README.md) |
+| 衡量反应与政策 | 涨价会怎样？税负谁承担？交易创造多少价值？ | [03弹性](docs/course_20h/unit_03_elasticity_and_policy/README.md) · [04福利与贸易](docs/course_20h/unit_04_welfare_tax_trade/README.md) |
+| 分析成本与竞争 | 市场为何失灵？企业何时生产或退出？利润能否持续？ | [05公共部门](docs/course_20h/unit_05_public_sector/README.md) · [06企业成本](docs/course_20h/unit_06_costs_competitive_firms/README.md) · [07市场势力](docs/course_20h/unit_07_market_power_strategy/README.md) |
+| 解释分配与选择 | 工资从哪来？预算怎样影响选择？信息和行为如何改变结果？ | [08要素与分配](docs/course_20h/unit_08_factor_markets_distribution/README.md) · [09消费者](docs/course_20h/unit_09_consumer_choice/README.md) · [10信息与行为](docs/course_20h/unit_10_micro_frontiers/README.md) |
 
-原仓库曼昆第8版微观分册第1—22章作为范围框架，OpenStax和CORE用于补充核对。每课有概念、机制、演算例子、短题及解析、适用边界；每单元有综合题和可展开约五分钟的费曼分享参考。
+## 术语不用猜
 
-## 时间和术语
+例如：**边际成本（Marginal Cost, MC）**，指多做一单位行动增加的成本；**边际收益（Marginal Benefit, MB）**，指多做一单位行动增加的好处。企业销售中另有**边际营收（Marginal Revenue, MR）**，指多卖一单位增加的销售收入，不能与MB混用。
 
-单课按约10—15分钟使用颗粒度设计，以12分钟估计100课约1200分钟。数学补习、延迟复习、真实项目和分享可能另需时间，不承诺人人严格20小时掌握。
+每课会重新解释关键术语。没有稳定常用缩写的术语写“无通用缩写”，例如沉没成本（Sunk Cost）；数量记号如 $Q_d$ 是公式符号，不是要求背诵的英文缩写。
 
-专业词首次出现给中文、原始英文、通用缩写与解释；没有统一缩写就明确说明，不造简称。边际收入MR、边际收益MB、边际成本MC分开，缩写与数学符号分开。
+- [中英术语与符号表](references/microeconomics_glossary_en_zh.md)
+- [图形读法与自编示意图](docs/course_20h/visual_guide.md)
+- [开始学习说明](START_HERE_20_HOURS.md)
+- [学习进度与已完成诊断](docs/00_learning_system/progress.md)
+- [重构分析与质量说明](docs/course_20h/REDESIGN_ANALYSIS.md)
 
-## 保留历史，不并行执行多套日程
+## 方法、材料和应用
 
-[原诊断与进度](docs/00_learning_system/progress.md)继续保留，不虚构个人完成数。旧入口归档：[原README](README_legacy_before_gpt6_pro.md)、[原80课指南](START_HERE_legacy_80.md)、[原100天路线](ROADMAP_legacy_100_days.md)、[原80课地图](docs/course_20h/README_legacy_80_lessons.md)。旧正文可回看，新版是唯一默认主线。
+学习方法参考 Rahul 的[《How To Learn Anything 10x Faster Using Claude》](https://x.com/sairahul1/article/2068250224532050089)，并参考[定位建图学习仓库](https://github.com/XiaoJiNu/localization-mapping-learning)的诊断、证据和复习方式。课程采用自编讲解、算例与图形；教材主题索引和公开核对资料见[教材与来源说明](references/textbook_guide.md)。
 
-## 检查
+第一次精简诊断已有记录，不需要重新做长诊断。当前没有正式课程完成证据；**材料写完与学习者学完是两回事**。旧版第一章15天日课保留为[补充材料](docs/units/01_economic_thinking/chapter_01_ten_principles/README.md)。
 
-```bash
-python3 scripts/validate_gpt6_pro_course.py
-```
-
-[实际检查报告](docs/course_gpt6_pro/VALIDATION_REPORT.json)记录本次结构与算例核验；自动测试不等于教学效果证明。更新仅在`gpt6-pro`，不自动合并`main`。
+投资应用先练企业需求、成本、竞争与激励分析，区分经营判断与买卖决定；股票价格还涉及估值和预期，黄金还涉及资产需求和宏观变量。本课不把简单供需图当成价格预测器。

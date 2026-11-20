@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="620" viewBox="0 0 1080 620" role="img" aria-labelledby="title desc">
+<title id="title">图 5-5 供给价格弹性</title>
+<desc id="desc">五幅子图展示按中点法计算的供给价格弹性：（a）完全无弹性（弹性=0，垂直线，数量恒为100）；（b）缺乏弹性（弹性小于1，价格4升至5上升22%，供给量100增至110增加10%）；（c）单位弹性（弹性等于1，过原点直线，价格上升22%，供给量100增至125增加22%）；（d）富有弹性（弹性大于1，价格上升22%，供给量100增至200增加67%）；（e）完全有弹性（弹性无穷大，在4美元处水平）。</desc>
+<style>
+  text{font-family:"WenQuanYi Micro Hei","Noto Sans CJK SC","Microsoft YaHei","PingFang SC",sans-serif;fill:#17202a}
+  .axis{stroke:#344054;stroke-width:1.8}
+  .curve{fill:none;stroke:#b33a3a;stroke-width:3}
+  .dash{stroke:#667085;stroke-width:1.2;stroke-dasharray:4 3}
+  .note{fill:#16805b;font-size:12.5px;font-weight:600}
+  .sub{font-size:15px;font-weight:600}
+</style>
+<defs>
+  <marker id="arr-gs" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,1 L9,5 L0,9 z" fill="#16805b"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="white"/>
+<text x="540" y="34" font-size="22" text-anchor="middle" font-weight="600">图 5-5 供给价格弹性（所有变动百分比均用中点法计算）</text>
+
+<!-- (a) Perfectly Inelastic Supply -->
+<g transform="translate(30,62)">
+  <text x="165" y="18" class="sub" text-anchor="middle">（a）完全无弹性的供给：弹性等于 0</text>
+  <line x1="58" y1="36" x2="58" y2="210" class="axis"/>
+  <line x1="58" y1="210" x2="300" y2="210" class="axis"/>
+  <text x="48" y="214" font-size="12.5" text-anchor="end">0</text>
+  <text x="48" y="138" font-size="12.5" text-anchor="end">$4</text>
+  <text x="48" y="92" font-size="12.5" text-anchor="end">$5</text>
+  <text x="175" y="229" font-size="12.5" text-anchor="middle">100</text>
+  <text x="285" y="232" font-size="13" text-anchor="end">数量</text>
+  <text x="16" y="125" font-size="13" text-anchor="middle" transform="rotate(-90 16 125)">价格</text>
+  <line x1="58" y1="134" x2="175" y2="134" class="dash"/>
+  <line x1="58" y1="88" x2="175" y2="88" class="dash"/>
+  <line x1="175" y1="45" x2="175" y2="210" class="curve"/>
+  <text x="184" y="60" font-size="14" font-weight="600" style="fill:#b33a3a">供给</text>
+  <line x1="78" y1="130" x2="78" y2="95" stroke="#16805b" stroke-width="2" marker-end="url(#arr-gs)"/>
+  <text x="86" y="116" class="note">1. 价格上升……</text>
+  <text x="165" y="252" class="note" text-anchor="middle">2. ……使供给量不变</text>
+</g>
+
+<!-- (b) Inelastic Supply -->
+<g transform="translate(375,62)">
+  <text x="165" y="18" class="sub" text-anchor="middle">（b）缺乏弹性的供给：弹性小于 1</text>
+  <line x1="58" y1="36" x2="58" y2="210" class="axis"/>
+  <line x1="58" y1="210" x2="300" y2="210" class="axis"/>
+  <text x="48" y="214" font-size="12.5" text-anchor="end">0</text>
+  <text x="48" y="138" font-size="12.5" text-anchor="end">$4</text>
+  <text x="48" y="92" font-size="12.5" text-anchor="end">$5</text>
+  <text x="155" y="229" font-size="12.5" text-anchor="middle">100</text>
+  <text x="183" y="229" font-size="12.5" text-anchor="middle">110</text>
+  <text x="285" y="232" font-size="13" text-anchor="end">数量</text>
+  <text x="16" y="125" font-size="13" text-anchor="middle" transform="rotate(-90 16 125)">价格</text>
+  <line x1="58" y1="88" x2="183" y2="88" class="dash"/>
+  <line x1="183" y1="88" x2="183" y2="210" class="dash"/>
+  <line x1="58" y1="134" x2="155" y2="134" class="dash"/>
+  <line x1="155" y1="134" x2="155" y2="210" class="dash"/>
+  <line x1="109" y1="210" x2="209" y2="45" class="curve"/>
+  <circle cx="155" cy="134" r="4" fill="#b33a3a"/>
+  <circle cx="183" cy="88" r="4" fill="#b33a3a"/>
+  <text x="215" y="55" font-size="14" font-weight="600" style="fill:#b33a3a">供给</text>
+  <line x1="74" y1="130" x2="74" y2="95" stroke="#16805b" stroke-width="2" marker-end="url(#arr-gs)"/>
+  <text x="82" y="116" class="note">1. 价格上升 22%……</text>
+  <line x1="157" y1="196" x2="180" y2="196" stroke="#16805b" stroke-width="2" marker-end="url(#arr-gs)"/>
+  <text x="170" y="252" class="note" text-anchor="middle">2. ……使供给量增加 10%</text>
+</g>
+
+<!-- (c) Unit Elastic Supply -->
+<g transform="translate(720,62)">
+  <text x="165" y="18" class="sub" text-anchor="middle">（c）单位弹性供给：弹性等于 1</text>
+  <line x1="58" y1="36" x2="58" y2="210" class="axis"/>
+  <line x1="58" y1="210" x2="300" y2="210" class="axis"/>
+  <text x="48" y="214" font-size="12.5" text-anchor="end">0</text>
+  <text x="48" y="142" font-size="12.5" text-anchor="end">$4</text>
+  <text x="48" y="124" font-size="12.5" text-anchor="end">$5</text>
+  <text x="158" y="229" font-size="12.5" text-anchor="middle">100</text>
+  <text x="183" y="229" font-size="12.5" text-anchor="middle">125</text>
+  <text x="285" y="232" font-size="13" text-anchor="end">数量</text>
+  <text x="16" y="125" font-size="13" text-anchor="middle" transform="rotate(-90 16 125)">价格</text>
+  <line x1="58" y1="120" x2="183" y2="120" class="dash"/>
+  <line x1="183" y1="120" x2="183" y2="210" class="dash"/>
+  <line x1="58" y1="138" x2="158" y2="138" class="dash"/>
+  <line x1="158" y1="138" x2="158" y2="210" class="dash"/>
+  <line x1="58" y1="210" x2="275" y2="54" class="curve"/>
+  <circle cx="158" cy="138" r="4" fill="#b33a3a"/>
+  <circle cx="183" cy="120" r="4" fill="#b33a3a"/>
+  <text x="278" y="54" font-size="14" font-weight="600" style="fill:#b33a3a">供给</text>
+  <text x="68" y="96" class="note">1. 价格上升 22%……</text>
+  <line x1="160" y1="196" x2="181" y2="196" stroke="#16805b" stroke-width="2" marker-end="url(#arr-gs)"/>
+  <text x="170" y="252" class="note" text-anchor="middle">2. ……使供给量增加 22%</text>
+</g>
+
+<!-- (d) Elastic Supply -->
+<g transform="translate(190,342)">
+  <text x="175" y="18" class="sub" text-anchor="middle">（d）富有弹性的供给：弹性大于 1</text>
+  <line x1="58" y1="36" x2="58" y2="210" class="axis"/>
+  <line x1="58" y1="210" x2="320" y2="210" class="axis"/>
+  <text x="48" y="214" font-size="12.5" text-anchor="end">0</text>
+  <text x="48" y="138" font-size="12.5" text-anchor="end">$4</text>
+  <text x="48" y="96" font-size="12.5" text-anchor="end">$5</text>
+  <text x="134" y="229" font-size="12.5" text-anchor="middle">100</text>
+  <text x="248" y="229" font-size="12.5" text-anchor="middle">200</text>
+  <text x="308" y="232" font-size="13" text-anchor="end">数量</text>
+  <text x="16" y="125" font-size="13" text-anchor="middle" transform="rotate(-90 16 125)">价格</text>
+  <line x1="58" y1="92" x2="248" y2="92" class="dash"/>
+  <line x1="248" y1="92" x2="248" y2="210" class="dash"/>
+  <line x1="58" y1="134" x2="134" y2="134" class="dash"/>
+  <line x1="134" y1="134" x2="134" y2="210" class="dash"/>
+  <line x1="58" y1="162" x2="296" y2="74" class="curve"/>
+  <circle cx="134" cy="134" r="4" fill="#b33a3a"/>
+  <circle cx="248" cy="92" r="4" fill="#b33a3a"/>
+  <text x="282" y="68" font-size="14" font-weight="600" style="fill:#b33a3a">供给</text>
+  <line x1="72" y1="130" x2="72" y2="98" stroke="#16805b" stroke-width="2" marker-end="url(#arr-gs)"/>
+  <text x="80" y="116" class="note">1. 价格上升 22%……</text>
+  <line x1="140" y1="196" x2="242" y2="196" stroke="#16805b" stroke-width="2" marker-end="url(#arr-gs)"/>
+  <text x="190" y="252" class="note" text-anchor="middle">2. ……使供给量增加 67%</text>
+</g>
+
+<!-- (e) Perfectly Elastic Supply -->
+<g transform="translate(565,342)">
+  <text x="175" y="18" class="sub" text-anchor="middle">（e）完全有弹性的供给：弹性无限大</text>
+  <line x1="58" y1="36" x2="58" y2="210" class="axis"/>
+  <line x1="58" y1="210" x2="320" y2="210" class="axis"/>
+  <text x="48" y="214" font-size="12.5" text-anchor="end">0</text>
+  <text x="48" y="124" font-size="12.5" text-anchor="end">$4</text>
+  <text x="308" y="232" font-size="13" text-anchor="end">数量</text>
+  <text x="16" y="125" font-size="13" text-anchor="middle" transform="rotate(-90 16 125)">价格</text>
+  <line x1="58" y1="120" x2="296" y2="120" class="curve"/>
+  <text x="282" y="110" font-size="14" font-weight="600" style="fill:#b33a3a">供给</text>
+  <text x="76" y="76" class="note">1. 价格高于 $4 时，供给量无限大</text>
+  <text x="76" y="144" class="note">2. 价格正好为 $4 时，生产者将供给任何数量</text>
+  <text x="76" y="176" class="note">3. 价格低于 $4 时，供给量为 0</text>
+</g>
+</svg>

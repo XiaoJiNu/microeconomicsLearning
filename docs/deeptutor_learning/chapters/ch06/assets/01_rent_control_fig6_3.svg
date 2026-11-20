@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="480" viewBox="0 0 1060 480" role="img" aria-labelledby="title desc">
+<title id="title">图 6-3 短期与长期中的租金控制</title>
+<desc id="desc">（a）短期中公寓供给与需求均较为缺乏弹性，租金控制只引起住房的少量短缺；（b）长期中房东少建少修、租客需求扩大，供给与需求均富有弹性，同样受控制的租金引起住房的大量短缺。</desc>
+<style>
+  text{font-family:"WenQuanYi Micro Hei","Noto Sans CJK SC","Microsoft YaHei","PingFang SC",sans-serif;fill:#17202a}
+  .axis{stroke:#344054;stroke-width:1.8}
+  .demand{fill:none;stroke:#2457a6;stroke-width:3}
+  .supply{fill:none;stroke:#b33a3a;stroke-width:3}
+  .ceil{stroke:#16805b;stroke-width:2.5}
+  .dash{stroke:#667085;stroke-width:1.2;stroke-dasharray:4 3}
+  .sub{font-size:16px;font-weight:600}
+</style>
+<defs>
+  <marker id="arr-rl" viewBox="0 0 10 10" refX="2" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10,1 L1,5 L10,9 z" fill="#16805b"/></marker>
+  <marker id="arr-rr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,1 L9,5 L0,9 z" fill="#16805b"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="white"/>
+<text x="530" y="34" font-size="22" text-anchor="middle" font-weight="600">图 6-3 短期与长期中的租金控制</text>
+
+<!-- Panel (a): Short Run (Vertical Supply, Steep Demand) -->
+<g transform="translate(20,54)">
+  <text x="245" y="20" class="sub" text-anchor="middle">（a）短期中的租金控制（供给与需求缺乏弹性）</text>
+  <line x1="85" y1="50" x2="85" y2="345" class="axis"/>
+  <line x1="85" y1="345" x2="465" y2="345" class="axis"/>
+
+  <!-- Supply vertical at x=245; Steep Demand passes through (245, 165) and (276, 245) -->
+  <line x1="85" y1="245" x2="445" y2="245" class="ceil"/>
+  <line x1="245" y1="68" x2="245" y2="345" class="supply"/>
+  <line x1="208" y1="70" x2="310" y2="332" class="demand"/>
+  <line x1="276" y1="245" x2="276" y2="345" class="dash"/>
+
+  <circle cx="245" cy="245" r="4.5" fill="#b33a3a"/>
+  <circle cx="276" cy="245" r="4.5" fill="#2457a6"/>
+
+  <text x="74" y="350" font-size="13" text-anchor="end">0</text>
+  <text x="78" y="241" font-size="12.5" font-weight="600" text-anchor="end" style="fill:#16805b">受控制的</text>
+  <text x="78" y="257" font-size="12.5" font-weight="600" text-anchor="end" style="fill:#16805b">租金</text>
+  <text x="275" y="388" font-size="14.5" text-anchor="middle">公寓数量</text>
+  <text x="20" y="200" font-size="14.5" text-anchor="middle" transform="rotate(-90 20 200)">公寓租赁价格</text>
+
+  <text x="255" y="84" font-size="14.5" font-weight="600" style="fill:#b33a3a">供给</text>
+  <text x="316" y="328" font-size="14.5" font-weight="600" style="fill:#2457a6">需求</text>
+  <text x="261" y="274" font-size="13.5" font-weight="600" text-anchor="middle" style="fill:#16805b">少量短缺</text>
+</g>
+
+<!-- Panel (b): Long Run (Flat Supply, Flat Demand) -->
+<g transform="translate(550,54)">
+  <text x="245" y="20" class="sub" text-anchor="middle">（b）长期中的租金控制（供给与需求富有弹性）</text>
+  <line x1="85" y1="50" x2="85" y2="345" class="axis"/>
+  <line x1="85" y1="345" x2="465" y2="345" class="axis"/>
+
+  <!-- Flat Supply & Flat Demand intersecting at (255, 175). Controlled rent at y=245 => Qs at x=143, Qd at x=367! -->
+  <line x1="85" y1="245" x2="445" y2="245" class="ceil"/>
+  <line x1="115" y1="263" x2="425" y2="69" class="supply"/>
+  <line x1="115" y1="87" x2="425" y2="281" class="demand"/>
+  <line x1="143" y1="245" x2="143" y2="345" class="dash"/>
+  <line x1="367" y1="245" x2="367" y2="345" class="dash"/>
+
+  <circle cx="143" cy="245" r="5" fill="#b33a3a"/>
+  <circle cx="367" cy="245" r="5" fill="#2457a6"/>
+
+  <text x="74" y="350" font-size="13" text-anchor="end">0</text>
+  <text x="78" y="241" font-size="12.5" font-weight="600" text-anchor="end" style="fill:#16805b">受控制的</text>
+  <text x="78" y="257" font-size="12.5" font-weight="600" text-anchor="end" style="fill:#16805b">租金</text>
+  <text x="275" y="388" font-size="14.5" text-anchor="middle">公寓数量</text>
+  <text x="20" y="200" font-size="14.5" text-anchor="middle" transform="rotate(-90 20 200)">公寓租赁价格</text>
+
+  <text x="430" y="74" font-size="14.5" font-weight="600" style="fill:#b33a3a">供给</text>
+  <text x="430" y="286" font-size="14.5" font-weight="600" style="fill:#2457a6">需求</text>
+  <line x1="152" y1="274" x2="358" y2="274" stroke="#16805b" stroke-width="2.3" marker-start="url(#arr-rl)" marker-end="url(#arr-rr)"/>
+  <text x="255" y="296" font-size="14.5" font-weight="700" text-anchor="middle" style="fill:#16805b">大量短缺</text>
+</g>
+</svg>

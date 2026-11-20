@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="500" viewBox="0 0 1100 500" role="img" aria-labelledby="title desc">
+<title id="title">生产受边界约束，贸易使消费越过原边界</title><desc id="desc">生产受边界约束，贸易使消费越过原边界</desc>
+<style>text{font-family:"Noto Sans CJK SC","Microsoft YaHei","PingFang SC",sans-serif;fill:#17202a}.axis{stroke:#344054;stroke-width:1.5}.grid{stroke:#e4e7ec;stroke-width:1}.blue{stroke:#2457a6}.red{stroke:#b33a3a}.green{stroke:#16805b}.orange{stroke:#c75b12}.gray{stroke:#667085}.curve{fill:none;stroke-width:3}.dash{stroke-dasharray:6 5}.dot{stroke-dasharray:2 4}</style>
+<rect width="100%" height="100%" fill="white"/>
+<text x="550.0" y="34.0" font-size="23" text-anchor="middle" font-weight="600">生产受边界约束，贸易使消费越过原边界</text>
+<text x="320.0" y="70.0" font-size="19" text-anchor="middle" font-weight="600">Frank</text>
+<line x1="197.0" y1="92.0" x2="197.0" y2="420.0" class="grid" />
+<line x1="115.0" y1="157.6" x2="525.0" y2="157.6" class="grid" />
+<line x1="279.0" y1="92.0" x2="279.0" y2="420.0" class="grid" />
+<line x1="115.0" y1="223.2" x2="525.0" y2="223.2" class="grid" />
+<line x1="361.0" y1="92.0" x2="361.0" y2="420.0" class="grid" />
+<line x1="115.0" y1="288.8" x2="525.0" y2="288.8" class="grid" />
+<line x1="443.0" y1="92.0" x2="443.0" y2="420.0" class="grid" />
+<line x1="115.0" y1="354.4" x2="525.0" y2="354.4" class="grid" />
+<line x1="115.0" y1="92.0" x2="115.0" y2="420.0" class="axis" />
+<line x1="115.0" y1="420.0" x2="525.0" y2="420.0" class="axis" />
+<polyline points="115.0,142.0 477.8,420.0" class="curve blue"/>
+<circle cx="296.4" cy="281.0" r="6" fill="#c75b12"/>
+<path d="M307.8 239.27118644067795L314.75442477876106 246.3L307.8 253.27118644067795L300.75442477876106 246.3Z" fill="#16805b"/>
+<text x="288.4" y="269.0" font-size="15" text-anchor="end" fill="#c75b12" style="fill:#c75b12">A</text>
+<text x="317.8" y="238.3" font-size="16" text-anchor="start" fill="#16805b" style="fill:#16805b" font-weight="600">A*</text>
+<line x1="307.8" y1="246.3" x2="307.8" y2="420.0" class="green dot" />
+<line x1="307.8" y1="246.3" x2="115.0" y2="246.3" class="green dot" />
+<text x="107.0" y="425.0" font-size="13" text-anchor="end">0</text>
+<text x="107.0" y="147.0" font-size="13" text-anchor="end">8</text>
+<text x="477.8" y="440.0" font-size="13" text-anchor="middle">32</text>
+<text x="320.0" y="465.0" font-size="16" text-anchor="middle">土豆（盎司）</text>
+<text x="73.0" y="256.0" font-size="16" text-anchor="middle" transform="rotate(-90 73.0 256.0)">牛肉（盎司）</text>
+<text x="870.0" y="70.0" font-size="19" text-anchor="middle" font-weight="600">Ruby</text>
+<line x1="747.0" y1="92.0" x2="747.0" y2="420.0" class="grid" />
+<line x1="665.0" y1="157.6" x2="1075.0" y2="157.6" class="grid" />
+<line x1="829.0" y1="92.0" x2="829.0" y2="420.0" class="grid" />
+<line x1="665.0" y1="223.2" x2="1075.0" y2="223.2" class="grid" />
+<line x1="911.0" y1="92.0" x2="911.0" y2="420.0" class="grid" />
+<line x1="665.0" y1="288.8" x2="1075.0" y2="288.8" class="grid" />
+<line x1="993.0" y1="92.0" x2="993.0" y2="420.0" class="grid" />
+<line x1="665.0" y1="354.4" x2="1075.0" y2="354.4" class="grid" />
+<line x1="665.0" y1="92.0" x2="665.0" y2="420.0" class="axis" />
+<line x1="665.0" y1="420.0" x2="1075.0" y2="420.0" class="axis" />
+<polyline points="665.0,142.0 1027.8,420.0" class="curve blue"/>
+<circle cx="846.4" cy="281.0" r="6" fill="#c75b12"/>
+<path d="M869.1 262.43502824858757L876.0929203539823 269.4L869.1 276.43502824858757L862.0929203539823 269.4Z" fill="#16805b"/>
+<text x="838.4" y="269.0" font-size="15" text-anchor="end" fill="#c75b12" style="fill:#c75b12">B</text>
+<text x="879.1" y="261.4" font-size="16" text-anchor="start" fill="#16805b" style="fill:#16805b" font-weight="600">B*</text>
+<line x1="869.1" y1="269.4" x2="869.1" y2="420.0" class="green dot" />
+<line x1="869.1" y1="269.4" x2="665.0" y2="269.4" class="green dot" />
+<text x="657.0" y="425.0" font-size="13" text-anchor="end">0</text>
+<text x="657.0" y="147.0" font-size="13" text-anchor="end">24</text>
+<text x="1027.8" y="440.0" font-size="13" text-anchor="middle">48</text>
+<text x="870.0" y="465.0" font-size="16" text-anchor="middle">土豆（盎司）</text>
+<text x="623.0" y="256.0" font-size="16" text-anchor="middle" transform="rotate(-90 623.0 256.0)">牛肉（盎司）</text>
+<line x1="315.0" y1="117.0" x2="343.0" y2="117.0" class="blue" stroke-width="3"/>
+<text x="353.0" y="122.0" font-size="14" text-anchor="start">生产可能性边界</text>
+<circle cx="327.0" cy="143.0" r="5" fill="#c75b12"/>
+<text x="353.0" y="148.0" font-size="14" text-anchor="start">无贸易：生产=消费</text>
+<path d="M327.0 163L333 169.0L327.0 175L321 169.0Z" fill="#16805b"/>
+<text x="353.0" y="174.0" font-size="14" text-anchor="start">贸易后消费</text>
+</svg>

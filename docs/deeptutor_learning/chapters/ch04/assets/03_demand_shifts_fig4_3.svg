@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="520" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+<title id="title">图 4-3 需求曲线的移动</title><desc id="desc">在任意既定价格下，需求增加使需求曲线从 D1 右移到 D2，需求减少使需求曲线从 D1 左移到 D3。</desc>
+<style>text{font-family:"WenQuanYi Micro Hei","Noto Sans CJK SC","Microsoft YaHei","PingFang SC",sans-serif;fill:#17202a}.axis{stroke:#344054;stroke-width:1.8}.blue{stroke:#2457a6}.green{stroke:#16805b}.orange{stroke:#c75b12}.gray{stroke:#667085}.curve{fill:none;stroke-width:3}.dash{stroke-dasharray:6 5}</style>
+<defs>
+  <marker id="arr-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,1 L9,5 L0,9 z" fill="#16805b"/></marker>
+  <marker id="arr-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,1 L9,5 L0,9 z" fill="#c75b12"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="white"/>
+<text x="360" y="36" font-size="22" text-anchor="middle" font-weight="600">图 4-3 需求曲线的移动</text>
+<line x1="90" y1="75" x2="90" y2="435" class="axis"/>
+<line x1="90" y1="435" x2="660" y2="435" class="axis"/>
+<text x="80" y="440" font-size="14" text-anchor="end">0</text>
+<text x="375" y="482" font-size="16" text-anchor="middle">冰淇淋蛋卷数量</text>
+<text x="28" y="255" font-size="16" text-anchor="middle" transform="rotate(-90 28 255)">冰淇淋蛋卷价格</text>
+<line x1="90" y1="255" x2="480" y2="255" class="gray dash"/>
+<text x="80" y="260" font-size="13" text-anchor="end">既定价格</text>
+<polyline points="110,145 350,385" class="curve orange"/>
+<polyline points="220,125 480,385" class="curve blue"/>
+<polyline points="350,125 610,385" class="curve green"/>
+<circle cx="220" cy="255" r="4.5" fill="#c75b12"/>
+<circle cx="350" cy="255" r="4.5" fill="#2457a6"/>
+<circle cx="480" cy="255" r="4.5" fill="#16805b"/>
+<line x1="362" y1="232" x2="450" y2="232" stroke="#16805b" stroke-width="2.5" marker-end="url(#arr-green)"/>
+<text x="406" y="218" font-size="15" text-anchor="middle" font-weight="600" style="fill:#16805b">需求增加</text>
+<line x1="338" y1="278" x2="250" y2="278" stroke="#c75b12" stroke-width="2.5" marker-end="url(#arr-orange)"/>
+<text x="294" y="302" font-size="15" text-anchor="middle" font-weight="600" style="fill:#c75b12">需求减少</text>
+<text x="350" y="410" font-size="15" text-anchor="middle" font-weight="600" style="fill:#c75b12">需求曲线 D₃</text>
+<text x="480" y="410" font-size="15" text-anchor="middle" font-weight="600" style="fill:#2457a6">需求曲线 D₁</text>
+<text x="610" y="410" font-size="15" text-anchor="middle" font-weight="600" style="fill:#16805b">需求曲线 D₂</text>
+</svg>
